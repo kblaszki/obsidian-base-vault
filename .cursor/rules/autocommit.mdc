@@ -1,0 +1,14 @@
+---
+description: Automatically commit every verified change made by the agent in this repository
+alwaysApply: true
+---
+
+# Automatic commits
+
+- After completing and verifying any task that modifies repository files, create a Git commit before the final response.
+- Stage only files changed for the current task. Never include unrelated pre-existing user changes.
+- Use a concise Conventional Commit message: `type(scope): summary`.
+- Do not amend, squash, rebase, force-push, or push unless the user explicitly requests it.
+- If verification fails, fix the issue before committing. If it cannot be fixed, leave changes uncommitted and explain why.
+- If the user explicitly asks not to commit a particular change, follow that instruction.
+- Report the resulting short commit hash in the final response.

@@ -1,0 +1,16 @@
+---
+description: Core architecture and workflow conventions for this Obsidian PARA vault
+alwaysApply: true
+---
+
+# Vault conventions
+
+- Preserve the PARA roots: `00_Inbox`, `20_Projects`, `30_Areas`, `40_Resources`, and `50_Archives`.
+- Keep journals in `10_Journals` and operational views in `90_Dashboards`.
+- Store reusable templates in `99_Templates`.
+- Default uncategorized notes to `00_Inbox`; do not guess a permanent location without evidence.
+- Keep folders shallow. Express meaning through links, properties, tags, and MOCs.
+- Use ISO dates (`YYYY-MM-DD`) in properties.
+- Preserve established property names: `type`, `status`, `created_date`, `area`, `project`, `due`, `review_date`, and `target_date`.
+- Use wiki links for vault entities and hierarchical tags only for broad cross-cutting topics.
+- Never edit generated community-plugin bundles (`main.js`, `styles.css`) by hand.

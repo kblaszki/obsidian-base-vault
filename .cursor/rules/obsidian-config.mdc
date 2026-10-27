@@ -1,0 +1,15 @@
+---
+description: Safety rules for Obsidian and community-plugin JSON configuration
+globs: ".obsidian/**/*.json"
+alwaysApply: false
+---
+
+# Obsidian configuration
+
+- Keep every configuration file strict, parseable JSON without comments or trailing commas.
+- Preserve vault-relative paths and verify referenced folders and templates exist.
+- Treat plugin settings as version-sensitive; prefer minimal supported keys over speculative options.
+- Configure Daily Notes dynamic directories through the format `YYYY/MMMM/YYYY-MM-DD`.
+- Keep `Ctrl+N` assigned to `quickadd:runQuickAdd` and remove the default new-file binding.
+- Do not commit transient layout changes unless intentionally updating the shared workspace.
+- After editing configuration, parse all `.obsidian/**/*.json` files before committing.

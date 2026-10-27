@@ -1,0 +1,15 @@
+---
+description: Formatting and linking conventions for Markdown notes and templates
+globs: "**/*.md"
+alwaysApply: false
+---
+
+# Markdown note standards
+
+- Add valid YAML frontmatter to functional notes; use existing property values and types.
+- Use one H1 matching the note title, followed by meaningful H2 sections.
+- Prefer `[[Note Name]]` links over hard-coded vault-relative Markdown links.
+- Do not create a link to a nonexistent note unless it is intentionally a future daily note or documented placeholder.
+- Write actionable tasks as `- [ ]`; add `📅 YYYY-MM-DD` when a due date exists.
+- Keep templates generic and use QuickAdd tokens for prompts and Templater for computed values.
+- Exclude `99_Templates` from Dataview queries unless templates are the intended result.
