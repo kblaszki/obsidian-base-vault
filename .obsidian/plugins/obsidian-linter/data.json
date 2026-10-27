@@ -1,0 +1,48 @@
+{
+  "lintOnSave": true,
+  "displayChanged": false,
+  "foldersToIgnore": [
+    "99_Templates"
+  ],
+  "linterLocale": "system-default",
+  "logLevel": "ERROR",
+  "ruleConfigs": {
+    "trailing-spaces": {
+      "enabled": true
+    },
+    "consecutive-blank-lines": {
+      "enabled": true
+    },
+    "heading-blank-lines": {
+      "enabled": true,
+      "bottom": true,
+      "empty-lines": true
+    },
+    "add-blank-line-after-yaml": {
+      "enabled": true
+    },
+    "dedupe-yaml-array-values": {
+      "enabled": true,
+      "dedupe-alias-key": true,
+      "dedupe-tag-key": true,
+      "dedupe-array-keys": true,
+      "ignore-keys": ""
+    },
+    "yaml-key-sort": {
+      "enabled": false,
+      "yaml-key-priority-sort-order": "type, status, area, project, tags, created_date, review_date, due",
+      "priority-keys-at-start-of-yaml": true,
+      "yaml-sort-order-for-other-keys": "None"
+    },
+    "yaml-timestamp": {
+      "enabled": false,
+      "date-created": true,
+      "date-created-key": "created_date",
+      "force-retention-of-create-value": true,
+      "date-modified": false,
+      "date-modified-key": "modified_date",
+      "format": "YYYY-MM-DD",
+      "convert-to-utc": false
+    }
+  }
+}

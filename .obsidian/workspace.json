@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "504b9970347f328c",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd375a1727c1d77f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "078d721f642fbf90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99_Templates/Task Note.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Task Note"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f0113644396132c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7f3f13d4d52ae88",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "46c2ace426f810a7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Pliki"
+            }
+          },
+          {
+            "id": "f7b948fa38735f7f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Wyszukiwarka"
+            }
+          },
+          {
+            "id": "d5e21e0e681ab94b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Ulubione"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9dc44e6c5e773572",
+    "type": "split",
+    "children": [
+      {
+        "id": "46032d848d9ee6b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5c8739f417a5195",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "99_Templates/Task Note.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Linki zwrotne"
+            }
+          },
+          {
+            "id": "242bc85eebe8164a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "99_Templates/Task Note.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Łącza wychodzące"
+            }
+          },
+          {
+            "id": "c760d934dfa2331e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tagi"
+            }
+          },
+          {
+            "id": "52c00f2654f0d9de",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Wszystkie atrybuty"
+            }
+          },
+          {
+            "id": "7512d5b665bf1aed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "99_Templates/Task Note.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Konspekt"
+            }
+          },
+          {
+            "id": "0a23f33893e4f904",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Otwórz okno szybkiego wyboru": false,
+      "graph:Otwórz podgląd grafu": false,
+      "canvas:Stwórz nową tablicę": false,
+      "daily-notes:Otwórz dzisiejszy dziennik": false,
+      "templates:Wstaw szablon": false,
+      "command-palette:Otwórz paletę poleceń": false,
+      "random-note:Otwórz losową notatkę": false,
+      "bases:Stwórz nową bazę danych": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "078d721f642fbf90",
+  "lastOpenFiles": [
+    "40_Resources/Books/Finansowa Forteca.md",
+    "99_Templates/Task Note.md",
+    "50_Archives/README.md",
+    "99_Templates/Daily Note.md",
+    "README.md",
+    "90_Dashboards/Home.md",
+    "90_Dashboards/Dashboard_Today.md",
+    "90_Dashboards/Dashboard_Inbox.md",
+    "40_Resources/Books/Building a Second Brain.md",
+    "40_Resources/Articles/Progressive Summarization.md",
+    "20_Projects/Dashboard_Projects.md",
+    "30_Areas/Software Development.md",
+    "30_Areas/Knowledge Management.md",
+    "20_Projects/Active/Vault Automation.md",
+    "20_Projects/Active/Launch Knowledge Hub.md",
+    "10_Journals/Weekly/README.md",
+    "10_Journals/Monthly/README.md",
+    "10_Journals/Daily_notes/2026/October/2026-10-27.md",
+    "00_Inbox/Triage vendor proposal.md",
+    "00_Inbox/Review mobile capture.md",
+    "00_Inbox/2026-10-28.md"
+  ]
+}
