@@ -95,6 +95,99 @@
         "mode": "default",
         "focus": true
       }
+    },
+    {
+      "id": "a1c4e8f2-3b5d-4e7a-9c1f-6d8e0b2a4c6e",
+      "name": "New Trip",
+      "type": "Template",
+      "command": true,
+      "templatePath": "99_Templates/Trip.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE:trip_title|label:Trip title}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "20_Projects/Trips"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "fileExistsBehavior": {
+        "kind": "apply",
+        "mode": "increment"
+      },
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      }
+    },
+    {
+      "id": "b2d5f9a3-4c6e-5f8b-0d2a-7e9f1c3b5d7f",
+      "name": "New Trip Day",
+      "type": "Template",
+      "command": true,
+      "templatePath": "99_Templates/Trip Day.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VDATE:date,YYYY-MM-DD|label:Day}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "20_Projects/Trips/{{VALUE:trip_folder|label:Trip folder name}}"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "fileExistsBehavior": {
+        "kind": "apply",
+        "mode": "increment"
+      },
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      }
+    },
+    {
+      "id": "c3e6a0b4-5d7f-6a9c-1e3b-8f0a2d4c6e8a",
+      "name": "New Place",
+      "type": "Template",
+      "command": true,
+      "templatePath": "99_Templates/Place.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE:place_title|label:Place title}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "40_Resources/Places/{{VALUE:country|label:Country}}"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "fileExistsBehavior": {
+        "kind": "apply",
+        "mode": "increment"
+      },
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      }
     }
   ],
   "inputPrompt": "single-line",

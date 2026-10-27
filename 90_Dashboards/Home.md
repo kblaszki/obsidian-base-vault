@@ -10,9 +10,11 @@ tags:
 
 - [[Dashboard_Today|Today]]
 - [[Dashboard_Projects|Projects]]
+- [[Dashboard_Travel|Travel]]
 - [[Dashboard_Inbox|Inbox review]]
 - [[Knowledge Management]]
 - [[Software Development]]
+- [[Travel]]
 
 ## Recently changed
 

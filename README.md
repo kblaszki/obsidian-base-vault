@@ -24,10 +24,16 @@ community plugins listed below.
 │   ├── Active/
 │   │   ├── Launch Knowledge Hub.md
 │   │   └── Vault Automation.md
+│   ├── Trips/
+│   │   ├── Japan Spring 2026.md
+│   │   └── Japan Spring 2026/
+│   │       ├── 2026-04-10.md
+│   │       └── 2026-04-12.md
 │   └── Dashboard_Projects.md
 ├── 30_Areas/
 │   ├── Knowledge Management.md
-│   └── Software Development.md
+│   ├── Software Development.md
+│   └── Travel.md
 ├── 40_Resources/
 │   ├── Books/
 │   │   └── Building a Second Brain.md
@@ -35,19 +41,30 @@ community plugins listed below.
 │   │   └── Progressive Summarization.md
 │   ├── Videos/
 │   │   └── README.md
-│   └── Courses/
-│       └── README.md
+│   ├── Courses/
+│   │   └── README.md
+│   └── Places/
+│       ├── Japan/
+│       │   ├── Tokyo.md
+│       │   ├── Kyoto.md
+│       │   └── Fushimi Inari.md
+│       └── Italy/
+│           └── Colosseum.md
 ├── 50_Archives/
 │   └── README.md
 ├── 90_Dashboards/
 │   ├── Home.md
 │   ├── Dashboard_Today.md
-│   └── Dashboard_Inbox.md
+│   ├── Dashboard_Inbox.md
+│   └── Dashboard_Travel.md
 ├── 99_Templates/
 │   ├── Daily Note.md
 │   ├── Project.md
 │   ├── Resource Book.md
-│   └── Task Note.md
+│   ├── Task Note.md
+│   ├── Trip.md
+│   ├── Trip Day.md
+│   └── Place.md
 └── .obsidian/
     ├── app.json
     ├── community-plugins.json
@@ -94,9 +111,9 @@ path automatically.
 
 ## Capture workflows
 
-- **Ctrl+N** opens the QuickAdd chooser. Choose Project, Resource, or
-  Task / Note. QuickAdd asks for the title and metadata, routes the file, and
-  executes the Templater expressions.
+- **Ctrl+N** opens the QuickAdd chooser. Choose Project, Resource,
+  Task / Note, Trip, Trip Day, or Place. QuickAdd asks for the title and
+  metadata, routes the file, and executes the Templater expressions.
 - **Project** creates a note in `20_Projects/Active` and prompts for status,
   area, tag, and target date.
 - **Resource** asks for a destination under `40_Resources` (`Books`,
@@ -104,6 +121,12 @@ path automatically.
   and topic tag.
 - **Task / Note** creates an inbox item in `00_Inbox` and prompts for type,
   status, tag, due date, and optional project link.
+- **Trip** creates a plan in `20_Projects/Trips` with dates, countries, and
+  prep tasks.
+- **Trip Day** creates a day log under `20_Projects/Trips/<Trip folder name>/`.
+  Use the exact trip note title as the folder name.
+- **Place** creates a country/city/attraction note under
+  `40_Resources/Places/<Country>/` with wishlist/planned/visited status.
 - **Daily note** uses the Calendar or Daily Notes command. It is filed under
   the year/month path and includes navigation, tasks, log, and review prompts.
 
@@ -119,11 +142,15 @@ runs JavaScript for calculated values such as review dates and daily navigation.
 
 Use properties for structured, queryable facts and inline tags for context:
 
-- `type`: `project`, `resource`, `task`, `note`, `daily`, `area`
+- `type`: `project`, `resource`, `task`, `note`, `daily`, `area`, `trip`,
+  `trip-day`, `place`
 - `status`: stable workflow state, such as `active`, `planned`, `waiting`,
-  `done`, `to-read`
-- `created_date`, `due`, `target_date`, `review_date`: ISO dates
-- `area`, `project`: links to durable parent notes
+  `done`, `to-read`, `wishlist`, `visited`, `completed`, `cancelled`
+- `place_type`: `country`, `city`, `attraction`
+- `created_date`, `due`, `target_date`, `review_date`, `start_date`,
+  `end_date`, `visited_date`: ISO dates
+- `area`, `project`, `trip`: links to durable parent notes
+- `country`, `city`, `countries`: travel geography
 - `tags`: broad topics, not status duplication
 
 Prefer links (`area: "[[Knowledge Management]]"`) for entities and relationships.
@@ -136,6 +163,8 @@ Prefer tags (`#topic/pkm`) for cross-cutting facets. Avoid deeply nested tags.
 - `Dashboard_Projects.md` groups open projects by status and highlights review
   and target dates.
 - `Dashboard_Inbox.md` lists unsorted notes and their age.
+- `Dashboard_Travel.md` shows upcoming trips, trip days, and places grouped by
+  country and status.
 
 Enable **Dataview → Enable JavaScript Queries** for the DataviewJS sections.
 
@@ -159,6 +188,8 @@ Enable **Dataview → Enable JavaScript Queries** for the DataviewJS sections.
    these MOCs rather than recreating a deep folder tree.
 5. Keep folders shallow. PARA describes actionability; links and properties
    describe meaning.
+6. For travel, keep one trip note, optional day notes under a matching folder,
+   and places grouped by country under `40_Resources/Places`.
 
 Weekly and monthly folders are intentionally lightweight: create notes there
 only when a review is performed. This avoids empty ritual notes and keeps the
