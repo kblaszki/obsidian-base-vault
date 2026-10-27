@@ -1,13 +1,13 @@
 ---
 type: project
-status: "{{VALUE:Status (planned, active, on-hold)}}"
-area: "[[{{VALUE:Area note name}}]]"
+status: "{{VALUE:planned,active,on-hold|name:status|label:Status}}"
+area: "{{FILE:30_Areas|link|label:Area}}"
 tags:
   - project
-  - "{{VALUE:Topic tag without #}}"
+  - "{{VALUE:topic|label:Topic tag without #}}"
 created_date: <% tp.date.now("YYYY-MM-DD") %>
 review_date: <% moment().add(7, "days").format("YYYY-MM-DD") %>
-target_date: "{{VALUE:Target date YYYY-MM-DD}}"
+target_date: "{{VDATE:target_date,YYYY-MM-DD|label:Target date|optional}}"
 icon: 🚀
 ---
 
@@ -15,14 +15,14 @@ icon: 🚀
 
 ## Outcome
 
-{{VALUE:What does done look like?}}
+{{VALUE:outcome|label:What does done look like?|type:multiline}}
 
 ## Why
 
 
 ## Next actions
 
-- [ ] {{VALUE:First next action}} 📅 {{VALUE:Target date YYYY-MM-DD}}
+- [ ] {{VALUE:next_action|label:First next action}} {{VDATE:target_date,[📅 ]YYYY-MM-DD|optional}}
 
 ## Milestones
 

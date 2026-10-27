@@ -8,7 +8,7 @@
       "templatePath": "99_Templates/Project.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{VALUE:Project title}}"
+        "format": "{{VALUE:project_title|label:Project title}}"
       },
       "folder": {
         "enabled": true,
@@ -33,20 +33,23 @@
     },
     {
       "id": "58cb4b02-a810-4ab9-8dfc-e0e86030374a",
-      "name": "New Resource / Book",
+      "name": "New Resource",
       "type": "Template",
       "command": true,
       "templatePath": "99_Templates/Resource Book.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{VALUE:Resource title}}"
+        "format": "{{VALUE:resource_title|label:Resource title}}"
       },
       "folder": {
         "enabled": true,
         "folders": [
-          "40_Resources/Books"
+          "40_Resources/Books",
+          "40_Resources/Articles",
+          "40_Resources/Videos",
+          "40_Resources/Courses"
         ],
-        "chooseWhenCreatingNote": false,
+        "chooseWhenCreatingNote": true,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
       },
@@ -70,7 +73,7 @@
       "templatePath": "99_Templates/Task Note.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{VALUE:Note title}}"
+        "format": "{{VALUE:note_title|label:Note title}}"
       },
       "folder": {
         "enabled": true,
@@ -107,7 +110,7 @@
   "announceUpdates": "all",
   "version": "2.33.1",
   "globalVariables": {},
-  "onePageInputEnabled": false,
+  "onePageInputEnabled": true,
   "disableOnlineFeatures": true,
   "enableUriCallbacks": false,
   "enableRibbonIcon": false,

@@ -1,12 +1,12 @@
 ---
 type: resource
-resource_type: "{{VALUE:Resource type (book, article, video, course)}}"
-status: "{{VALUE:Status (to-read, reading, processed)}}"
-author: "{{VALUE:Author or creator}}"
-source_url: "{{VALUE:Source URL or ISBN}}"
+resource_type: "{{VALUE:book,article,video,course|name:resource_type|label:Resource type}}"
+status: "{{VALUE:to-read,reading,processed|name:status|label:Status}}"
+author: "{{VALUE:author|label:Author or creator}}"
+source_url: "{{VALUE:source_url|label:Source URL or ISBN|optional}}"
 tags:
   - resource
-  - "{{VALUE:Topic tag without #}}"
+  - "{{VALUE:topic|label:Topic tag without #}}"
 created_date: <% tp.date.now("YYYY-MM-DD") %>
 finished_date:
 rating:
@@ -17,7 +17,7 @@ icon: 📚
 
 ## Summary
 
-{{VALUE:One-sentence reason for saving this}}
+{{VALUE:summary|label:Why save this?|type:multiline}}
 
 ## Key ideas
 
@@ -36,5 +36,5 @@ icon: 📚
 
 ## Connections
 
-- Area: [[{{VALUE:Related area note name}}]]
-- Project: 
+- Area: {{FILE:30_Areas|link|label:Related area|optional}}
+- Project: {{FILE:20_Projects|link|label:Related project|optional}}

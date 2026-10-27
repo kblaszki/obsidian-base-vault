@@ -31,8 +31,12 @@ community plugins listed below.
 ├── 40_Resources/
 │   ├── Books/
 │   │   └── Building a Second Brain.md
-│   └── Articles/
-│       └── Progressive Summarization.md
+│   ├── Articles/
+│   │   └── Progressive Summarization.md
+│   ├── Videos/
+│   │   └── README.md
+│   └── Courses/
+│       └── README.md
 ├── 50_Archives/
 │   └── README.md
 ├── 90_Dashboards/
@@ -90,20 +94,25 @@ path automatically.
 
 ## Capture workflows
 
-- **Ctrl+N** opens the QuickAdd chooser. Choose Project, Resource / Book, or
+- **Ctrl+N** opens the QuickAdd chooser. Choose Project, Resource, or
   Task / Note. QuickAdd asks for the title and metadata, routes the file, and
   executes the Templater expressions.
 - **Project** creates a note in `20_Projects/Active` and prompts for status,
   area, tag, and target date.
-- **Resource / Book** creates a note in `40_Resources/Books` and prompts for
-  source type, author, status, and topic tag.
+- **Resource** asks for a destination under `40_Resources` (`Books`,
+  `Articles`, `Videos`, or `Courses`) and prompts for type, author, status,
+  and topic tag.
 - **Task / Note** creates an inbox item in `00_Inbox` and prompts for type,
   status, tag, due date, and optional project link.
 - **Daily note** uses the Calendar or Daily Notes command. It is filed under
   the year/month path and includes navigation, tasks, log, and review prompts.
 
-QuickAdd prompt tokens are deliberately named and repeated in templates. Modern
-QuickAdd presents these as a single input form where supported. Templater then
+QuickAdd enum prompts use option lists with `|name:` and `|label:`, for
+example `{{VALUE:book,article,video,course|name:resource_type|label:Resource type}}`.
+Do not put commas inside a plain named prompt like
+`{{VALUE:Status (a, b, c)}}` — QuickAdd treats those commas as options.
+Dates use `{{VDATE:...}}`, and note pickers use `{{FILE:...|link}}`.
+One-page input is enabled so related prompts appear together. Templater then
 runs JavaScript for calculated values such as review dates and daily navigation.
 
 ## Properties contract

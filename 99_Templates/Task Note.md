@@ -1,11 +1,11 @@
 ---
-type: "{{VALUE:Type (task or note)}}"
-status: "{{VALUE:Status (inbox, next, waiting, done)}}"
-project: "{{VALUE:Project link (optional)}}"
-due: "{{VALUE:Due date YYYY-MM-DD (optional)}}"
+type: "{{VALUE:task,note|name:type|label:Type}}"
+status: "{{VALUE:inbox,next,waiting,done|name:status|label:Status}}"
+project: "{{FILE:20_Projects|link|label:Project|optional}}"
+due: "{{VDATE:due,YYYY-MM-DD|label:Due date|optional}}"
 tags:
   - inbox
-  - "{{VALUE:Topic tag without #}}"
+  - "{{VALUE:topic|label:Topic tag without #}}"
 created_date: <% tp.date.now("YYYY-MM-DD") %>
 icon: 📥
 ---
@@ -14,11 +14,11 @@ icon: 📥
 
 ## Context
 
-{{VALUE:What needs attention?}}
+{{VALUE:context|label:What needs attention?|type:multiline}}
 
 ## Next action
 
-- [ ] <% tp.file.cursor(1) %>
+- [ ] <% tp.file.cursor(1) %> {{VDATE:due,[📅 ]YYYY-MM-DD|optional}}
 
 ## Notes
 
