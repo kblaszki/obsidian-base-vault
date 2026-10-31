@@ -25,10 +25,12 @@ community plugins listed below.
 │   │   ├── Launch Knowledge Hub.md
 │   │   └── Vault Automation.md
 │   ├── Trips/
-│   │   ├── Japan Spring 2026.md
-│   │   └── Japan Spring 2026/
-│   │       ├── 2026-04-10.md
-│   │       └── 2026-04-12.md
+│   │   ├── Rome and Florence 2024.md          # completed
+│   │   ├── Lisbon and Porto 2025.md           # completed
+│   │   ├── Scottish Highlands 2025.md         # completed
+│   │   ├── Japan Spring 2026.md               # planned soon
+│   │   ├── Iceland Ring Road.md               # planned, undated
+│   │   └── <Trip title>/                      # day notes per trip
 │   └── Dashboard_Projects.md
 ├── 30_Areas/
 │   ├── Knowledge Management.md
@@ -44,12 +46,11 @@ community plugins listed below.
 │   ├── Courses/
 │   │   └── README.md
 │   └── Places/
+│       ├── Italy/
+│       ├── Portugal/
+│       ├── United Kingdom/
 │       ├── Japan/
-│       │   ├── Tokyo.md
-│       │   ├── Kyoto.md
-│       │   └── Fushimi Inari.md
-│       └── Italy/
-│           └── Colosseum.md
+│       └── Iceland/
 ├── 50_Archives/
 │   └── README.md
 ├── 90_Dashboards/
@@ -122,9 +123,11 @@ path automatically.
 - **Task / Note** creates an inbox item in `00_Inbox` and prompts for type,
   status, tag, due date, and optional project link.
 - **Trip** creates a plan in `20_Projects/Trips` with dates, countries, and
-  prep tasks.
+  prep tasks. Demo vault includes three completed weeks, one upcoming Japan
+  itinerary, and one undated Iceland draft.
 - **Trip Day** creates a day log under `20_Projects/Trips/<Trip folder name>/`.
-  Use the exact trip note title as the folder name.
+  Use the exact trip note title as the folder name. Undated drafts may use
+  `Day 01.md` … with `day_number` until calendar dates are set.
 - **Place** creates a country/city/attraction note under
   `40_Resources/Places/<Country>/` with wishlist/planned/visited status.
 - **Daily note** uses the Calendar or Daily Notes command. It is filed under
@@ -163,8 +166,8 @@ Prefer tags (`#topic/pkm`) for cross-cutting facets. Avoid deeply nested tags.
 - `Dashboard_Projects.md` groups open projects by status and highlights review
   and target dates.
 - `Dashboard_Inbox.md` lists unsorted notes and their age.
-- `Dashboard_Travel.md` shows upcoming trips, trip days, and places grouped by
-  country and status.
+- `Dashboard_Travel.md` shows upcoming/undated trips, completed trips, trip
+  days (including `day_number` drafts), and places grouped by country and status.
 
 Enable **Dataview → Enable JavaScript Queries** for the DataviewJS sections.
 

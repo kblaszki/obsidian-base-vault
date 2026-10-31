@@ -8,11 +8,10 @@ visited_date:
 rating:
 map_url:
 source_url:
-created_date: 2026-10-27
+created_date: 2026-10-31
 tags:
   - travel
   - place
-  - topic/cities
 icon: 📍
 ---
 
@@ -20,26 +19,29 @@ icon: 📍
 
 ## Why visit
 
-Quieter temple circuits and a contrast to [[Tokyo]] during [[Japan Spring 2026]].
+Temple circuits and quieter evenings after Tokyo during [[Japan Spring 2026]].
 
 ## Practical info
 
 - **Best time:** Early to mid-April
 - **How to get there:** Shinkansen from Tokyo
 - **Cost / tickets:** Local buses and walking cover most sights
-- **Hours:** Temples often close around late afternoon
+- **Hours:** Temples often close late afternoon
 
 ## Highlights
 
 - [[Fushimi Inari]]
-- Evening walks near the river
+- Gion evenings
+- Arashiyama
 
 ## Visit log
 
-- Planned Kyoto days in [[Japan Spring 2026]]
+- Planned Kyoto days in [[Japan Spring 2026]].
 
 ## Related
 
+- [[Fushimi Inari]]
+- [[Nara]]
 - Country: Japan
 - [[Travel]]
 - [[Dashboard_Travel]]

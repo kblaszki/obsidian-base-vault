@@ -15,11 +15,22 @@ Plan trips, capture day logs, and keep a reusable place library grouped by count
 
 ## Open trips
 
+Includes dated upcoming trips and undated drafts (empty `start_date`).
+
 ```dataview
 TABLE status AS Status, start_date AS Start, end_date AS End, countries AS Countries
 FROM "20_Projects/Trips"
 WHERE type = "trip" AND status != "completed" AND status != "cancelled"
 SORT start_date ASC
+```
+
+## Completed trips
+
+```dataview
+TABLE start_date AS Start, end_date AS End, countries AS Countries
+FROM "20_Projects/Trips"
+WHERE type = "trip" AND status = "completed"
+SORT start_date DESC
 ```
 
 ## Wishlist places
@@ -45,6 +56,7 @@ LIMIT 10
 
 - Create trips with **New Trip**; keep the trip note in `20_Projects/Trips`.
 - Add day notes with **New Trip Day** using a folder name that matches the trip title.
+- For undated trip drafts, use `Day 01.md` … and `day_number` until dates are booked.
 - Capture places with **New Place** so they land under `40_Resources/Places/<Country>/`.
 - Link places from trip and trip-day notes instead of duplicating logistics.
 

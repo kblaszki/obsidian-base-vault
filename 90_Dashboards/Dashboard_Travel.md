@@ -7,7 +7,7 @@ tags:
 
 # Travel
 
-## Upcoming trips
+## Upcoming and undated trips
 
 ```dataview
 TABLE WITHOUT ID
@@ -19,8 +19,27 @@ TABLE WITHOUT ID
 FROM "20_Projects/Trips"
 WHERE type = "trip"
   AND status != "cancelled"
-  AND (status = "planned" OR status = "active" OR (start_date AND date(start_date) >= date(today)))
+  AND status != "completed"
+  AND (
+    !start_date
+    OR status = "planned"
+    OR status = "active"
+    OR date(start_date) >= date(today)
+  )
 SORT start_date ASC
+```
+
+## Completed trips
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS Trip,
+  start_date AS Start,
+  end_date AS End,
+  countries AS Countries
+FROM "20_Projects/Trips"
+WHERE type = "trip" AND status = "completed"
+SORT start_date DESC
 ```
 
 ## Trip days
@@ -29,11 +48,12 @@ SORT start_date ASC
 TABLE WITHOUT ID
   file.link AS Day,
   trip AS Trip,
-  date AS Date
+  date AS Date,
+  day_number AS DayNum
 FROM "20_Projects/Trips"
 WHERE type = "trip-day"
-SORT date DESC
-LIMIT 20
+SORT date DESC, day_number DESC
+LIMIT 25
 ```
 
 ## Places by country

@@ -16,42 +16,47 @@ icon: ✈️
 
 ## Outcome
 
-See cherry blossoms in Tokyo and Kyoto, and visit at least three classic temples or shrines.
+Catch late cherry blossom season across Tokyo and Kyoto, visit at least three classic temples or shrines, and keep one buffer afternoon for weather.
 
 ## Itinerary overview
 
-- Tokyo base for the first half of the trip
-- Kyoto for temples and quieter evenings
-- Day trip candidate: [[Fushimi Inari]]
+- Days 1–4: Tokyo (Shinjuku base)
+- Day 5: morning shinkansen to Kyoto
+- Days 5–8: Kyoto temples + [[Fushimi Inari]] + [[Nara]] day trip
+- Day 9: return via Kansai airport mindset (Osaka transit)
 
 ## Logistics
 
-- **Flights / transport:** Outbound TBD; JR Pass under review
-- **Lodging:** Hotel near Shinjuku, then guesthouse in Kyoto
-- **Documents:** Passport valid; check eSIM options
+- **Flights / transport:** WAW → NRT (outbound); return KIX → WAW. Suica + shinkansen Tokyo→Kyoto. IC card for local transit.
+- **Lodging:** Hotel Gracery Shinjuku (4 nights) → Hotel Vista Premio Kyoto (4 nights)
+- **Documents:** Passport; eSIM (Airalo Japan); offline Google Maps areas saved
 
 ## Prep tasks
 
-- [ ] Book Tokyo hotel 📅 2026-11-15
-- [ ] Shortlist Kyoto lodging near [[Fushimi Inari]]
+- [ ] Book Tokyo and Kyoto hotels 📅 2025-11-15
+- [ ] Reserve shinkansen seats Tokyo→Kyoto
+- [ ] Buy teamLab / museum slots only if energy remains
+- [ ] Shortlist vegetarian-friendly Kyoto dinners near hotel
 
 ## Places to visit
 
 - [[Tokyo]]
 - [[Kyoto]]
 - [[Fushimi Inari]]
+- [[Nara]]
+- [[Osaka]]
 
 ## Budget
 
-- Flights and lodging dominate; keep a daily food budget.
+- Target ¥280,000–320,000 excluding international flights. Lodging and shinkansen dominate; food can stay moderate with convenience-store breakfasts.
 
 ## Day notes
 
 ```dataview
-TABLE date AS Day, file.link AS Note
+TABLE WITHOUT ID file.link AS Note, date AS Date, day_number AS Day
 FROM "20_Projects/Trips"
 WHERE type = "trip-day" AND trip = this.file.link
-SORT date ASC
+SORT date ASC, day_number ASC
 ```
 
 ## Related

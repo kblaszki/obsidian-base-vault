@@ -8,11 +8,10 @@ visited_date:
 rating:
 map_url:
 source_url:
-created_date: 2026-10-27
+created_date: 2026-10-31
 tags:
   - travel
   - place
-  - topic/cities
 icon: 📍
 ---
 
@@ -20,23 +19,24 @@ icon: 📍
 
 ## Why visit
 
-Dense neighborhoods, food, and a practical base for the first days of [[Japan Spring 2026]].
+Dense neighborhoods and blossom parks; first base for [[Japan Spring 2026]].
 
 ## Practical info
 
 - **Best time:** Late March to mid-April for blossoms
-- **How to get there:** Narita or Haneda, then rail into the city
-- **Cost / tickets:** Suica / Pasmo for local transit
+- **How to get there:** NRT/HND + rail into Shinjuku
+- **Cost / tickets:** Suica for local transit
 - **Hours:** Neighborhood dependent
 
 ## Highlights
 
-- Shinjuku evening walk
-- Museum or park day if weather turns
+- Shinjuku evenings
+- Meiji Shrine / Harajuku
+- Asakusa morning
 
 ## Visit log
 
-- Planned for April 2026 via [[Japan Spring 2026]]
+- Planned April 2026 via [[Japan Spring 2026]].
 
 ## Related
 

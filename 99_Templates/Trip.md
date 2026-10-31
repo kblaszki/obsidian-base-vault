@@ -43,10 +43,10 @@ icon: ✈️
 ## Day notes
 
 ```dataview
-TABLE date AS Day, file.link AS Note
+TABLE WITHOUT ID file.link AS Note, date AS Date, day_number AS Day
 FROM "20_Projects/Trips"
 WHERE type = "trip-day" AND trip = this.file.link
-SORT date ASC
+SORT date ASC, day_number ASC
 ```
 
 ## Related
