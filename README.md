@@ -45,6 +45,7 @@ community plugins listed below.
 │   ├── Articles/                              # 5 demo notes
 │   ├── Videos/                                # 5 demo notes
 │   ├── Courses/                               # 5 demo notes
+│   ├── Recipes/                               # recipe notes + demos
 │   └── Places/                                # nested place hierarchy
 │       └── <Country>/<Region>/<City>/…        # Folder Notes: Name/Name.md
 ├── 50_Archives/
@@ -63,7 +64,8 @@ community plugins listed below.
 │   ├── Trip Day.md
 │   ├── Trip Tip.md
 │   ├── Trip Prep.md
-│   └── Place.md
+│   ├── Place.md
+│   └── Recipe.md
 └── .obsidian/
     ├── app.json
     ├── community-plugins.json
@@ -117,7 +119,7 @@ path automatically.
 
 ## Capture workflows
 
-- **Ctrl+N** opens the QuickAdd chooser. Choose Project, Resource,
+- **Ctrl+N** opens the QuickAdd chooser. Choose Project, Resource, New Recipe,
   Task / Note, Trip, Trip Day, Trip Tip, Trip Prep, New Place (container),
   or New Place (attraction). QuickAdd asks for the title and metadata, routes
   the file, and executes the Templater expressions.
@@ -126,6 +128,8 @@ path automatically.
 - **Resource** asks for a destination under `40_Resources` (`Books`,
   `Articles`, `Videos`, or `Courses`) and prompts for type, author, status,
   and topic tag.
+- **New Recipe** creates a recipe in `40_Resources/Recipes` with cuisine,
+  meal, servings, timing, and status (`wishlist` / `tried` / `favorite`).
 - **Task / Note** creates an inbox item in `00_Inbox` and prompts for type,
   status, tag, due date, and optional project link.
 - **Trip** creates a plan in `20_Projects/Trips` with dates, countries, and
@@ -170,7 +174,7 @@ runs JavaScript for calculated values such as review dates and daily navigation.
 Use properties for structured, queryable facts and inline tags for context:
 
 - `type`: `project`, `resource`, `task`, `note`, `daily`, `area`, `trip`,
-  `trip-day`, `trip-tip`, `trip-prep`, `place`
+  `trip-day`, `trip-tip`, `trip-prep`, `place`, `recipe`
 - `status`: stable workflow state, such as `active`, `planned`, `waiting`,
   `done`, `to-read`, `wishlist`, `visited`, `completed`, `cancelled`
 - `place_type`: `country`, `region`, `city`, `attraction`

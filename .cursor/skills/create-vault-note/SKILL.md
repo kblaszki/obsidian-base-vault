@@ -14,6 +14,7 @@ description: Creates or updates Obsidian notes using this vault's PARA folders, 
    - trip prep → `20_Projects/Trips/<Trip title>/prep/`
    - ongoing responsibility → `30_Areas`
    - reusable reference → `40_Resources`
+   - recipe → `40_Resources/Recipes`
    - place country → `40_Resources/Places/<Country>/<Country>.md`
    - place region/city → under parent folder as `<Name>/<Name>.md` with `parent: "[[Parent]]"`
    - place attraction → file inside parent folder `<ParentPath>/<Attraction>.md` with `parent` set

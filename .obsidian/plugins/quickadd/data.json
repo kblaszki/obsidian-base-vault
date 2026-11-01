@@ -66,6 +66,37 @@
       }
     },
     {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "New Recipe",
+      "type": "Template",
+      "command": true,
+      "templatePath": "99_Templates/Recipe.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE:recipe_title|label:Recipe title}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "40_Resources/Recipes"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "fileExistsBehavior": {
+        "kind": "apply",
+        "mode": "increment"
+      },
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      }
+    },
+    {
       "id": "fbd63489-94f1-4523-82ee-3b9285847746",
       "name": "New Task / Note",
       "type": "Template",

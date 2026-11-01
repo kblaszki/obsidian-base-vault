@@ -61,7 +61,11 @@ LIMIT 10
 - Capture containers with **New Place (container)** (`Name/Name.md` folder notes) and attractions with **New Place (attraction)** inside the parent folder; always set `parent` except on countries.
 - Every place should have `map_url` (Google Maps for phone use) and `location: [lat, lng]` (Map View pins).
 - Link places from trip and trip-day notes instead of duplicating logistics.
+- Capture food memories with **New Recipe** under `40_Resources/Recipes`; link recipes to places and trips.
 
 ## Related
 
 - [[Dashboard_Travel]]
+- [[Onigiri]]
+- [[Cacio e Pepe]]
+- [[Pastéis de Nata]]
