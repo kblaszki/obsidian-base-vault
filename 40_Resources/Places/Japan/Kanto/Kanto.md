@@ -5,7 +5,8 @@ status: planned
 parent: "[[Japan]]"
 visited_date:
 rating:
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Kanto+region+Japan"
+location: [35.6762, 139.6503]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -59,5 +60,6 @@ SORT start_date DESC
 ## Related
 
 - Parent: [[Japan]]
+- Map: [Kanto region Japan](https://www.google.com/maps/search/?api=1&query=Kanto+region+Japan)
 - [[Travel]]
 - [[Dashboard_Travel]]

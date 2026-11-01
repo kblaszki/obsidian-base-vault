@@ -5,7 +5,8 @@ status: visited
 parent: "[[Lisboa District]]"
 visited_date: 2025-05-13
 rating: 4
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Lisbon+Portugal"
+location: [38.7223, -9.1393]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -61,5 +62,6 @@ SORT start_date DESC
 
 - Parent: [[Lisboa District]]
 - [[Belém Tower]]
+- Map: [Lisbon Portugal](https://www.google.com/maps/search/?api=1&query=Lisbon+Portugal)
 - [[Travel]]
 - [[Dashboard_Travel]]

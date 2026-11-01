@@ -5,7 +5,8 @@ status: visited
 parent: "[[Scotland]]"
 visited_date: 2025-08-03
 rating: 4
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Edinburgh+Scotland"
+location: [55.9533, -3.1883]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -60,5 +61,6 @@ SORT start_date DESC
 ## Related
 
 - Parent: [[Scotland]]
+- Map: [Edinburgh Scotland](https://www.google.com/maps/search/?api=1&query=Edinburgh+Scotland)
 - [[Travel]]
 - [[Dashboard_Travel]]

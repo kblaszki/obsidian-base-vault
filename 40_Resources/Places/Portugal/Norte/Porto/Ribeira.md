@@ -5,7 +5,8 @@ status: visited
 parent: "[[Porto]]"
 visited_date: 2025-05-15
 rating: 5
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Ribeira+Porto"
+location: [41.1406, -8.6132]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -59,5 +60,6 @@ SORT start_date DESC
 ## Related
 
 - Parent: [[Porto]]
+- Map: [Ribeira Porto](https://www.google.com/maps/search/?api=1&query=Ribeira+Porto)
 - [[Travel]]
 - [[Dashboard_Travel]]

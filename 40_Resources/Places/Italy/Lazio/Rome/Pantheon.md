@@ -5,7 +5,8 @@ status: visited
 parent: "[[Rome]]"
 visited_date: 2024-09-08
 rating: 5
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Pantheon+Rome"
+location: [41.8986, 12.4769]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -59,5 +60,6 @@ SORT start_date DESC
 ## Related
 
 - Parent: [[Rome]]
+- Map: [Pantheon Rome](https://www.google.com/maps/search/?api=1&query=Pantheon+Rome)
 - [[Travel]]
 - [[Dashboard_Travel]]

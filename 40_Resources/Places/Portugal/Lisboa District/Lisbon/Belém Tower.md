@@ -5,7 +5,8 @@ status: visited
 parent: "[[Lisbon]]"
 visited_date: 2025-05-12
 rating: 4
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Bel%C3%A9m+Tower+Lisbon"
+location: [38.6916, -9.216]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -59,5 +60,6 @@ SORT start_date DESC
 ## Related
 
 - Parent: [[Lisbon]]
+- Map: [Belém Tower Lisbon](https://www.google.com/maps/search/?api=1&query=Bel%C3%A9m+Tower+Lisbon)
 - [[Travel]]
 - [[Dashboard_Travel]]

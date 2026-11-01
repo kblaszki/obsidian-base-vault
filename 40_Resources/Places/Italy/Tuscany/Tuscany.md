@@ -5,7 +5,8 @@ status: visited
 parent: "[[Italy]]"
 visited_date: 2024-09-15
 rating: 5
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Tuscany+Italy"
+location: [43.7711, 11.2486]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -59,5 +60,6 @@ SORT start_date DESC
 ## Related
 
 - Parent: [[Italy]]
+- Map: [Tuscany Italy](https://www.google.com/maps/search/?api=1&query=Tuscany+Italy)
 - [[Travel]]
 - [[Dashboard_Travel]]

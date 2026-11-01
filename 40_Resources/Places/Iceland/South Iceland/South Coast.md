@@ -5,7 +5,8 @@ status: wishlist
 parent: "[[South Iceland]]"
 visited_date:
 rating:
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Sk%C3%B3gafoss+Iceland"
+location: [63.4194, -19.0066]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -60,5 +61,6 @@ SORT start_date DESC
 ## Related
 
 - Parent: [[South Iceland]]
+- Map: [Skógafoss Iceland](https://www.google.com/maps/search/?api=1&query=Sk%C3%B3gafoss+Iceland)
 - [[Travel]]
 - [[Dashboard_Travel]]

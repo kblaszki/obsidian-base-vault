@@ -5,7 +5,8 @@ status: visited
 parent: "[[Portugal]]"
 visited_date: 2025-05-17
 rating: 5
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Norte+Portugal"
+location: [41.1579, -8.6291]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -59,5 +60,6 @@ SORT start_date DESC
 ## Related
 
 - Parent: [[Portugal]]
+- Map: [Norte Portugal](https://www.google.com/maps/search/?api=1&query=Norte+Portugal)
 - [[Travel]]
 - [[Dashboard_Travel]]

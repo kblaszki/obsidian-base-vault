@@ -5,7 +5,8 @@ status: planned
 parent: "[[Iceland]]"
 visited_date:
 rating:
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Gullfoss+Golden+Circle+Iceland"
+location: [64.3271, -20.1211]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -61,5 +62,6 @@ SORT start_date DESC
 
 - Parent: [[Iceland]]
 - [[Reykjavik]]
+- Map: [Gullfoss Golden Circle Iceland](https://www.google.com/maps/search/?api=1&query=Gullfoss+Golden+Circle+Iceland)
 - [[Travel]]
 - [[Dashboard_Travel]]

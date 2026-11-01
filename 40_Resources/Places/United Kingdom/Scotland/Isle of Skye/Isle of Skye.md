@@ -5,7 +5,8 @@ status: visited
 parent: "[[Scotland]]"
 visited_date: 2025-08-06
 rating: 5
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Isle+of+Skye+Scotland"
+location: [57.5359, -6.2263]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -60,5 +61,6 @@ SORT start_date DESC
 ## Related
 
 - Parent: [[Scotland]]
+- Map: [Isle of Skye Scotland](https://www.google.com/maps/search/?api=1&query=Isle+of+Skye+Scotland)
 - [[Travel]]
 - [[Dashboard_Travel]]

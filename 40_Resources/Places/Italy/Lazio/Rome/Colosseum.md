@@ -5,7 +5,8 @@ status: visited
 parent: "[[Rome]]"
 visited_date: 2024-09-09
 rating: 5
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Colosseum+Rome"
+location: [41.8902, 12.4922]
 source_url:
 created_date: 2026-10-27
 tags:
@@ -60,5 +61,6 @@ SORT start_date DESC
 ## Related
 
 - Parent: [[Rome]]
+- Map: [Colosseum Rome](https://www.google.com/maps/search/?api=1&query=Colosseum+Rome)
 - [[Travel]]
 - [[Dashboard_Travel]]

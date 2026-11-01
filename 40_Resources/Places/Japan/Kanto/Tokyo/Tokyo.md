@@ -5,7 +5,8 @@ status: planned
 parent: "[[Kanto]]"
 visited_date:
 rating:
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Tokyo+Japan"
+location: [35.6762, 139.6503]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -60,5 +61,6 @@ SORT start_date DESC
 ## Related
 
 - Parent: [[Kanto]]
+- Map: [Tokyo Japan](https://www.google.com/maps/search/?api=1&query=Tokyo+Japan)
 - [[Travel]]
 - [[Dashboard_Travel]]

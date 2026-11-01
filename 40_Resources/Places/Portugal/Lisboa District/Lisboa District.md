@@ -5,7 +5,8 @@ status: visited
 parent: "[[Portugal]]"
 visited_date: 2025-05-13
 rating: 4
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Lisbon+District+Portugal"
+location: [38.7223, -9.1393]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -59,5 +60,6 @@ SORT start_date DESC
 ## Related
 
 - Parent: [[Portugal]]
+- Map: [Lisbon District Portugal](https://www.google.com/maps/search/?api=1&query=Lisbon+District+Portugal)
 - [[Travel]]
 - [[Dashboard_Travel]]

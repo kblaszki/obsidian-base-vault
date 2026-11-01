@@ -23,7 +23,7 @@ description: Creates or updates Obsidian notes using this vault's PARA folders, 
 4. For trip support notes, the folder name must match the trip note title.
 5. Trip-day notes use: short summary, Day timeline, Logistics, Places, Food (with costs), Pack today, Notes, Related. Banners from the trip root assets folder use `banner: "[[../assets/<file>]]"`.
 6. Keep prep note filenames unique across trips (e.g. `Packing — <Trip title>.md`).
-7. For places: always set `place_type`; set `parent` on every non-country note; containers use Folder Note paths (`Name/Name.md`); do not add Folder Notes outside `40_Resources/Places`. Place notes use `banner: "[[./assets/<file>]]"` and `banner_position: center` with a photo in the note's `./assets` folder; attribute Commons sources in `40_Resources/Places/SOURCES.md`.
+7. For places: always set `place_type`; set `parent` on every non-country note; containers use Folder Note paths (`Name/Name.md`); do not add Folder Notes outside `40_Resources/Places`. Set `map_url` (Google Maps) and `location: [lat, lng]` (Map View). Place notes use `banner: "[[./assets/<file>]]"` and `banner_position: center` with a photo in the note's `./assets` folder; attribute Commons sources in `40_Resources/Places/SOURCES.md`.
 8. Attachments go to `./assets` relative to the note (vault `attachmentFolderPath`).
 9. Add at least one meaningful link when a real relationship exists; do not manufacture links.
 10. Add one concrete next action for actionable notes.

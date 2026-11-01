@@ -5,7 +5,8 @@ status: visited
 parent: "[[United Kingdom]]"
 visited_date: 2025-08-09
 rating: 5
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Scotland"
+location: [56.4907, -4.2026]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -60,5 +61,6 @@ SORT start_date DESC
 ## Related
 
 - Parent: [[United Kingdom]]
+- Map: [Scotland](https://www.google.com/maps/search/?api=1&query=Scotland)
 - [[Travel]]
 - [[Dashboard_Travel]]

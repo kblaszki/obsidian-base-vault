@@ -5,7 +5,8 @@ status: "{{VALUE:wishlist,planned,visited|name:status|label:Status}}"
 parent: "{{FILE:40_Resources/Places|link|label:Parent place|optional}}"
 visited_date: "{{VDATE:visited_date,YYYY-MM-DD|label:Visited date|optional}}"
 rating:
-map_url: "{{VALUE:map_url|label:Map URL|optional}}"
+map_url: "{{VALUE:map_url|label:Google Maps URL|optional}}"
+location:
 source_url: "{{VALUE:source_url|label:Source URL|optional}}"
 created_date: <% tp.date.now("YYYY-MM-DD") %>
 tags:
@@ -59,5 +60,6 @@ SORT start_date DESC
 ## Related
 
 - Parent: {{FILE:40_Resources/Places|link|label:Parent place|optional}}
+- Map: {{VALUE:map_url|label:Google Maps URL|optional}}
 - [[Travel]]
 - [[Dashboard_Travel]]

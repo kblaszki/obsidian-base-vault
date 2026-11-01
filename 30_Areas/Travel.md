@@ -59,6 +59,7 @@ LIMIT 10
 - Add tips with **New Trip Tip** under `<Trip>/tips/` and prep with **New Trip Prep** under `<Trip>/prep/`.
 - For undated trip drafts, use `Day 01.md` … and `day_number` until dates are booked.
 - Capture containers with **New Place (container)** (`Name/Name.md` folder notes) and attractions with **New Place (attraction)** inside the parent folder; always set `parent` except on countries.
+- Every place should have `map_url` (Google Maps for phone use) and `location: [lat, lng]` (Map View pins).
 - Link places from trip and trip-day notes instead of duplicating logistics.
 
 ## Related

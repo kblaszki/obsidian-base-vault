@@ -56,6 +56,14 @@ SORT date DESC, day_number DESC
 LIMIT 25
 ```
 
+## Places map
+
+Embedded Map View of notes under `40_Resources/Places` (requires Map View plugin). Pins use `location`; open a pin or use **Open in → Google Maps** for navigation. Each place note also has a clickable `map_url` in Related.
+
+```mapview
+{"name":"Places","query":"path:\"40_Resources/Places\"","autoFit":true,"embeddedHeight":420,"chosenMapSource":0}
+```
+
 ## Places by kind
 
 ```dataview
@@ -63,7 +71,8 @@ TABLE WITHOUT ID
   file.link AS Place,
   place_type AS Kind,
   parent AS Parent,
-  status AS Status
+  status AS Status,
+  map_url AS GoogleMaps
 FROM "40_Resources/Places"
 WHERE type = "place"
 SORT place_type ASC, file.name ASC
@@ -75,7 +84,8 @@ SORT place_type ASC, file.name ASC
 TABLE WITHOUT ID
   file.link AS Place,
   place_type AS Kind,
-  parent AS Parent
+  parent AS Parent,
+  map_url AS GoogleMaps
 FROM "40_Resources/Places"
 WHERE type = "place" AND status = "wishlist"
 SORT place_type ASC, file.name ASC
@@ -89,7 +99,8 @@ TABLE WITHOUT ID
   place_type AS Kind,
   parent AS Parent,
   visited_date AS Visited,
-  rating AS Rating
+  rating AS Rating,
+  map_url AS GoogleMaps
 FROM "40_Resources/Places"
 WHERE type = "place" AND status = "visited"
 SORT visited_date DESC

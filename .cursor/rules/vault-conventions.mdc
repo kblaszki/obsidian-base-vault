@@ -13,6 +13,6 @@ alwaysApply: true
 - Exception: places may nest under `40_Resources/Places` as `country → region → city → attraction` with Folder Notes (`Name/Name.md`) only in that tree.
 - Use ISO dates (`YYYY-MM-DD`) in properties.
 - Preserve established property names: `type`, `status`, `created_date`, `area`, `project`, `due`, `review_date`, and `target_date`.
-- Place notes also use `place_type` and `parent` (wiki link; empty only for countries).
+- Place notes also use `place_type`, `parent` (wiki link; empty only for countries), `map_url` (Google Maps link for phone use), and `location` (`[lat, lng]` for Map View).
 - Use wiki links for vault entities and hierarchical tags only for broad cross-cutting topics.
 - Never edit generated community-plugin bundles (`main.js`, `styles.css`) by hand.

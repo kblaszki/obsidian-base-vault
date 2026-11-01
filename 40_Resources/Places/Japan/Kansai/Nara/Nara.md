@@ -5,7 +5,8 @@ status: planned
 parent: "[[Kansai]]"
 visited_date:
 rating:
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Nara+Japan"
+location: [34.6851, 135.8048]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -60,5 +61,6 @@ SORT start_date DESC
 
 - Parent: [[Kansai]]
 - [[Kyoto]]
+- Map: [Nara Japan](https://www.google.com/maps/search/?api=1&query=Nara+Japan)
 - [[Travel]]
 - [[Dashboard_Travel]]

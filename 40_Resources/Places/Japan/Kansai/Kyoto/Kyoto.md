@@ -5,7 +5,8 @@ status: planned
 parent: "[[Kansai]]"
 visited_date:
 rating:
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Kyoto+Japan"
+location: [35.0116, 135.7681]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -62,5 +63,6 @@ SORT start_date DESC
 - Parent: [[Kansai]]
 - [[Fushimi Inari]]
 - [[Nara]]
+- Map: [Kyoto Japan](https://www.google.com/maps/search/?api=1&query=Kyoto+Japan)
 - [[Travel]]
 - [[Dashboard_Travel]]

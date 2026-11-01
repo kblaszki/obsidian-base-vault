@@ -5,7 +5,8 @@ status: wishlist
 parent: "[[South Iceland]]"
 visited_date:
 rating:
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Blue+Lagoon+Iceland"
+location: [63.8804, -22.4495]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -60,5 +61,6 @@ SORT start_date DESC
 
 - Parent: [[South Iceland]]
 - [[Reykjavik]]
+- Map: [Blue Lagoon Iceland](https://www.google.com/maps/search/?api=1&query=Blue+Lagoon+Iceland)
 - [[Travel]]
 - [[Dashboard_Travel]]

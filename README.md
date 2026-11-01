@@ -80,6 +80,7 @@ community plugins listed below.
         ├── dataview/data.json
         ├── folder-notes/data.json
         ├── obsidian-linter/data.json
+        ├── obsidian-map-view/data.json
         ├── pretty-properties/data.json
         ├── quickadd/data.json
         └── templater-obsidian/data.json
@@ -94,10 +95,13 @@ from polluting PARA search results.
 1. Open this directory with **Open folder as vault**.
 2. In **Settings → Community plugins**, turn off Restricted mode.
 3. Install and enable: Dataview, Templater, QuickAdd, Calendar, Pretty
-   Properties, Omnisearch, Linter, and Folder Notes (`folder-notes`).
-   `community-plugins.json` enables them after they are installed; plugin
-   binaries are intentionally not committed. Folder Notes is scoped so only
-   `40_Resources/Places` uses folder notes (`Name/Name.md` inside the folder).
+   Properties, Omnisearch, Linter, Folder Notes (`folder-notes`), and Map View
+   (`obsidian-map-view`). `community-plugins.json` enables them after they are
+   installed; plugin binaries are intentionally not committed. Folder Notes is
+   scoped so only `40_Resources/Places` uses folder notes (`Name/Name.md`
+   inside the folder). In Map View settings, set an OpenStreetMap user email
+   (Nominatim requirement); optionally switch geocoding to Google with a local
+   API key — never commit API keys.
 4. Restart Obsidian once so every committed `data.json` is loaded.
 5. Open `90_Dashboards/Home.md`.
 
@@ -151,6 +155,9 @@ path automatically.
 - Place notes use photo banners via `banner: "[[./assets/<file>]]"` (and
   `banner_position: center`). Store images next to the note under `./assets`
   and record Commons attribution in `40_Resources/Places/SOURCES.md`.
+- Places carry dual map fields: `map_url` (Google Maps link for phone/vacation)
+  and `location: [lat, lng]` (Map View pins in Obsidian). Related includes a
+  clickable Map line. Map View's Open in Google Maps uses the same coordinates.
 - **Daily note** uses the Calendar or Daily Notes command. It is filed under
   the year/month path and includes navigation, tasks, log, and review prompts.
 
@@ -172,6 +179,8 @@ Use properties for structured, queryable facts and inline tags for context:
   `done`, `to-read`, `wishlist`, `visited`, `completed`, `cancelled`
 - `place_type`: `country`, `region`, `city`, `attraction`
 - `parent`: wiki link to the parent place; empty only for countries
+- `map_url`: Google Maps URL for on-the-go navigation
+- `location`: `[lat, lng]` for Map View (also accepts `"lat,lng"`)
 - `created_date`, `due`, `target_date`, `review_date`, `start_date`,
   `end_date`, `visited_date`: ISO dates
 - `area`, `project`, `trip`: links to durable parent notes
@@ -189,7 +198,8 @@ Prefer tags (`#topic/pkm`) for cross-cutting facets. Avoid deeply nested tags.
   and target dates.
 - `Dashboard_Inbox.md` lists unsorted notes and their age.
 - `Dashboard_Travel.md` shows upcoming/undated trips, completed trips, trip
-  days (including `day_number` drafts), and places grouped by country and status.
+  days (including `day_number` drafts), places with Google Maps links, and an
+  embedded Map View of `40_Resources/Places`.
 
 Enable **Dataview → Enable JavaScript Queries** for the DataviewJS sections.
 

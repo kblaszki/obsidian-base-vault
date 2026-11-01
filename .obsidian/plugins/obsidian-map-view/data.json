@@ -1,0 +1,34 @@
+{
+  "frontMatterKey": "location",
+  "searchProvider": "osm",
+  "osmUser": "",
+  "geocodingApiKey": "",
+  "useGooglePlacesNew2025": false,
+  "defaultState": {
+    "name": "Places",
+    "mapZoom": 3,
+    "mapCenter": {
+      "lat": 45.0,
+      "lng": 10.0
+    },
+    "query": "path:\"40_Resources/Places\"",
+    "queryError": false,
+    "chosenMapSource": 0,
+    "forceHistorySave": false,
+    "followActiveNote": false,
+    "followMyLocation": false,
+    "embeddedHeight": 420,
+    "autoFit": true,
+    "lock": false,
+    "showLinks": false,
+    "linkColor": "red",
+    "markerLabels": "off",
+    "editMode": false
+  },
+  "openIn": [
+    {
+      "name": "Google Maps",
+      "urlPattern": "https://maps.google.com/?q={x},{y}"
+    }
+  ]
+}

@@ -5,7 +5,8 @@ status: wishlist
 parent:
 visited_date:
 rating:
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Iceland"
+location: [64.1466, -21.9426]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -59,5 +60,6 @@ SORT start_date DESC
 
 ## Related
 
+- Map: [Iceland](https://www.google.com/maps/search/?api=1&query=Iceland)
 - [[Travel]]
 - [[Dashboard_Travel]]

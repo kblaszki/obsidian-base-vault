@@ -5,7 +5,8 @@ status: visited
 parent: "[[Norte]]"
 visited_date: 2025-05-17
 rating: 5
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Porto+Portugal"
+location: [41.1579, -8.6291]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -61,5 +62,6 @@ SORT start_date DESC
 
 - Parent: [[Norte]]
 - [[Ribeira]]
+- Map: [Porto Portugal](https://www.google.com/maps/search/?api=1&query=Porto+Portugal)
 - [[Travel]]
 - [[Dashboard_Travel]]

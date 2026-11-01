@@ -5,7 +5,8 @@ status: visited
 parent: "[[Italy]]"
 visited_date: 2024-09-11
 rating: 5
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Lazio+Italy"
+location: [41.9028, 12.4964]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -58,5 +59,6 @@ SORT start_date DESC
 ## Related
 
 - Parent: [[Italy]]
+- Map: [Lazio Italy](https://www.google.com/maps/search/?api=1&query=Lazio+Italy)
 - [[Travel]]
 - [[Dashboard_Travel]]

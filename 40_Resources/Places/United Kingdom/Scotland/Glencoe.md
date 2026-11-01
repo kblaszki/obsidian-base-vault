@@ -5,7 +5,8 @@ status: visited
 parent: "[[Scotland]]"
 visited_date: 2025-08-08
 rating: 5
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Glencoe+Scotland"
+location: [56.682, -5.102]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -60,5 +61,6 @@ SORT start_date DESC
 ## Related
 
 - Parent: [[Scotland]]
+- Map: [Glencoe Scotland](https://www.google.com/maps/search/?api=1&query=Glencoe+Scotland)
 - [[Travel]]
 - [[Dashboard_Travel]]

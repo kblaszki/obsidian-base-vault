@@ -5,7 +5,8 @@ status: planned
 parent: "[[Japan]]"
 visited_date:
 rating:
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Kansai+Japan"
+location: [34.6937, 135.5023]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -60,5 +61,6 @@ SORT start_date DESC
 ## Related
 
 - Parent: [[Japan]]
+- Map: [Kansai Japan](https://www.google.com/maps/search/?api=1&query=Kansai+Japan)
 - [[Travel]]
 - [[Dashboard_Travel]]

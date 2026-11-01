@@ -5,7 +5,8 @@ status: wishlist
 parent: "[[Iceland]]"
 visited_date:
 rating:
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Reykjavik+Capital+Region+Iceland"
+location: [64.1466, -21.9426]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -58,5 +59,6 @@ SORT start_date DESC
 ## Related
 
 - Parent: [[Iceland]]
+- Map: [Reykjavik Capital Region Iceland](https://www.google.com/maps/search/?api=1&query=Reykjavik+Capital+Region+Iceland)
 - [[Travel]]
 - [[Dashboard_Travel]]

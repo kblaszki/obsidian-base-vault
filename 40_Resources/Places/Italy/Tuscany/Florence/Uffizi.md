@@ -5,7 +5,8 @@ status: visited
 parent: "[[Florence]]"
 visited_date: 2024-09-13
 rating: 5
-map_url:
+map_url: "https://www.google.com/maps/search/?api=1&query=Uffizi+Gallery+Florence"
+location: [43.7678, 11.2553]
 source_url:
 created_date: 2026-10-31
 tags:
@@ -59,5 +60,6 @@ SORT start_date DESC
 ## Related
 
 - Parent: [[Florence]]
+- Map: [Uffizi Gallery Florence](https://www.google.com/maps/search/?api=1&query=Uffizi+Gallery+Florence)
 - [[Travel]]
 - [[Dashboard_Travel]]
