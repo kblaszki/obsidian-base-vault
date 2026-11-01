@@ -41,14 +41,10 @@ community plugins listed below.
 │   ├── Software Development.md
 │   └── Travel.md
 ├── 40_Resources/
-│   ├── Books/
-│   │   └── Building a Second Brain.md
-│   ├── Articles/
-│   │   └── Progressive Summarization.md
-│   ├── Videos/
-│   │   └── README.md
-│   ├── Courses/
-│   │   └── README.md
+│   ├── Books/                                 # 5 demo notes
+│   ├── Articles/                              # 5 demo notes
+│   ├── Videos/                                # 5 demo notes
+│   ├── Courses/                               # 5 demo notes
 │   └── Places/                                # nested place hierarchy
 │       └── <Country>/<Region>/<City>/…        # Folder Notes: Name/Name.md
 ├── 50_Archives/
