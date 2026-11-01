@@ -6,36 +6,50 @@ created_date: <% tp.date.now("YYYY-MM-DD") %>
 tags:
   - travel
   - trip-day
+banner:
+banner_position: center
 icon: 📅
 ---
 
 # <% tp.file.title %>
 
-## Plan
+{{VALUE:summary|label:Short day summary|type:multiline}}
 
-- [ ] {{VALUE:first_plan|label:First plan item|optional}}
+## Day timeline
 
-## Log
+- {{VALUE:first_time|label:First timeline time|default:09:00}} — {{VALUE:first_timeline|label:First timeline item}}
 
-- <% tp.date.now("HH:mm") %> 
+## Logistics
 
-## Places visited
+-
 
-- 
+## Places
+
+- [[]] — *(quick stop / 1–2h / half day)*
 
 ## Food
 
-- 
+- **Breakfast:**
+- **Lunch:**
+- **Dinner:**
+- **Groceries / snacks:**
 
-## Costs
+### Costs
 
 | Item | Amount | Notes |
 |------|--------|-------|
 |      |        |       |
 
+## Pack today
+
+- **Documents:**
+- **Clothes:**
+- **Cash / cards:**
+- **Gear:**
+
 ## Notes
 
-{{VALUE:day_notes|label:Day notes|type:multiline|optional}}
+{{VALUE:day_notes|label:Extra notes|type:multiline|optional}}
 
 ## Related
 

@@ -7,40 +7,59 @@ created_date: 2026-10-31
 tags:
   - travel
   - trip-day
+banner: "[[assets/gullfoss.jpg]]"
+banner_position: center
 icon: 📅
 ---
 
 # Day 03
 
-## Plan
+Classic Golden Circle loop: Þingvellir, Geysir, Gullfoss; overnight toward Selfoss/Hella.
 
-- [ ] Þingvellir
-- [ ] Geysir geothermal area
-- [ ] Gullfoss
-- [ ] Overnight toward Selfoss/Hella
+## Day timeline
 
-## Log
+- 08:00 — Depart Reykjavik
+- 09:30 — Þingvellir
+- 12:00 — Geysir area
+- 14:00 — Gullfoss
+- 17:00 — Arrive Selfoss/Hella lodging
+- 19:00 — Guesthouse dinner
 
-Classic day loop; start early to avoid tour-bus clusters.
+## Logistics
 
-## Places visited
+- Start early to beat tour-bus clusters.
+- Keep a full tank — stations thin later.
+- Packed lunch saves time and money.
 
-- [[Golden Circle]]
+## Places
+
+- [[Golden Circle]] — full day loop *(half day to full day)*
+- [[Reykjavik]] — morning departure *(quick stop)*
 
 ## Food
 
-- Packed lunch; guesthouse dinner
+- **Breakfast:** Groceries
+- **Lunch:** Packed
+- **Dinner:** Guesthouse
+- **Groceries / snacks:** Cooler bag snacks in car
 
-## Costs
+### Costs
 
 | Item | Amount | Notes |
 |------|--------|-------|
 | Fuel | €50 | Day loop |
 | Meals | €40 | Packed + dinner |
 
+## Pack today
+
+- **Documents:** Rental papers in glovebox
+- **Clothes:** Windproof layers at gullfoss spray
+- **Cash / cards:** Fuel card unlocked
+- **Gear:** Phone mount; paper map backup
+
 ## Notes
 
-Keep a full tank — stations thin out later on the trip.
+Highest-yield day loop from Reykjavik.
 
 ## Related
 

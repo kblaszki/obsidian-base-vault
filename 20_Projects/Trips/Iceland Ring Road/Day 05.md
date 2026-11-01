@@ -7,39 +7,57 @@ created_date: 2026-10-31
 tags:
   - travel
   - trip-day
+banner: "[[assets/skogafoss.jpg]]"
+banner_position: center
 icon: 📅
 ---
 
 # Day 05
 
-## Plan
+Black sand beach caution day and glacier viewpoints if daylight allows.
 
-- [ ] Reynisfjara black sand beach (safe distance from sneaker waves)
-- [ ] Glacier viewpoints toward Skaftafell region if daylight allows
-- [ ] Return toward Vík or next lodging
+## Day timeline
 
-## Log
+- 09:00 — Reynisfjara black sand beach (safe distance)
+- 11:30 — Café lunch if open
+- 13:00 — Glacier viewpoints toward Skaftafell region if time/energy
+- 17:00 — Return toward Vík lodging
+- 19:30 — Simple dinner
 
-Scenic day; turn back before fatigue driving.
+## Logistics
 
-## Places visited
+- Never turn your back on sneaker waves at Reynisfjara.
+- Turn back before fatigue driving — South Coast distances deceive.
+- Check closures for weather.
 
-- [[South Coast]]
+## Places
+
+- [[South Coast]] — Reynisfjara + optional glacier views *(1–2h to half day)*
 
 ## Food
 
-- Café lunch if open; simple dinner
+- **Breakfast:** Hotel
+- **Lunch:** Café if open
+- **Dinner:** Simple lodging meal
+- **Groceries / snacks:** Backup food if cafés closed
 
-## Costs
+### Costs
 
 | Item | Amount | Notes |
 |------|--------|-------|
 | Parking / fees | €15 | Local lots |
 | Meals | €40 | Café + dinner |
 
+## Pack today
+
+- **Documents:** —
+- **Clothes:** Full shell; warm midlayer
+- **Cash / cards:** Parking
+- **Gear:** Keep kids/friends away from wet sand edge
+
 ## Notes
 
-Never turn your back on ocean waves at Reynisfjara.
+Respect the ocean. Always.
 
 ## Related
 

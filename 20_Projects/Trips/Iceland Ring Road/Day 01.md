@@ -7,39 +7,57 @@ created_date: 2026-10-31
 tags:
   - travel
   - trip-day
+banner: "[[assets/reykjavik.jpg]]"
+banner_position: center
 icon: 📅
 ---
 
 # Day 01
 
-## Plan
+Arrive KEF and settle in Reykjavik — sleep and groceries over sightseeing.
 
-- [ ] Pick up rental or take Flybus
-- [ ] Check in Reykjavik lodging
-- [ ] Short harbor walk if daylight remains
+## Day timeline
 
-## Log
+- Morning/afternoon — Land KEF
+- +1h — Flybus or rental pickup
+- +2h — Check in Reykjavik lodging
+- Evening — Harbor walk only if daylight and energy remain
+- Night — Early sleep
 
-Draft arrival day — prioritize sleep and groceries.
+## Logistics
 
-## Places visited
+- Do not drive the South Coast on arrival day.
+- Grocery stop near lodging for breakfast stock.
+- If renting a car same day, practice before highway speeds.
 
-- [[Reykjavik]]
+## Places
+
+- [[Reykjavik]] — arrival base *(1–2h soft)*
 
 ## Food
 
-- Grocery dinner at apartment/hotel
+- **Breakfast:** Flight
+- **Lunch:** Airport / skipped
+- **Dinner:** Grocery dinner at apartment/hotel
+- **Groceries / snacks:** Breakfast stock for several days
 
-## Costs
+### Costs
 
 | Item | Amount | Notes |
 |------|--------|-------|
 | Transfer | €30 | Flybus or fuel share |
 | Groceries | €25 | Breakfast stock |
 
+## Pack today
+
+- **Documents:** Passport; rental voucher if applicable
+- **Clothes:** Warm layers immediately — wind cuts
+- **Cash / cards:** Cards dominate; tiny cash optional
+- **Gear:** Offline maps downloaded
+
 ## Notes
 
-Do not drive the South Coast on arrival day.
+Draft arrival day — prioritize sleep.
 
 ## Related
 

@@ -17,6 +17,8 @@ description: Creates or updates Obsidian notes using this vault's PARA folders, 
 2. Reuse the closest file in `99_Templates` and the established property contract.
 3. Use ISO dates and valid status values already present for that note type.
 4. For trip days, the folder name must match the trip note title.
-5. Add at least one meaningful link when a real relationship exists; do not manufacture links.
-6. Add one concrete next action for actionable notes.
-7. Run the `validate-vault` skill before completion.
+5. Trip-day notes use: short summary, Day timeline, Logistics, Places, Food (with costs), Pack today, Notes, Related. Add `banner: "[[assets/...]]"` when an image exists in the trip `assets/` folder.
+6. Attachments go to `./assets` relative to the note (vault `attachmentFolderPath`).
+7. Add at least one meaningful link when a real relationship exists; do not manufacture links.
+8. Add one concrete next action for actionable notes.
+9. Run the `validate-vault` skill before completion.

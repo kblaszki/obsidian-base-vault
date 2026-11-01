@@ -7,40 +7,57 @@ created_date: 2026-10-31
 tags:
   - travel
   - trip-day
+banner: "[[assets/blue-lagoon.jpg]]"
+banner_position: center
 icon: 📅
 ---
 
 # Day 06
 
-## Plan
+Weather buffer / spa option day: Blue Lagoon or Sky Lagoon, then reposition toward KEF if needed.
 
-- [ ] Weather buffer: museum or spa
-- [ ] Optional [[Blue Lagoon]] or Sky Lagoon
-- [ ] Reposition toward KEF if early flight next day
+## Day timeline
 
-## Log
+- 09:00 — Decide spa vs museum based on weather
+- 11:00 — Optional Blue Lagoon session (prebooked)
+- 15:00 — Reposition toward Reykjavik or Keflavik lodging
+- 19:00 — Dinner
 
-Flexible day — spa vs extra South Coast photography.
+## Logistics
 
-## Places visited
+- Prebook lagoon slots; they sell out.
+- If early flight tomorrow, sleep closer to KEF.
+- Sky Lagoon is a valid alternative.
 
-- [[Blue Lagoon]]
-- [[Reykjavik]]
+## Places
+
+- [[Blue Lagoon]] — optional spa buffer *(1–2h)*
+- [[Reykjavik]] — reposition *(quick stop / overnight)*
 
 ## Food
 
-- Lagoon café or Reykjavik dinner
+- **Breakfast:** Lodging
+- **Lunch:** Lagoon café or town
+- **Dinner:** Reykjavik or Keflavik
+- **Groceries / snacks:** Light
 
-## Costs
+### Costs
 
 | Item | Amount | Notes |
 |------|--------|-------|
 | Lagoon ticket | €70 | If booked |
 | Meals | €45 | Depending on plan |
 
+## Pack today
+
+- **Documents:** Lagoon booking QR
+- **Clothes:** Swimwear; flip flops; warm clothes after
+- **Cash / cards:** —
+- **Gear:** Conditioner helps with silica hair feel
+
 ## Notes
 
-Pre-book lagoon slots; they sell out.
+Flexible day on purpose.
 
 ## Related
 

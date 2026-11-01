@@ -7,38 +7,56 @@ created_date: 2026-10-31
 tags:
   - travel
   - trip-day
+banner: "[[assets/reykjavik.jpg]]"
+banner_position: center
 icon: 📅
 ---
 
 # Day 07
 
-## Plan
+Return rental full and depart KEF.
 
-- [ ] Return rental with fuel
-- [ ] KEF international departure
+## Day timeline
 
-## Log
+- 08:00 — Breakfast
+- 09:00 — Fuel to full; return rental
+- 11:00 — KEF international buffer
+- Afternoon — Departure
 
-Departure buffer day.
+## Logistics
 
-## Places visited
+- Photograph car condition before return.
+- Assign real calendar dates only after flights/cars are booked.
+- Liquids bag ready.
 
-- [[Reykjavik]]
+## Places
+
+- [[Reykjavik]] — departure logistics *(quick stop)*
 
 ## Food
 
-- Airport food
+- **Breakfast:** Lodging / airport
+- **Lunch:** Airport
+- **Dinner:** Flight
+- **Groceries / snacks:** —
 
-## Costs
+### Costs
 
 | Item | Amount | Notes |
 |------|--------|-------|
 | Fuel top-up | €40 | Return full |
 | Airport meal | €20 | Before security |
 
+## Pack today
+
+- **Documents:** Passport; boarding passes; rental return papers
+- **Clothes:** Cabin layers
+- **Cash / cards:** Unlocked card
+- **Gear:** Empty car completely
+
 ## Notes
 
-Assign calendar dates only after flights and cars are booked.
+Provisional Day 07 until dates are fixed.
 
 ## Related
 

@@ -7,39 +7,58 @@ created_date: 2026-10-31
 tags:
   - travel
   - trip-day
+banner: "[[assets/skogafoss.jpg]]"
+banner_position: center
 icon: 📅
 ---
 
 # Day 04
 
-## Plan
+South Coast waterfalls toward Vík: Seljalandsfoss and Skógafoss.
 
-- [ ] Seljalandsfoss
-- [ ] Skógafoss
-- [ ] Continue to Vík area lodging
+## Day timeline
 
-## Log
+- 08:00 — Depart lodging
+- 09:30 — Seljalandsfoss
+- 11:30 — Skógafoss
+- 14:00 — Continue toward Vík
+- 16:00 — Check in Vík area
+- 19:00 — Hotel dinner
 
-Waterfall day with short walks only.
+## Logistics
 
-## Places visited
+- Watch wind warnings near exposed parking lots.
+- Short walks only today — save energy for Reynisfjara rules tomorrow.
+- Fuel when you see a station.
 
-- [[South Coast]]
+## Places
+
+- [[South Coast]] — waterfall day *(half day)*
 
 ## Food
 
-- Road sandwiches; hotel dinner in Vík
+- **Breakfast:** Lodging
+- **Lunch:** Road sandwiches
+- **Dinner:** Hotel in Vík
+- **Groceries / snacks:** Keep emergency food in car
 
-## Costs
+### Costs
 
 | Item | Amount | Notes |
 |------|--------|-------|
 | Fuel | €40 | Coast run |
 | Meals | €45 | Incl. hotel dinner |
 
+## Pack today
+
+- **Documents:** —
+- **Clothes:** Waterproofs; spray at falls is real
+- **Cash / cards:** Fuel
+- **Gear:** Microfiber cloth for camera spray
+
 ## Notes
 
-Watch wind warnings near exposed parking lots.
+Waterfall day with short walks only.
 
 ## Related
 

@@ -1,6 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "40_Resources/Attachments",
+  "attachmentFolderPath": "./assets",
   "newFileLocation": "folder",
   "newFileFolderPath": "00_Inbox",
   "showUnsupportedFiles": false,

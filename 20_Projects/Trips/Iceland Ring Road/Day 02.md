@@ -7,39 +7,57 @@ created_date: 2026-10-31
 tags:
   - travel
   - trip-day
+banner: "[[assets/reykjavik.jpg]]"
+banner_position: center
 icon: 📅
 ---
 
 # Day 02
 
-## Plan
+Reykjavik city day for gear checks before long drives.
 
-- [ ] Hallgrímskirkja area
-- [ ] Harpa and old harbor
-- [ ] Laugavegur walk and gear check
+## Day timeline
 
-## Log
+- 09:00 — Breakfast
+- 10:00 — Hallgrímskirkja area
+- 12:00 — Harpa and old harbor
+- 14:00 — Laugavegur walk and gear shops
+- 19:00 — Fish dinner
 
-Urban recovery day before long drives.
+## Logistics
 
-## Places visited
+- Buy missing waterproof layers in town, not on the coast.
+- Confirm rental pickup/return rules if car starts tomorrow.
+- Hot dog lunch is a valid cultural plan.
 
-- [[Reykjavik]]
+## Places
+
+- [[Reykjavik]] — city orientation *(half day)*
 
 ## Food
 
-- Hot dog + café lunch; fish dinner
+- **Breakfast:** Groceries
+- **Lunch:** Hot dog + café
+- **Dinner:** Fish restaurant
+- **Groceries / snacks:** Top up road snacks
 
-## Costs
+### Costs
 
 | Item | Amount | Notes |
 |------|--------|-------|
 | Meals | €55 | City prices |
 | Souvenir / gear | €40 | Contingency |
 
+## Pack today
+
+- **Documents:** —
+- **Clothes:** Test full waterproof system today
+- **Cash / cards:** Cards OK
+- **Gear:** Confirm boots/shell before Day 03
+
 ## Notes
 
-Buy missing waterproof layers here, not on the coast.
+Urban recovery before Golden Circle.
 
 ## Related
 

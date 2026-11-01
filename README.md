@@ -127,7 +127,10 @@ path automatically.
   itinerary, and one undated Iceland draft.
 - **Trip Day** creates a day log under `20_Projects/Trips/<Trip folder name>/`.
   Use the exact trip note title as the folder name. Undated drafts may use
-  `Day 01.md` … with `day_number` until calendar dates are set.
+  `Day 01.md` … with `day_number` until calendar dates are set. Day notes use
+  sections: summary, Day timeline, Logistics, Places, Food, Pack today, Notes.
+  Pretty Properties `banner` images live in that trip’s `assets/` folder
+  (vault attachment path is `./assets`).
 - **Place** creates a country/city/attraction note under
   `40_Resources/Places/<Country>/` with wishlist/planned/visited status.
 - **Daily note** uses the Calendar or Daily Notes command. It is filed under
@@ -192,7 +195,9 @@ Enable **Dataview → Enable JavaScript Queries** for the DataviewJS sections.
 5. Keep folders shallow. PARA describes actionability; links and properties
    describe meaning.
 6. For travel, keep one trip note, optional day notes under a matching folder,
-   and places grouped by country under `40_Resources/Places`.
+   and places grouped by country under `40_Resources/Places`. Store trip photos
+   in `20_Projects/Trips/<Trip>/assets/` and attribute Commons sources in
+   `assets/SOURCES.md`.
 
 Weekly and monthly folders are intentionally lightweight: create notes there
 only when a review is performed. This avoids empty ritual notes and keeps the
