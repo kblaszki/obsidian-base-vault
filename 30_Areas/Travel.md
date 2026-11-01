@@ -55,7 +55,8 @@ LIMIT 10
 ## Standards
 
 - Create trips with **New Trip**; keep the trip note in `20_Projects/Trips`.
-- Add day notes with **New Trip Day** using a folder name that matches the trip title.
+- Add day notes with **New Trip Day** under `<Trip>/days/` (folder name = trip title).
+- Add tips with **New Trip Tip** under `<Trip>/tips/` and prep with **New Trip Prep** under `<Trip>/prep/`.
 - For undated trip drafts, use `Day 01.md` … and `day_number` until dates are booked.
 - Capture places with **New Place** so they land under `40_Resources/Places/<Country>/`.
 - Link places from trip and trip-day notes instead of duplicating logistics.

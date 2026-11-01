@@ -15,6 +15,7 @@ icon: 📅
 
 {{VALUE:summary|label:Short day summary|type:multiline}}
 
+
 ## Day timeline
 
 - {{VALUE:first_time|label:First timeline time|default:09:00}} — {{VALUE:first_timeline|label:First timeline item}}

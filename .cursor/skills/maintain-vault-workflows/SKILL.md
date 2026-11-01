@@ -20,4 +20,8 @@ When changing any link:
 7. Update `README.md` when behavior, installation, or user-facing structure changes.
 8. Run the `validate-vault` skill before completion.
 
+Trip support paths must stay aligned:
+
+`New Trip Day → .../<trip>/days` · `New Trip Tip → .../<trip>/tips` · `New Trip Prep → .../<trip>/prep`
+
 Do not replace the core Daily Notes format strategy: dynamic year and month directories belong in `YYYY/MMMM/YYYY-MM-DD`.

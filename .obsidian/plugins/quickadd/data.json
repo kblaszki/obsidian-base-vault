@@ -140,7 +140,69 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "20_Projects/Trips/{{VALUE:trip_folder|label:Trip folder name}}"
+          "20_Projects/Trips/{{VALUE:trip_folder|label:Trip folder name}}/days"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "fileExistsBehavior": {
+        "kind": "apply",
+        "mode": "increment"
+      },
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      }
+    },
+    {
+      "id": "d4f7b1c5-6e8a-7b0d-2f4c-9a1b3e5d7f9c",
+      "name": "New Trip Tip",
+      "type": "Template",
+      "command": true,
+      "templatePath": "99_Templates/Trip Tip.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE:tip_title|label:Tip title}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "20_Projects/Trips/{{VALUE:trip_folder|label:Trip folder name}}/tips"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "fileExistsBehavior": {
+        "kind": "apply",
+        "mode": "increment"
+      },
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      }
+    },
+    {
+      "id": "e5a8c2d6-7f9b-8c1e-3a5d-0b2c4f6e8a0d",
+      "name": "New Trip Prep",
+      "type": "Template",
+      "command": true,
+      "templatePath": "99_Templates/Trip Prep.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE:prep_title|label:Prep title}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "20_Projects/Trips/{{VALUE:trip_folder|label:Trip folder name}}/prep"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,

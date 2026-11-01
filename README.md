@@ -30,7 +30,11 @@ community plugins listed below.
 │   │   ├── Scottish Highlands 2025.md         # completed
 │   │   ├── Japan Spring 2026.md               # planned soon
 │   │   ├── Iceland Ring Road.md               # planned, undated
-│   │   └── <Trip title>/                      # day notes per trip
+│   │   └── <Trip title>/
+│   │       ├── days/                          # trip-day notes
+│   │       ├── tips/                          # transit, driving, money, …
+│   │       ├── prep/                          # packing, bookings, admin
+│   │       └── assets/                        # banners / photos
 │   └── Dashboard_Projects.md
 ├── 30_Areas/
 │   ├── Knowledge Management.md
@@ -65,6 +69,8 @@ community plugins listed below.
 │   ├── Task Note.md
 │   ├── Trip.md
 │   ├── Trip Day.md
+│   ├── Trip Tip.md
+│   ├── Trip Prep.md
 │   └── Place.md
 └── .obsidian/
     ├── app.json
@@ -113,8 +119,9 @@ path automatically.
 ## Capture workflows
 
 - **Ctrl+N** opens the QuickAdd chooser. Choose Project, Resource,
-  Task / Note, Trip, Trip Day, or Place. QuickAdd asks for the title and
-  metadata, routes the file, and executes the Templater expressions.
+  Task / Note, Trip, Trip Day, Trip Tip, Trip Prep, or Place. QuickAdd asks
+  for the title and metadata, routes the file, and executes the Templater
+  expressions.
 - **Project** creates a note in `20_Projects/Active` and prompts for status,
   area, tag, and target date.
 - **Resource** asks for a destination under `40_Resources` (`Books`,
@@ -125,12 +132,17 @@ path automatically.
 - **Trip** creates a plan in `20_Projects/Trips` with dates, countries, and
   prep tasks. Demo vault includes three completed weeks, one upcoming Japan
   itinerary, and one undated Iceland draft.
-- **Trip Day** creates a day log under `20_Projects/Trips/<Trip folder name>/`.
-  Use the exact trip note title as the folder name. Undated drafts may use
-  `Day 01.md` … with `day_number` until calendar dates are set. Day notes use
-  sections: summary, Day timeline, Logistics, Places, Food, Pack today, Notes.
-  Pretty Properties `banner` images live in that trip’s `assets/` folder
-  (vault attachment path is `./assets`).
+- **Trip Day** creates a day log under
+  `20_Projects/Trips/<Trip folder name>/days/`. Use the exact trip note title
+  as the folder name. Undated drafts may use `Day 01.md` … with `day_number`.
+  Day notes use: summary, Day timeline, Logistics, Places, Food, Pack today,
+  Notes. Banners use `[[../assets/<file>]]` because days sit one level deeper
+  than `assets/` (vault attachment path is still `./assets`).
+- **Trip Tip** creates on-the-ground guidance under
+  `20_Projects/Trips/<Trip folder name>/tips/` (`type: trip-tip`).
+- **Trip Prep** creates pre-departure checklists under
+  `20_Projects/Trips/<Trip folder name>/prep/` (`type: trip-prep`), e.g. packing
+  and bookings. Keep prep filenames unique across trips.
 - **Place** creates a country/city/attraction note under
   `40_Resources/Places/<Country>/` with wishlist/planned/visited status.
 - **Daily note** uses the Calendar or Daily Notes command. It is filed under
@@ -149,7 +161,7 @@ runs JavaScript for calculated values such as review dates and daily navigation.
 Use properties for structured, queryable facts and inline tags for context:
 
 - `type`: `project`, `resource`, `task`, `note`, `daily`, `area`, `trip`,
-  `trip-day`, `place`
+  `trip-day`, `trip-tip`, `trip-prep`, `place`
 - `status`: stable workflow state, such as `active`, `planned`, `waiting`,
   `done`, `to-read`, `wishlist`, `visited`, `completed`, `cancelled`
 - `place_type`: `country`, `city`, `attraction`

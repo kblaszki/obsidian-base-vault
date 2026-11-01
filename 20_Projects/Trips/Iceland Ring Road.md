@@ -36,10 +36,15 @@ Drive a condensed south-focused Ring Road sample: Reykjavik base, Golden Circle,
 
 ## Prep tasks
 
+High-level only — details live in `prep/` notes.
+
 - [ ] Pick travel season (prefer late spring or early autumn)
 - [ ] Compare campervan vs hotel hop costs
 - [ ] Read wind and sandstorm guidance for South Coast
 - [ ] Decide Blue Lagoon vs Sky Lagoon
+
+- [ ] Open [[Packing — Iceland Ring Road]]
+- [ ] Open [[Bookings and admin — Iceland Ring Road]]
 
 ## Places to visit
 
@@ -61,6 +66,33 @@ TABLE WITHOUT ID file.link AS Note, date AS Date, day_number AS Day
 FROM "20_Projects/Trips"
 WHERE type = "trip-day" AND trip = this.file.link
 SORT date ASC, day_number ASC
+```
+
+## Days
+
+```dataview
+TABLE WITHOUT ID file.link AS Note, date AS Date, day_number AS Day
+FROM "20_Projects/Trips"
+WHERE type = "trip-day" AND trip = this.file.link
+SORT date ASC, day_number ASC
+```
+
+## Tips
+
+```dataview
+TABLE WITHOUT ID file.link AS Tip, topic AS Topic, status AS Status
+FROM "20_Projects/Trips"
+WHERE type = "trip-tip" AND trip = this.file.link
+SORT topic ASC, file.name ASC
+```
+
+## Prep
+
+```dataview
+TABLE WITHOUT ID file.link AS Note, prep_kind AS Kind, status AS Status
+FROM "20_Projects/Trips"
+WHERE type = "trip-prep" AND trip = this.file.link
+SORT prep_kind ASC, file.name ASC
 ```
 
 ## Related
