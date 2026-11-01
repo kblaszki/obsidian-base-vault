@@ -11,7 +11,7 @@ icon: 🧭
 
 # Travel
 
-Plan trips, capture day logs, and keep a reusable place library grouped by country.
+Plan trips, capture day logs, and keep a nested place library (country → region → city → attraction).
 
 ## Open trips
 
@@ -36,16 +36,16 @@ SORT start_date DESC
 ## Wishlist places
 
 ```dataview
-TABLE place_type AS Kind, country AS Country, city AS City
+TABLE WITHOUT ID file.link AS Place, place_type AS Kind, parent AS Parent
 FROM "40_Resources/Places"
 WHERE type = "place" AND status = "wishlist"
-SORT country ASC, file.name ASC
+SORT place_type ASC, file.name ASC
 ```
 
 ## Recently visited
 
 ```dataview
-TABLE country AS Country, visited_date AS Visited, rating AS Rating
+TABLE WITHOUT ID file.link AS Place, place_type AS Kind, parent AS Parent, visited_date AS Visited, rating AS Rating
 FROM "40_Resources/Places"
 WHERE type = "place" AND status = "visited"
 SORT visited_date DESC
@@ -58,7 +58,7 @@ LIMIT 10
 - Add day notes with **New Trip Day** under `<Trip>/days/` (folder name = trip title).
 - Add tips with **New Trip Tip** under `<Trip>/tips/` and prep with **New Trip Prep** under `<Trip>/prep/`.
 - For undated trip drafts, use `Day 01.md` … and `day_number` until dates are booked.
-- Capture places with **New Place** so they land under `40_Resources/Places/<Country>/`.
+- Capture containers with **New Place (container)** (`Name/Name.md` folder notes) and attractions with **New Place (attraction)** inside the parent folder; always set `parent` except on countries.
 - Link places from trip and trip-day notes instead of duplicating logistics.
 
 ## Related

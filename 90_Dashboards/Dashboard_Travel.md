@@ -56,33 +56,40 @@ SORT date DESC, day_number DESC
 LIMIT 25
 ```
 
-## Places by country
+## Places by kind
 
 ```dataview
 TABLE WITHOUT ID
-  key AS Country,
-  rows.file.link AS Places,
-  rows.place_type AS Kind,
-  rows.status AS Status
+  file.link AS Place,
+  place_type AS Kind,
+  parent AS Parent,
+  status AS Status
 FROM "40_Resources/Places"
 WHERE type = "place"
-GROUP BY country
-SORT key ASC
+SORT place_type ASC, file.name ASC
 ```
 
 ## Wishlist
 
 ```dataview
-LIST
+TABLE WITHOUT ID
+  file.link AS Place,
+  place_type AS Kind,
+  parent AS Parent
 FROM "40_Resources/Places"
 WHERE type = "place" AND status = "wishlist"
-SORT country ASC, file.name ASC
+SORT place_type ASC, file.name ASC
 ```
 
 ## Visited
 
 ```dataview
-TABLE country AS Country, city AS City, visited_date AS Visited, rating AS Rating
+TABLE WITHOUT ID
+  file.link AS Place,
+  place_type AS Kind,
+  parent AS Parent,
+  visited_date AS Visited,
+  rating AS Rating
 FROM "40_Resources/Places"
 WHERE type = "place" AND status = "visited"
 SORT visited_date DESC

@@ -49,12 +49,8 @@ community plugins listed below.
 │   │   └── README.md
 │   ├── Courses/
 │   │   └── README.md
-│   └── Places/
-│       ├── Italy/
-│       ├── Portugal/
-│       ├── United Kingdom/
-│       ├── Japan/
-│       └── Iceland/
+│   └── Places/                                # nested place hierarchy
+│       └── <Country>/<Region>/<City>/…        # Folder Notes: Name/Name.md
 ├── 50_Archives/
 │   └── README.md
 ├── 90_Dashboards/
@@ -82,6 +78,7 @@ community plugins listed below.
     └── plugins/
         ├── calendar/data.json
         ├── dataview/data.json
+        ├── folder-notes/data.json
         ├── obsidian-linter/data.json
         ├── pretty-properties/data.json
         ├── quickadd/data.json
@@ -97,8 +94,10 @@ from polluting PARA search results.
 1. Open this directory with **Open folder as vault**.
 2. In **Settings → Community plugins**, turn off Restricted mode.
 3. Install and enable: Dataview, Templater, QuickAdd, Calendar, Pretty
-   Properties, Omnisearch, and Linter. `community-plugins.json` enables them
-   after they are installed; plugin binaries are intentionally not committed.
+   Properties, Omnisearch, Linter, and Folder Notes (`folder-notes`).
+   `community-plugins.json` enables them after they are installed; plugin
+   binaries are intentionally not committed. Folder Notes is scoped so only
+   `40_Resources/Places` uses folder notes (`Name/Name.md` inside the folder).
 4. Restart Obsidian once so every committed `data.json` is loaded.
 5. Open `90_Dashboards/Home.md`.
 
@@ -119,9 +118,9 @@ path automatically.
 ## Capture workflows
 
 - **Ctrl+N** opens the QuickAdd chooser. Choose Project, Resource,
-  Task / Note, Trip, Trip Day, Trip Tip, Trip Prep, or Place. QuickAdd asks
-  for the title and metadata, routes the file, and executes the Templater
-  expressions.
+  Task / Note, Trip, Trip Day, Trip Tip, Trip Prep, New Place (container),
+  or New Place (attraction). QuickAdd asks for the title and metadata, routes
+  the file, and executes the Templater expressions.
 - **Project** creates a note in `20_Projects/Active` and prompts for status,
   area, tag, and target date.
 - **Resource** asks for a destination under `40_Resources` (`Books`,
@@ -143,8 +142,12 @@ path automatically.
 - **Trip Prep** creates pre-departure checklists under
   `20_Projects/Trips/<Trip folder name>/prep/` (`type: trip-prep`), e.g. packing
   and bookings. Keep prep filenames unique across trips.
-- **Place** creates a country/city/attraction note under
-  `40_Resources/Places/<Country>/` with wishlist/planned/visited status.
+- **New Place (container)** creates a country/region/city Folder Note as
+  `<Parent>/<Title>/<Title>.md` under `40_Resources/Places` (pick the parent
+  folder; use the Places root for a country). Set `place_type` accordingly and
+  leave `parent` empty only for countries.
+- **New Place (attraction)** creates `<Title>.md` inside the selected parent
+  folder (city or region) with `parent` pointing at that place.
 - **Daily note** uses the Calendar or Daily Notes command. It is filed under
   the year/month path and includes navigation, tasks, log, and review prompts.
 
@@ -164,11 +167,12 @@ Use properties for structured, queryable facts and inline tags for context:
   `trip-day`, `trip-tip`, `trip-prep`, `place`
 - `status`: stable workflow state, such as `active`, `planned`, `waiting`,
   `done`, `to-read`, `wishlist`, `visited`, `completed`, `cancelled`
-- `place_type`: `country`, `city`, `attraction`
+- `place_type`: `country`, `region`, `city`, `attraction`
+- `parent`: wiki link to the parent place; empty only for countries
 - `created_date`, `due`, `target_date`, `review_date`, `start_date`,
   `end_date`, `visited_date`: ISO dates
 - `area`, `project`, `trip`: links to durable parent notes
-- `country`, `city`, `countries`: travel geography
+- `countries`: travel geography on trip notes (plain names or links)
 - `tags`: broad topics, not status duplication
 
 Prefer links (`area: "[[Knowledge Management]]"`) for entities and relationships.
@@ -206,9 +210,10 @@ Enable **Dataview → Enable JavaScript Queries** for the DataviewJS sections.
    these MOCs rather than recreating a deep folder tree.
 5. Keep folders shallow. PARA describes actionability; links and properties
    describe meaning.
-6. For travel, keep one trip note, optional day notes under a matching folder,
-   and places grouped by country under `40_Resources/Places`. Store trip photos
-   in `20_Projects/Trips/<Trip>/assets/` and attribute Commons sources in
+6. For travel, keep one trip note, optional day/tips/prep notes under a matching
+   folder, and nested places under `40_Resources/Places` (`country → region →
+   city → attraction` with Folder Notes on containers). Store trip photos in
+   `20_Projects/Trips/<Trip>/assets/` and attribute Commons sources in
    `assets/SOURCES.md`.
 
 Weekly and monthly folders are intentionally lightweight: create notes there

@@ -1,9 +1,8 @@
 ---
 type: place
-place_type: "{{VALUE:country,city,attraction|name:place_type|label:Place type}}"
+place_type: "{{VALUE:country,region,city,attraction|name:place_type|label:Place type}}"
 status: "{{VALUE:wishlist,planned,visited|name:status|label:Status}}"
-country: "{{VALUE:country|label:Country}}"
-city: "{{VALUE:city|label:City|optional}}"
+parent: "{{FILE:40_Resources/Places|link|label:Parent place|optional}}"
 visited_date: "{{VDATE:visited_date,YYYY-MM-DD|label:Visited date|optional}}"
 rating:
 map_url: "{{VALUE:map_url|label:Map URL|optional}}"
@@ -37,6 +36,15 @@ icon: 📍
 
 - 
 
+## Child places
+
+```dataview
+TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+FROM "40_Resources/Places"
+WHERE parent = this.file.link
+SORT place_type ASC, file.name ASC
+```
+
 ## Trips
 
 ```dataview
@@ -48,6 +56,6 @@ SORT start_date DESC
 
 ## Related
 
-- Country: [[{{VALUE:country}}]]
+- Parent: {{FILE:40_Resources/Places|link|label:Parent place|optional}}
 - [[Travel]]
 - [[Dashboard_Travel]]
