@@ -12,6 +12,8 @@ tags:
   - travel
   - place
 icon: 📍
+banner: "[[./assets/glencoe.jpg]]"
+banner_position: center
 ---
 
 # Glencoe

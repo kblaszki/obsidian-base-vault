@@ -148,6 +148,9 @@ path automatically.
   leave `parent` empty only for countries.
 - **New Place (attraction)** creates `<Title>.md` inside the selected parent
   folder (city or region) with `parent` pointing at that place.
+- Place notes use photo banners via `banner: "[[./assets/<file>]]"` (and
+  `banner_position: center`). Store images next to the note under `./assets`
+  and record Commons attribution in `40_Resources/Places/SOURCES.md`.
 - **Daily note** uses the Calendar or Daily Notes command. It is filed under
   the year/month path and includes navigation, tasks, log, and review prompts.
 

@@ -12,6 +12,8 @@ tags:
   - travel
   - place
 icon: 📍
+banner: "[[./assets/kyoto-fushimi.jpg]]"
+banner_position: center
 ---
 
 # Fushimi Inari

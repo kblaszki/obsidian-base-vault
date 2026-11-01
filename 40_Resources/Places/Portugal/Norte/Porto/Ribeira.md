@@ -12,6 +12,8 @@ tags:
   - travel
   - place
 icon: 📍
+banner: "[[./assets/porto-ribeira.jpg]]"
+banner_position: center
 ---
 
 # Ribeira

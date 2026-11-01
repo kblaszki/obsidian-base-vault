@@ -12,6 +12,8 @@ tags:
   - travel
   - place
 icon: 📍
+banner: "[[./assets/reykjavik.jpg]]"
+banner_position: center
 ---
 
 # Reykjavik

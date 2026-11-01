@@ -12,6 +12,8 @@ tags:
   - travel
   - place
 icon: 📍
+banner: "[[./assets/edinburgh-castle.jpg]]"
+banner_position: center
 ---
 
 # Edinburgh

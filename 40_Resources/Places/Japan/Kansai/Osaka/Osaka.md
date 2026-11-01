@@ -12,6 +12,8 @@ tags:
   - travel
   - place
 icon: 📍
+banner: "[[./assets/osaka-castle.jpg]]"
+banner_position: center
 ---
 
 # Osaka

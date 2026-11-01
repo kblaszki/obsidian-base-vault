@@ -12,6 +12,8 @@ tags:
   - travel
   - place
 icon: 📍
+banner: "[[./assets/skye-storr.jpg]]"
+banner_position: center
 ---
 
 # Isle of Skye

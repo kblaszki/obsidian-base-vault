@@ -12,6 +12,8 @@ tags:
   - travel
   - place
 icon: 📍
+banner: "[[./assets/florence-skyline.jpg]]"
+banner_position: center
 ---
 
 # Tuscany

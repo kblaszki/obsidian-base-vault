@@ -12,6 +12,8 @@ tags:
   - travel
   - place
 icon: 📍
+banner: "[[./assets/skogafoss.jpg]]"
+banner_position: center
 ---
 
 # Iceland

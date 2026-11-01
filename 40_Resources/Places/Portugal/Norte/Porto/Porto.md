@@ -12,6 +12,8 @@ tags:
   - travel
   - place
 icon: 📍
+banner: "[[./assets/porto-bridge.jpg]]"
+banner_position: center
 ---
 
 # Porto

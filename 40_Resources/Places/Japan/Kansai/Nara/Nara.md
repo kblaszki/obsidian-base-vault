@@ -12,6 +12,8 @@ tags:
   - travel
   - place
 icon: 📍
+banner: "[[./assets/nara-deer.jpg]]"
+banner_position: center
 ---
 
 # Nara

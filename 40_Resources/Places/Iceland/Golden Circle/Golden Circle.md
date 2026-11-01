@@ -12,6 +12,8 @@ tags:
   - travel
   - place
 icon: 📍
+banner: "[[./assets/gullfoss.jpg]]"
+banner_position: center
 ---
 
 # Golden Circle

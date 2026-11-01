@@ -13,6 +13,8 @@ tags:
   - place
   - "{{VALUE:topic|label:Topic tag without #|optional}}"
 icon: 📍
+banner:
+banner_position: center
 ---
 
 # <% tp.file.title %>

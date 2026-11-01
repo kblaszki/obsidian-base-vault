@@ -12,6 +12,8 @@ tags:
   - travel
   - place
 icon: 📍
+banner: "[[./assets/rome-pantheon.jpg]]"
+banner_position: center
 ---
 
 # Rome

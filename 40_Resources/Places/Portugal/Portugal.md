@@ -12,6 +12,8 @@ tags:
   - travel
   - place
 icon: 📍
+banner: "[[./assets/lisbon-view.jpg]]"
+banner_position: center
 ---
 
 # Portugal

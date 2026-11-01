@@ -12,6 +12,8 @@ tags:
   - travel
   - place
 icon: 📍
+banner: "[[./assets/uffizi.jpg]]"
+banner_position: center
 ---
 
 # Uffizi

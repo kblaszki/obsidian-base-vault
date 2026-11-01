@@ -12,6 +12,8 @@ tags:
   - travel
   - place
 icon: 📍
+banner: "[[./assets/lisbon-belem.jpg]]"
+banner_position: center
 ---
 
 # Belém Tower

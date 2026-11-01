@@ -12,6 +12,8 @@ tags:
   - travel
   - place
 icon: 📍
+banner: "[[./assets/florence-duomo.jpg]]"
+banner_position: center
 ---
 
 # Florence

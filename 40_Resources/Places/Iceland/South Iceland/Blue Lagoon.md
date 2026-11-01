@@ -12,6 +12,8 @@ tags:
   - travel
   - place
 icon: 📍
+banner: "[[./assets/blue-lagoon.jpg]]"
+banner_position: center
 ---
 
 # Blue Lagoon

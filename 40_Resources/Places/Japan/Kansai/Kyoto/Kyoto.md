@@ -12,6 +12,8 @@ tags:
   - travel
   - place
 icon: 📍
+banner: "[[./assets/kyoto-temple.jpg]]"
+banner_position: center
 ---
 
 # Kyoto

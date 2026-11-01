@@ -12,6 +12,8 @@ tags:
   - travel
   - place
 icon: 📍
+banner: "[[./assets/rome-colosseum.jpg]]"
+banner_position: center
 ---
 
 # Lazio

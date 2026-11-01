@@ -12,6 +12,8 @@ tags:
   - travel
   - place
 icon: 📍
+banner: "[[./assets/tokyo-skyline.jpg]]"
+banner_position: center
 ---
 
 # Kanto
