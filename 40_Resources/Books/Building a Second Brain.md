@@ -14,23 +14,22 @@ rating: 4
 
 # Building a Second Brain
 
-## Summary
+## Podsumowanie
 
-Organize information around actionability and progressively add value as notes
-move from capture toward expression.
+Organizuj informacje według actionable’ności i stopniowo dodawaj wartość, gdy notatki
+przechodzą od przechwytywania do wyrażania.
 
-## Key ideas
+## Kluczowe idee
 
-- PARA separates active outcomes from ongoing responsibilities and reference.
-- Capture should be quick enough to avoid interrupting the current task.
-- Small packets of knowledge become more useful through reuse.
+- PARA oddziela aktywne rezultaty od bieżących odpowiedzialności i materiałów referencyjnych.
+- Przechwytywanie powinno być na tyle szybkie, by nie przerywać bieżącego zadania.
+- Małe paczki wiedzy stają się bardziej użyteczne przez ponowne użycie.
 
-## My interpretation
+## Moja interpretacja
 
-The folder structure should remain shallow. [[Knowledge Management]] provides
-semantic context, while [[Vault Automation]] makes capture predictable.
+Struktura folderów powinna pozostać płytka. [[Knowledge Management]] daje kontekst semantyczny, a [[Vault Automation]] czyni przechwytywanie przewidywalnym.
 
-## Connections
+## Powiązania
 
 - [[Progressive Summarization]]
 - [[2026-10-27]]

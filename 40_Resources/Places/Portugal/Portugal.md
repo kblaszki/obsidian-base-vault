@@ -18,36 +18,36 @@ banner_position: center
 
 # Portugal
 
-## Why visit
+## Dlaczego warto
 
-Atlantic cities with hills, miradouros, and riverside evenings.
+Miasta atlantyckie ze wzgórzami, miradouro i wieczorami nad rzeką.
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** May–June or September
-- **How to get there:** LIS / OPO hubs
-- **Cost / tickets:** Lisboa Card useful for tram days
-- **Hours:** Restaurants late; attractions daytime
+- **Najlepszy czas:** Maj–czerwiec lub wrzesień
+- **Jak dojechać:** Huby LIS / OPO
+- **Koszt / bilety:** Lisboa Card przydatna w dni tramwajowe
+- **Godziny:** Restauracje późno; atrakcje w dzień
 
-## Highlights
+## Najważniejsze
 
-- Lisbon hills
-- Porto riverside
+- Wzgórza Lizbony
+- Nabrzeże Porto
 
-## Visit log
+## Notatki
 
-- Visited May 2025 on [[Lisbon and Porto 2025]].
+- Odwiedzono w maju 2025 na [[Lisbon and Porto 2025]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -56,8 +56,8 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Map: [Portugal](https://www.google.com/maps/search/?api=1&query=Portugal)
+- Mapa: [Portugal](https://www.google.com/maps/search/?api=1&query=Portugal)
 - [[Travel]]
 - [[Dashboard_Travel]]

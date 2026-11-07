@@ -1,41 +1,41 @@
-    ---
-    type: trip-tip
-    trip: "[[Japan Spring 2026]]"
-    topic: transit
-    status: ready
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - tip
-    icon: 💡
-    ---
+---
+type: trip-tip
+trip: "[[Japan Spring 2026]]"
+topic: transit
+status: ready
+created_date: 2026-11-01
+tags:
+  - travel
+  - tip
+icon: 💡
+---
 
-    # IC cards, trains, and shinkansen
+# IC cards, trains, and shinkansen
 
-    Suica/Pasmo (or Welcome Suica) plus reserved shinkansen seats make Tokyo↔Kyoto painless.
+Suica/Pasmo (lub Welcome Suica) plus zarezerwowane miejsca w shinkansenie czynią Tokio↔Kioto bezbolesnym.
 
-    ## Key points
+## Kluczowe punkty
 
-    - Get an IC card at the airport; use it for metro, JR locals, and convenience stores.
-- Reserve Tokyo→Kyoto shinkansen seats in blossom season.
-- Station wayfinding is excellent — follow JR vs metro sign colours.
+- Weź kartę IC na lotnisku; używaj jej w metro, lokalnych JR i convenience store.
+- W sezonie kwitnienia zarezerwuj miejsca w shinkansenie Tokio→Kioto.
+- Nawigacja na stacjach jest świetna — trzymaj się kolorów oznaczeń JR vs metro.
 
-    ## Details
+## Szczegóły
 
-    ### Airport
-N'EX or Skyliner both work to central Tokyo; choose based on hotel side.
+### Lotnisko
+N'EX i Skyliner działają do centrum Tokio; wybór zależy od strony hotelu.
 
-### Kyoto local
-Buses are useful but can be crowded; walking + JR/subway hybrids often win.
+### Lokalnie w Kioto
+Autobusy są przydatne, ale bywają pełne; często wygrywa spacer + hybryda JR/metro.
 
-### Luggage
-Forward luggage or pack light for the shinkansen overhead racks.
+### Bagaż
+Prześlij bagaż lub pakuj lekko pod półki nad głową w shinkansenie.
 
-    ## Sources
+## Źródła
 
-    - JR East / JR West guidance
+- Wskazówki JR East / JR West
 
-    ## Related
+## Powiązane
 
-    - [[Japan Spring 2026]]
-    - [[Dashboard_Travel]]
+- [[Japan Spring 2026]]
+- [[Dashboard_Travel]]

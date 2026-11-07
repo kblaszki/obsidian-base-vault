@@ -14,31 +14,31 @@ rating:
 
 # TypeScript Fundamentals
 
-## Summary
+## Podsumowanie
 
-Handbook-driven course on types, narrowing, and tooling—supports software work and any vault automation scripts that grow beyond shell one-liners.
+Kurs oparty o handbook: typy, narrowing i tooling — wspiera pracę software’ową i skrypty automatyzacji vaultu, gdy wyrosną poza one-linery w shellu.
 
-## Key ideas
+## Kluczowe idee
 
-- Types document intent at boundaries.
-- Start with `strict` and expand gradually.
-- Prefer narrowing over `any` escapes.
+- Typy dokumentują intencję na granicach.
+- Zacznij od `strict` i rozszerzaj stopniowo.
+- Preferuj narrowing zamiast ucieczek w `any`.
 
-## Highlights
+## Fragmenty
 
 > 
 
-## My interpretation
+## Moja interpretacja
 
-Useful when Templater or validation helpers graduate into typed utilities under [[Software Development]].
+Przydatne, gdy helpery Templater lub walidacji awansują do typowanych utilities pod [[Software Development]].
 
-## Actions
+## Działania
 
-- [ ] Finish handbook chapters on narrowing and generics intro
-- [ ] Apply to one small automation script
+- [ ] Dokończ rozdziały handbooka o narrowing i intro do generics
+- [ ] Zastosuj w jednym małym skrypcie automatyzacji
 
-## Connections
+## Powiązania
 
-- Area: [[Software Development]]
-- Project: [[Vault Automation]]
+- Obszar: [[Software Development]]
+- Projekt: [[Vault Automation]]
 - [[Software Testing Talk]]

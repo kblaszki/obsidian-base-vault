@@ -13,74 +13,74 @@ tags:
 
 # Lisbon and Porto 2025
 
-## Outcome
+## Cel
 
-Combine Lisbon's hills and Belém with a Porto base for Ribeira, port lodges, and a Douro evening.
+Połączyć wzgórza Lizbony i Belém z bazą w Porto na Ribeirę, lodge’e porto i wieczór nad Douro.
 
-## Itinerary overview
+## Przegląd itinerarium
 
-- Days 1–4: Lisbon (Baixa / Chiado)
-- Day 5: Alfa Pendular to Porto
-- Days 5–8: Porto + Gaia riverside
-- Slow mornings; prioritize walking over too many paid attractions
+- Dni 1–4: Lizbona (Baixa / Chiado)
+- Dzień 5: Alfa Pendular do Porto
+- Dni 5–8: Porto + nabrzeże Gaia
+- Spokojne poranki; priorytet spacerów zamiast zbyt wielu płatnych atrakcji
 
-## Logistics
+## Logistyka
 
-- **Flights / transport:** WAW → LIS; return OPO → WAW. Metro + tram in Lisbon; Alfa Pendular LIS→POR; Porto metro to airport.
-- **Lodging:** Independente Hostel & Suites rooftop room, Lisbon (4 nights) → Pestana Vintage Porto (3 nights)
-- **Documents:** EU ID; CP train tickets in app
+- **Loty / transport:** WAW → LIS; powrót OPO → WAW. Metro + tramwaj w Lizbonie; Alfa Pendular LIS→POR; metro w Porto na lotnisko.
+- **Noclegi:** Independente Hostel & Suites (pokój z tarasem), Lizbona (4 noce) → Pestana Vintage Porto (3 noce)
+- **Dokumenty:** Dowód UE; bilety CP w aplikacji
 
-## Prep tasks
+## Zadania przygotowawcze
 
-High-level only — details live in `prep/` notes.
+Tylko na wysokim poziomie — szczegóły w notatkach `prep/`.
 
-- [x] Book Alfa Pendular seats
-- [x] Reserve Belém pastry stop timing (early)
-- [x] Buy Lisboa Card 48h for tram + museums
-- [x] Note Gaia lodge tasting hours
+- [x] Zarezerwować miejsca w Alfa Pendular
+- [x] Zaplanować wczesny przystanek na pastéis w Belém
+- [x] Kupić Lisboa Card 48h na tramwaj + muzea
+- [x] Zanotować godziny degustacji w lodge’ach w Gaia
 
-- [ ] Open [[Packing — Lisbon and Porto 2025]]
-- [ ] Open [[Bookings and admin — Lisbon and Porto 2025]]
+- [ ] Otwórz [[Packing — Lisbon and Porto 2025]]
+- [ ] Otwórz [[Bookings and admin — Lisbon and Porto 2025]]
 
-## Places to visit
+## Miejsca do odwiedzenia
 
 - [[Lisbon]]
 - [[Belém Tower]]
 - [[Porto]]
 - [[Ribeira]]
 
-## Budget
+## Budżet
 
-- About €1,400 total. Pestana riverside hotel pushed Porto lodging up; food stayed affordable.
+- Około €1400 łącznie. Hotel Pestana nad rzeką podbił koszty noclegu w Porto; jedzenie pozostało przystępne.
 
-## Days
+## Dni
 
 ```dataview
-TABLE WITHOUT ID file.link AS Note, date AS Date, day_number AS Day
+TABLE WITHOUT ID file.link AS Notatka, date AS Data, day_number AS Dzień
 FROM "20_Projects/Trips"
 WHERE type = "trip-day" AND trip = this.file.link
 SORT date ASC, day_number ASC
 ```
 
-## Tips
+## Wskazówki
 
 ```dataview
-TABLE WITHOUT ID file.link AS Tip, topic AS Topic, status AS Status
+TABLE WITHOUT ID file.link AS Wskazówka, topic AS Temat, status AS Status
 FROM "20_Projects/Trips"
 WHERE type = "trip-tip" AND trip = this.file.link
 SORT topic ASC, file.name ASC
 ```
 
-## Prep
+## Przygotowanie
 
 ```dataview
-TABLE WITHOUT ID file.link AS Note, prep_kind AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Notatka, prep_kind AS Rodzaj, status AS Status
 FROM "20_Projects/Trips"
 WHERE type = "trip-prep" AND trip = this.file.link
 SORT prep_kind ASC, file.name ASC
 ```
 
-## Related
+## Powiązane
 
 - [[Travel]]
 - [[Dashboard_Travel]]

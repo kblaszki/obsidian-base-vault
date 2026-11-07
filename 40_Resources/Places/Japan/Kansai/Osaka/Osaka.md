@@ -18,36 +18,36 @@ banner_position: center
 
 # Osaka
 
-## Why visit
+## Dlaczego warto
 
-Transit hub toward KIX on the final day of [[Japan Spring 2026]].
+Węzeł przesiadkowy w stronę KIX w ostatnim dniu [[Japan Spring 2026]].
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Pass-through or food stop
-- **How to get there:** Rail from Kyoto; Haruka to KIX
-- **Cost / tickets:** IC cards work
-- **Hours:** Airport trains frequent
+- **Najlepszy czas:** Przelotowo lub postój na jedzenie
+- **Jak dojechać:** Kolej z Kioto; Haruka do KIX
+- **Koszt / bilety:** Karty IC działają
+- **Godziny:** Pociągi lotniskowe częste
 
-## Highlights
+## Najważniejsze
 
-- Airport transfer logistics
-- Optional food stop if schedule allows
+- Logistyka transferu na lotnisko
+- Opcjonalny postój na jedzenie, jeśli plan pozwala
 
-## Visit log
+## Notatki
 
-- Planned departure transit 2026-04-18 on [[Japan Spring 2026]].
+- Planowany tranzyt wylotowy 2026-04-18 w [[Japan Spring 2026]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -56,9 +56,9 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Kansai]]
-- Map: [Osaka Castle Japan](https://www.google.com/maps/search/?api=1&query=Osaka+Castle+Japan)
+- Rodzic: [[Kansai]]
+- Mapa: [Osaka Castle Japan](https://www.google.com/maps/search/?api=1&query=Osaka+Castle+Japan)
 - [[Travel]]
 - [[Dashboard_Travel]]

@@ -1,34 +1,34 @@
-    ---
-    type: trip-tip
-    trip: "[[Iceland Ring Road]]"
-    topic: culture
-    status: draft
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - tip
-    icon: 💡
-    ---
+---
+type: trip-tip
+trip: "[[Iceland Ring Road]]"
+topic: culture
+status: draft
+created_date: 2026-11-01
+tags:
+  - travel
+  - tip
+icon: 💡
+---
 
-    # Lagoon booking and buffer days
+# Lagoon booking and buffer days
 
-    Blue Lagoon/Sky Lagoon sell out; keep Day 06 flexible for weather.
+Blue Lagoon/Sky Lagoon wyprzedają się; trzymaj Dzień 06 elastyczny na pogodę.
 
-    ## Key points
+## Kluczowe punkty
 
-    - Prebook spa slots.
-- Use a buffer day before departure near KEF.
-- Grocery breakfasts cut food costs sharply.
+- Rezerwuj sloty SPA z wyprzedzeniem.
+- Zaplanuj dzień buforowy przed wylotem blisko KEF.
+- Śniadania z marketu mocno tną koszty jedzenia.
 
-    ## Details
+## Szczegóły
 
-    Campervan vs hotels: hotels win for a first short south-focused trip.
+Kamper vs hotele: na krótki, południowy pierwszy wyjazd wygrywają hotele.
 
-    ## Sources
+## Źródła
 
-    - Personal notes from planning and travel
+- Notatki własne z planowania i podróży
 
-    ## Related
+## Powiązane
 
-    - [[Iceland Ring Road]]
-    - [[Dashboard_Travel]]
+- [[Iceland Ring Road]]
+- [[Dashboard_Travel]]

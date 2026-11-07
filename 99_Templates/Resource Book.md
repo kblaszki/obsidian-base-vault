@@ -1,12 +1,12 @@
 ---
 type: resource
-resource_type: "{{VALUE:book,article,video,course|name:resource_type|label:Resource type}}"
+resource_type: "{{VALUE:book,article,video,course|name:resource_type|label:Rodzaj zasobu}}"
 status: "{{VALUE:to-read,reading,processed|name:status|label:Status}}"
-author: "{{VALUE:author|label:Author or creator}}"
-source_url: "{{VALUE:source_url|label:Source URL or ISBN|optional}}"
+author: "{{VALUE:author|label:Autor lub twórca}}"
+source_url: "{{VALUE:source_url|label:URL źródła lub ISBN|optional}}"
 tags:
   - resource
-  - "{{VALUE:topic|label:Topic tag without #}}"
+  - "{{VALUE:topic|label:Tag tematu bez #}}"
 created_date: <% tp.date.now("YYYY-MM-DD") %>
 finished_date:
 rating:
@@ -14,26 +14,26 @@ rating:
 
 # <% tp.file.title %>
 
-## Summary
+## Podsumowanie
 
-{{VALUE:summary|label:Why save this?|type:multiline}}
+{{VALUE:summary|label:Dlaczego to zapisujesz?|type:multiline}}
 
-## Key ideas
+## Kluczowe idee
 
 - <% tp.file.cursor(1) %>
 
-## Highlights
+## Fragmenty
 
 > 
 
-## My interpretation
+## Moja interpretacja
 
 
-## Actions
+## Działania
 
 - [ ] 
 
-## Connections
+## Powiązania
 
-- Area: {{FILE:30_Areas|link|label:Related area|optional}}
-- Project: {{FILE:20_Projects|link|label:Related project|optional}}
+- Obszar: {{FILE:30_Areas|link|label:Powiązany obszar|optional}}
+- Projekt: {{FILE:20_Projects|link|label:Powiązany projekt|optional}}

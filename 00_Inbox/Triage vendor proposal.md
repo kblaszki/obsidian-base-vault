@@ -11,17 +11,17 @@ created_date: 2026-10-25
 
 # Triage vendor proposal
 
-## Context
+## Kontekst
 
-Decide whether the proposal supports the publishing phase of
+Zdecydować, czy propozycja wspiera fazę publikacji
 [[Launch Knowledge Hub]].
 
-## Next action
+## Następne działanie
 
-- [ ] Extract pricing, migration limits, and ownership terms 📅 2026-10-30
+- [ ] Wyciągnąć ceny, limity migracji i warunki własności 📅 2026-10-30
 
-## Processing checklist
+## Lista przetwarzania
 
-- [x] Clarify the desired outcome
-- [x] Link to a project or area
-- [ ] Move out of `00_Inbox` or archive
+- [x] Uściślić pożądany cel
+- [x] Powiązać z projektem lub obszarem
+- [ ] Przenieść z `00_Inbox` lub zarchiwizować

@@ -14,30 +14,30 @@ rating:
 
 # Atomic Habits
 
-## Summary
+## Podsumowanie
 
-Behavior change through small, compoundable habits: make good habits obvious, attractive, easy, and satisfying.
+Zmiana zachowania przez małe, składające się nawyki: spraw, by dobre nawyki były oczywiste, atrakcyjne, łatwe i satysfakcjonujące.
 
-## Key ideas
+## Kluczowe idee
 
-- Identity-based habits beat outcome-only goals.
-- Environment design beats willpower.
-- Track streaks lightly; never miss twice.
+- Nawyki oparte na tożsamości wygrywają z celami wyłącznie wynikowymi.
+- Projektowanie środowiska wygrywa z siłą woli.
+- Śledź serie lekko; nigdy nie pomijaj dwa razy z rzędu.
 
-## Highlights
+## Fragmenty
 
 > You do not rise to the level of your goals. You fall to the level of your systems.
 
-## My interpretation
+## Moja interpretacja
 
-Useful for vault operating rhythm: daily capture and weekly review as habits attached to existing cues.
+Przydatne dla rytmu pracy vaultu: codzienne przechwytywanie i cotygodniowy przegląd jako nawyki podpięte pod istniejące sygnały.
 
-## Actions
+## Działania
 
-- [ ] Define one capture habit tied to evening shutdown
-- [ ] Link habit ideas into weekly review template later
+- [ ] Zdefiniuj jeden nawyk przechwytywania powiązany z wieczornym zamknięciem dnia
+- [ ] Później powiąż pomysły nawyków z szablonem cotygodniowego przeglądu
 
-## Connections
+## Powiązania
 
-- Area: [[Knowledge Management]]
-- Project: [[Vault Automation]]
+- Obszar: [[Knowledge Management]]
+- Projekt: [[Vault Automation]]

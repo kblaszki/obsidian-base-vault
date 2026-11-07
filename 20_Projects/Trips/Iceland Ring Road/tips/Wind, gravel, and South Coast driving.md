@@ -1,42 +1,42 @@
-    ---
-    type: trip-tip
-    trip: "[[Iceland Ring Road]]"
-    topic: driving
-    status: ready
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - tip
-    icon: 💡
-    ---
+---
+type: trip-tip
+trip: "[[Iceland Ring Road]]"
+topic: driving
+status: ready
+created_date: 2026-11-01
+tags:
+  - travel
+  - tip
+icon: 💡
+---
 
-    # Wind, gravel, and South Coast driving
+# Wind, gravel, and South Coast driving
 
-    Iceland driving is less about distance than weather, wind, and not stopping in unsafe places.
+Jazda po Islandii to mniej dystans, a bardziej pogoda, wiatr i unikanie niebezpiecznych postojów.
 
-    ## Key points
+## Kluczowe punkty
 
-    - Check road.is and weather before every drive day.
-- Keep two hands for gusts near parking lots and cliffs.
-- Never turn your back on sneaker waves at Reynisfjara.
+- Sprawdzaj road.is i pogodę przed każdym dniem jazdy.
+- Trzymaj obie ręce przy podmuchach koło parkingów i klifów.
+- Nigdy nie odwracaj się tyłem do sneaker waves na Reynisfjara.
 
-    ## Details
+## Szczegóły
 
-    ### Fuel
-Fill when you can. South Coast gaps punish optimism.
+### Paliwo
+Tankuj, kiedy możesz. Luki na South Coast karzą optymizm.
 
-### Photos
-Use pull-outs. Doors can be ripped by wind — hold them.
+### Zdjęcia
+Używaj zatoczek. Drzwi potrafi wiatr wyrwać — przytrzymuj je.
 
-### Winter
-Do not schedule this draft itinerary for deep winter without ice experience and a proper vehicle.
+### Zima
+Nie planuj tego szkicu itinerarium na głęboką zimę bez doświadczenia na lodzie i właściwego auta.
 
-    ## Sources
+## Źródła
 
-    - road.is
+- road.is
 - vedur.is
 
-    ## Related
+## Powiązane
 
-    - [[Iceland Ring Road]]
-    - [[Dashboard_Travel]]
+- [[Iceland Ring Road]]
+- [[Dashboard_Travel]]

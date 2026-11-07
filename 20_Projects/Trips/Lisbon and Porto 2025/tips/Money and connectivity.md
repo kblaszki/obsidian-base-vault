@@ -1,34 +1,34 @@
-    ---
-    type: trip-tip
-    trip: "[[Lisbon and Porto 2025]]"
-    topic: money
-    status: ready
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - tip
-    icon: 💡
-    ---
+---
+type: trip-tip
+trip: "[[Lisbon and Porto 2025]]"
+topic: money
+status: ready
+created_date: 2026-11-01
+tags:
+  - travel
+  - tip
+icon: 💡
+---
 
-    # Money and connectivity
+# Money and connectivity
 
-    Cards dominate; eSIM or EU roaming covers both cities easily.
+Dominują karty; eSIM lub roaming UE łatwo pokrywa oba miasta.
 
-    ## Key points
+## Kluczowe punkty
 
-    - Tap-to-pay is widespread.
-- Keep a little cash for tiny cafés.
-- Download offline maps for Alfama lanes.
+- Płatność zbliżeniowa jest powszechna.
+- Trzymaj trochę gotówki na małe kawiarnie.
+- Pobierz mapy offline na uliczki Alfamy.
 
-    ## Details
+## Szczegóły
 
-    City viewpoints can be windy — budget a layer even in May.
+Punkty widokowe bywają wietrzne — zaplanuj warstwę nawet w maju.
 
-    ## Sources
+## Źródła
 
-    - Personal notes from planning and travel
+- Notatki własne z planowania i podróży
 
-    ## Related
+## Powiązane
 
-    - [[Lisbon and Porto 2025]]
-    - [[Dashboard_Travel]]
+- [[Lisbon and Porto 2025]]
+- [[Dashboard_Travel]]

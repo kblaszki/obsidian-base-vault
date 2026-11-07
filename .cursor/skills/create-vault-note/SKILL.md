@@ -1,32 +1,32 @@
 ---
 name: create-vault-note
-description: Creates or updates Obsidian notes using this vault's PARA folders, properties, links, and task conventions. Use when adding projects, areas, resources, inbox items, journals, trips, places, or MOCs.
+description: Tworzy lub aktualizuje notatki Obsidian według folderów PARA, właściwości, linków i konwencji zadań tego sejfu. Używaj przy dodawaniu projektów, obszarów, zasobów, skrzynki, dzienników, wyjazdów, miejsc lub MOC-ów.
 ---
 
-# Create a vault note
+# Tworzenie notatki sejfu
 
-1. Identify the note type and route it:
-   - raw or unclear → `00_Inbox`
-   - time-bound outcome → `20_Projects/Active`
-   - trip plan → `20_Projects/Trips/<Trip title>/<Trip title>.md` (Folder Note; support folders `days/`, `tips/`, `prep/`, `assets/`)
-   - trip day log → `20_Projects/Trips/<Trip title>/days/`
-   - trip tip → `20_Projects/Trips/<Trip title>/tips/`
-   - trip prep → `20_Projects/Trips/<Trip title>/prep/`
-   - ongoing responsibility → `30_Areas`
-   - reusable reference → `40_Resources`
-   - recipe → `40_Resources/Recipes`
-   - place country → `40_Resources/Places/<Country>/<Country>.md`
-   - place region/city → under parent folder as `<Name>/<Name>.md` with `parent: "[[Parent]]"`
-   - place attraction → file inside parent folder `<ParentPath>/<Attraction>.md` with `parent` set
-   - inactive material → `50_Archives`
-2. Reuse the closest file in `99_Templates` and the established property contract.
-3. Use ISO dates and valid status values already present for that note type.
-4. Trips are Folder Notes (`<Title>/<Title>.md`). Support notes live beside the folder note; the trip folder name must match the trip note title.
-5. Trip-day notes use: short summary, Day timeline, Logistics, Places, Food (with costs), Pack today, Notes, Related. Banners from the trip root assets folder use `banner: "[[../assets/<file>]]"`.
-6. Keep prep note filenames unique across trips (e.g. `Packing — <Trip title>.md`).
-7. For places: always set `place_type`; set `parent` on every non-country note; containers use Folder Note paths (`Name/Name.md`). Folder Notes are used for Places containers and Trips only. Set `map_url` (Google Maps) and `location: [lat, lng]` (Map View). Place notes use `banner: "[[./assets/<file>]]"` and `banner_position: center`; attribute Commons sources in `40_Resources/Places/SOURCES.md`.
-8. Do not set Pretty Properties `icon` on notes; banners remain allowed.
-9. Attachments go to `./assets` relative to the note (vault `attachmentFolderPath`).
-10. Add at least one meaningful link when a real relationship exists; do not manufacture links.
-11. Add one concrete next action for actionable notes.
-12. Run the `validate-vault` skill before completion.
+1. Określ typ notatki i skieruj ją:
+   - surowa lub niejasna → `00_Inbox`
+   - wynik ograniczony w czasie → `20_Projects/Active`
+   - plan wyjazdu → `20_Projects/Trips/<Trip title>/<Trip title>.md` (Folder Note; foldery wsparcia `days/`, `tips/`, `prep/`, `assets/`)
+   - dziennik dnia wyjazdu → `20_Projects/Trips/<Trip title>/days/`
+   - wskazówka wyjazdu → `20_Projects/Trips/<Trip title>/tips/`
+   - przygotowanie wyjazdu → `20_Projects/Trips/<Trip title>/prep/`
+   - stała odpowiedzialność → `30_Areas`
+   - materiał referencyjny → `40_Resources`
+   - przepis → `40_Resources/Recipes`
+   - miejsce (kraj) → `40_Resources/Places/<Country>/<Country>.md`
+   - miejsce (region/miasto) → pod folderem rodzica jako `<Name>/<Name>.md` z `parent: "[[Parent]]"`
+   - miejsce (atrakcja) → plik w folderze rodzica `<ParentPath>/<Attraction>.md` z ustawionym `parent`
+   - materiał nieaktywny → `50_Archives`
+2. Ponownie użyj najbliższego pliku z `99_Templates` i ustalonego kontraktu właściwości.
+3. Używaj dat ISO i poprawnych wartości statusu już obecnych dla danego typu notatki.
+4. Wyjazdy to Folder Notes (`<Title>/<Title>.md`). Notatki wsparcia leżą obok folder note; nazwa folderu wyjazdu musi zgadzać się z tytułem notatki wyjazdu.
+5. Notatki dnia wyjazdu mają: krótkie podsumowanie, Plan dnia, Logistyka, Miejsca, Jedzenie (z kosztami), Spakuj dziś, Notatki, Powiązania. Banery z folderu `assets` korzenia wyjazdu: `banner: "[[../assets/<file>]]"`.
+6. Nazwy plików prep muszą być unikalne między wyjazdami (np. `Packing — <Trip title>.md`).
+7. Dla miejsc: zawsze ustaw `place_type`; ustaw `parent` na każdej notatce nie-krajowej; kontenery używają ścieżek Folder Note (`Name/Name.md`). Folder Notes są używane tylko dla kontenerów Places i Trips. Ustaw `map_url` (Google Maps) oraz `location: [lat, lng]` (Map View). Notatki miejsc używają `banner: "[[./assets/<file>]]"` i `banner_position: center`; atrybuuj źródła Commons w `40_Resources/Places/SOURCES.md`.
+8. Nie ustawiaj `icon` Pretty Properties na notatkach; banery pozostają dozwolone.
+9. Załączniki trafiają do `./assets` względem notatki (vault `attachmentFolderPath`).
+10. Dodaj co najmniej jeden sensowny link, gdy istnieje realna relacja; nie wymuszaj linków.
+11. Dodaj jedną konkretną kolejną akcję dla notatek actionable.
+12. Przed zakończeniem uruchom skill `validate-vault`.

@@ -1,42 +1,42 @@
-    ---
-    type: trip-tip
-    trip: "[[Rome and Florence 2024]]"
-    topic: transit
-    status: ready
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - tip
-    icon: 💡
-    ---
+---
+type: trip-tip
+trip: "[[Rome and Florence 2024]]"
+topic: transit
+status: ready
+created_date: 2026-11-01
+tags:
+  - travel
+  - tip
+icon: 💡
+---
 
-    # City transit and tickets
+# City transit and tickets
 
-    Rome and Florence are walkable cores with metro/tram/train links for the longer hops.
+Rzym i Florencja mają spacerowe centra z metro/tramwajem/pociągiem na dłuższe odcinki.
 
-    ## Key points
+## Kluczowe punkty
 
-    - Rome: Metro A/B + buses; buy BIT tickets or tap-to-pay where enabled.
-- Florence: mostly walking + occasional bus; Freccia between cities.
-- Validate paper tickets before boarding older bus lines.
+- Rzym: Metro A/B + autobusy; kupuj bilety BIT lub tap-to-pay tam, gdzie działa.
+- Florencja: głównie pieszo + okazjonalny autobus; Freccia między miastami.
+- Kasuj papierowe bilety przed wejściem do starszych linii autobusowych.
 
-    ## Details
+## Szczegóły
 
-    ### Rome
-Termini is the hub. For Colosseum, Metro B to Colosseo is simplest. Leonardo Express is the low-stress airport option.
+### Rzym
+Termini to hub. Do Koloseum najprościej Metro B do Colosseo. Leonardo Express to najmniej stresująca opcja na lotnisko.
 
-### Florence
-Santa Maria Novella (SMN) is the rail hub. Historic centre hotels are often closer on foot than by bus with luggage.
+### Florencja
+Santa Maria Novella (SMN) to hub kolejowy. Hotele w centrum historycznym często bliżej pieszo niż autobusem z bagażem.
 
-### Intercity
-Frecciarossa Roma Termini → Firenze SMN is the default. Reserve seats in peak season.
+### Między miastami
+Frecciarossa Roma Termini → Firenze SMN to domyślny wybór. W szczycie rezerwuj miejsca.
 
-    ## Sources
+## Źródła
 
-    - Trenitalia app
-- ATAC / ATAF local guidance
+- Aplikacja Trenitalia
+- Lokalne wskazówki ATAC / ATAF
 
-    ## Related
+## Powiązane
 
-    - [[Rome and Florence 2024]]
-    - [[Dashboard_Travel]]
+- [[Rome and Florence 2024]]
+- [[Dashboard_Travel]]

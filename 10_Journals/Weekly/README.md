@@ -1,6 +1,6 @@
-# Weekly reviews
+# Przeglądy tygodniowe
 
-Create weekly notes here using `YYYY-Www` (for example, `2026-W44`).
+Twórz tu notatki tygodniowe w formacie `YYYY-Www` (na przykład `2026-W44`).
 
-Suggested review: clear the inbox, review active projects, inspect waiting tasks,
-and choose the next week's outcomes.
+Sugerowany przegląd: wyczyść inbox, przejrzyj aktywne projekty, sprawdź zadania
+oczekujące i wybierz rezultaty na kolejny tydzień.

@@ -18,36 +18,36 @@ banner_position: center
 
 # Fushimi Inari
 
-## Why visit
+## Dlaczego warto
 
-Iconic torii gates above Kyoto; high priority for [[Japan Spring 2026]].
+Ikoniczne bramy torii nad Kioto; wysoki priorytet na [[Japan Spring 2026]].
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Before 08:00
-- **How to get there:** JR Inari Station
-- **Cost / tickets:** Free shrine grounds
-- **Hours:** Open 24 hours; shops vary
+- **Najlepszy czas:** Przed 08:00
+- **Jak dojechać:** JR Inari Station
+- **Koszt / bilety:** Teren świątyni darmowy
+- **Godziny:** Otwarte 24h; sklepy różnie
 
-## Highlights
+## Najważniejsze
 
-- Lower gate path
-- Optional higher hike
+- Dolna ścieżka bram
+- Opcjonalny wyższy odcinek
 
-## Visit log
+## Notatki
 
-- Planned early visit on 2026-04-15 in [[Japan Spring 2026]].
+- Planowana wczesna wizyta 2026-04-15 w [[Japan Spring 2026]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -56,9 +56,9 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Kyoto]]
-- Map: [Fushimi Inari Taisha Kyoto](https://www.google.com/maps/search/?api=1&query=Fushimi+Inari+Taisha+Kyoto)
+- Rodzic: [[Kyoto]]
+- Mapa: [Fushimi Inari Taisha Kyoto](https://www.google.com/maps/search/?api=1&query=Fushimi+Inari+Taisha+Kyoto)
 - [[Travel]]
 - [[Dashboard_Travel]]

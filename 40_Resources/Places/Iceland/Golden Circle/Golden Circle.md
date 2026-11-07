@@ -18,37 +18,37 @@ banner_position: center
 
 # Golden Circle
 
-## Why visit
+## Dlaczego warto
 
-Highest-yield day loop from Reykjavik: rift valley, geysers, and waterfall.
+Najwydajniejsza pętla dnia z Reykjaviku: dolina ryftowa, gejzery i wodospad.
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Start early to beat buses
-- **How to get there:** Rental car day loop
-- **Cost / tickets:** Mostly free viewpoints; parking fees vary
-- **Hours:** Daylight dependent
+- **Najlepszy czas:** Start wcześnie, by wyprzedzić busy
+- **Jak dojechać:** Dzienna pętla wynajętym autem
+- **Koszt / bilety:** Punkty widokowe głównie darmowe; parkingi różnie
+- **Godziny:** Zależne od światła dziennego
 
-## Highlights
+## Najważniejsze
 
 - Þingvellir
-- Geysir area
+- Okolica Geysir
 - Gullfoss
 
-## Visit log
+## Notatki
 
-- Draft Day 03 on [[Iceland Ring Road]].
+- Szkic dnia 03 na [[Iceland Ring Road]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -57,10 +57,10 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Iceland]]
+- Rodzic: [[Iceland]]
 - [[Reykjavik]]
-- Map: [Gullfoss Golden Circle Iceland](https://www.google.com/maps/search/?api=1&query=Gullfoss+Golden+Circle+Iceland)
+- Mapa: [Gullfoss Golden Circle Iceland](https://www.google.com/maps/search/?api=1&query=Gullfoss+Golden+Circle+Iceland)
 - [[Travel]]
 - [[Dashboard_Travel]]

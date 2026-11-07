@@ -1,27 +1,27 @@
 ---
 name: maintain-vault-workflows
-description: Maintains Obsidian templates, QuickAdd choices, Daily Notes routing, and Dataview dashboards as one coherent workflow. Use when changing capture automation or vault organization.
+description: Utrzymuje szablony Obsidian, wybory QuickAdd, routing Daily Notes i dashboardy Dataview jako jeden spójny workflow. Używaj przy zmianach automatyzacji przechwytywania lub organizacji sejfu.
 ---
 
-# Maintain vault workflows
+# Utrzymanie workflow sejfu
 
-Treat each workflow as a connected chain:
+Traktuj każdy workflow jako powiązany łańcuch:
 
-`hotkey → QuickAdd choice → template → destination → properties → Dataview query`
+`hotkey → wybór QuickAdd → szablon → miejsce docelowe → właściwości → zapytanie Dataview`
 
-When changing any link:
+Przy zmianie dowolnego ogniwa:
 
-1. Inspect every downstream path, property, and query.
-2. Keep QuickAdd prompt names stable when reused within a template.
-3. Use Templater for computed values and QuickAdd for interactive capture.
-4. Write option lists as `{{VALUE:a,b,c|name:field|label:Field}}`. Never encode enums as `{{VALUE:Field (a, b, c)}}`.
-5. Prefer `{{VDATE:name,YYYY-MM-DD}}` for dates and `{{FILE:folder|link}}` for note links.
-6. Ensure new note types are visible in an existing dashboard or intentionally excluded.
-7. Update `README.md` when behavior, installation, or user-facing structure changes.
-8. Run the `validate-vault` skill before completion.
+1. Sprawdź każdą ścieżkę, właściwość i zapytanie w dół łańcucha.
+2. Utrzymuj stabilne nazwy promptów QuickAdd, gdy są ponownie używane w szablonie.
+3. Używaj Templatera do wartości wyliczanych, a QuickAdd do interaktywnego przechwytywania.
+4. Listy opcji zapisuj jako `{{VALUE:a,b,c|name:field|label:Field}}`. Nigdy nie koduj enumów jako `{{VALUE:Field (a, b, c)}}`.
+5. Preferuj `{{VDATE:name,YYYY-MM-DD}}` dla dat oraz `{{FILE:folder|link}}` dla linków do notatek.
+6. Upewnij się, że nowe typy notatek są widoczne na istniejącym dashboardzie albo celowo wykluczone.
+7. Aktualizuj `README.md`, gdy zmienia się zachowanie, instalacja lub struktura widoczna dla użytkownika.
+8. Przed zakończeniem uruchom skill `validate-vault`.
 
-Trip support paths must stay aligned:
+Ścieżki wsparcia wyjazdów muszą pozostać zsynchronizowane:
 
-`New Trip Day → .../<trip>/days` · `New Trip Tip → .../<trip>/tips` · `New Trip Prep → .../<trip>/prep`
+`Nowy dzień wyjazdu → .../<trip>/days` · `Nowa wskazówka wyjazdu → .../<trip>/tips` · `Nowe przygotowanie wyjazdu → .../<trip>/prep`
 
-Do not replace the core Daily Notes format strategy: dynamic year and month directories belong in `YYYY/MMMM/YYYY-MM-DD`.
+Nie zastępuj strategii formatu rdzeniowych Daily Notes: dynamiczne katalogi roku i miesiąca należą do `YYYY/MMMM/YYYY-MM-DD`.

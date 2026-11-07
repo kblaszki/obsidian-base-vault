@@ -18,35 +18,35 @@ banner_position: center
 
 # Capital Region
 
-## Why visit
+## Dlaczego warto
 
-Reykjavik and airport logistics for ring-road starts and ends.
+Logistyka Reykjaviku i lotniska na starty i końce ring-road.
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Late spring to early autumn
-- **How to get there:** KEF + Flybus or rental car
-- **Cost / tickets:** City food is expensive
-- **Hours:** Extreme daylight seasonality
+- **Najlepszy czas:** Późna wiosna do wczesnej jesieni
+- **Jak dojechać:** KEF + Flybus lub wynajem auta
+- **Koszt / bilety:** Jedzenie w mieście jest drogie
+- **Godziny:** Ekstremalna sezonowość dnia
 
-## Highlights
+## Najważniejsze
 
 - [[Reykjavik]]
 
-## Visit log
+## Notatki
 
-- Wishlist base for [[Iceland Ring Road]].
+- Baza z listy życzeń na [[Iceland Ring Road]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -55,9 +55,9 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Iceland]]
-- Map: [Reykjavik Capital Region Iceland](https://www.google.com/maps/search/?api=1&query=Reykjavik+Capital+Region+Iceland)
+- Rodzic: [[Iceland]]
+- Mapa: [Reykjavik Capital Region Iceland](https://www.google.com/maps/search/?api=1&query=Reykjavik+Capital+Region+Iceland)
 - [[Travel]]
 - [[Dashboard_Travel]]

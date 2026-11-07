@@ -19,36 +19,36 @@ banner_position: center
 
 # Colosseum
 
-## Why visit
+## Dlaczego warto
 
-Core Rome landmark and the highlight outdoor ruin of [[Rome and Florence 2024]].
+Kluczowy zabytek Rzymu i główna ruina plenerowa z [[Rome and Florence 2024]].
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Earliest timed entry
-- **How to get there:** Metro Colosseo
-- **Cost / tickets:** Book timed entry with Forum/Palatine combo
-- **Hours:** Seasonal last admission earlier than closing time
+- **Najlepszy czas:** Najwcześniejszy timed entry
+- **Jak dojechać:** Metro Colosseo
+- **Koszt / bilety:** Rezerwuj timed entry z combo Forum/Palatine
+- **Godziny:** Sezonowe last admission wcześniej niż godzina zamknięcia
 
-## Highlights
+## Najważniejsze
 
-- Arena level views when included
-- Combine with Forum and Palatine the same morning
+- Widoki z poziomu areny, gdy w bilecie
+- Połącz z Forum i Palatynem tego samego poranka
 
-## Visit log
+## Notatki
 
-- Visited 2024-09-09 on [[Rome and Florence 2024]]; still queued ~25 minutes with a timed ticket.
+- Odwiedzono 2024-09-09 na [[Rome and Florence 2024]]; mimo timed ticket kolejka ~25 minut.
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -57,9 +57,9 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Rome]]
-- Map: [Colosseum Rome](https://www.google.com/maps/search/?api=1&query=Colosseum+Rome)
+- Rodzic: [[Rome]]
+- Mapa: [Colosseum Rome](https://www.google.com/maps/search/?api=1&query=Colosseum+Rome)
 - [[Travel]]
 - [[Dashboard_Travel]]

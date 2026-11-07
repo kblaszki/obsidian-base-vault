@@ -12,17 +12,17 @@ target_date: 2026-11-20
 
 # Launch Knowledge Hub
 
-## Outcome
+## Cel
 
-Publish a searchable internal knowledge hub with ownership and review dates.
+Opublikować przeszukiwalny wewnętrzny hub wiedzy z właścicielami i datami przeglądu.
 
-## Next actions
+## Następne działania
 
-- [ ] Inventory the existing reference notes 📅 2026-10-29
-- [ ] Resolve [[Triage vendor proposal]] 📅 2026-10-30
+- [ ] Zinwentaryzować istniejące notatki referencyjne 📅 2026-10-29
+- [ ] Rozwiązać [[Triage vendor proposal]] 📅 2026-10-30
 
-## Connections
+## Powiązania
 
-- Area: [[Knowledge Management]]
-- Related project: [[Vault Automation]]
-- Source method: [[Progressive Summarization]]
+- Obszar: [[Knowledge Management]]
+- Powiązany projekt: [[Vault Automation]]
+- Metoda źródłowa: [[Progressive Summarization]]

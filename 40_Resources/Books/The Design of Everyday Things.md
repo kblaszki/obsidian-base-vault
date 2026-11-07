@@ -14,31 +14,31 @@ rating:
 
 # The Design of Everyday Things
 
-## Summary
+## Podsumowanie
 
-Classic UX text on affordances, signifiers, feedback, and designing for human error—applicable to products and knowledge tools.
+Klasyczny tekst UX o affordances, signifiers, feedbacku i projektowaniu na błędy ludzkie — stosowalny do produktów i narzędzi wiedzy.
 
-## Key ideas
+## Kluczowe idee
 
-- Discoverability and understanding beat cleverness.
-- Errors are usually design problems, not user failures.
-- Conceptual models must match how people actually think.
+- Odkrywalność i zrozumiałość wygrywają z pomysłowością.
+- Błędy zwykle są problemami designu, nie porażkami użytkownika.
+- Modele pojęciowe muszą pasować do tego, jak ludzie naprawdę myślą.
 
-## Highlights
+## Fragmenty
 
 > 
 
-## My interpretation
+## Moja interpretacja
 
-Useful lens for vault UX: QuickAdd prompts, folder notes, and dashboards should make the next action obvious.
+Przydatna soczewka na UX vaultu: prompty QuickAdd, folder notes i dashboardy powinny czynić kolejną akcję oczywistą.
 
-## Actions
+## Działania
 
-- [ ] Skim chapters on feedback and constraints
-- [ ] Note vault UX friction during next weekly review
+- [ ] Przejrzyj rozdziały o feedbacku i ograniczeniach
+- [ ] Zanotuj tarcia UX vaultu podczas kolejnego cotygodniowego przeglądu
 
-## Connections
+## Powiązania
 
-- Area: [[Software Development]]
-- Project: [[Vault Automation]]
+- Obszar: [[Software Development]]
+- Projekt: [[Vault Automation]]
 - [[Knowledge Management]]

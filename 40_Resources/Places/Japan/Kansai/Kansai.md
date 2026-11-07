@@ -18,37 +18,37 @@ banner_position: center
 
 # Kansai
 
-## Why visit
+## Dlaczego warto
 
-Kyoto, Nara, and Osaka corridor for temples and departure logistics.
+Korytarz Kioto, Nara i Osaka — świątynie i logistyka wylotu.
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Early to mid-April
-- **How to get there:** Shinkansen from Tokyo; Haruka to KIX
-- **Cost / tickets:** Local buses and walking cover most sights
-- **Hours:** Temples often close late afternoon
+- **Najlepszy czas:** Początek do połowy kwietnia
+- **Jak dojechać:** Shinkansen z Tokio; Haruka do KIX
+- **Koszt / bilety:** Lokalne busy i spacery pokrywają większość atrakcji
+- **Godziny:** Świątynie często zamykane późnym popołudniem
 
-## Highlights
+## Najważniejsze
 
-- [[Kyoto]] temples
-- [[Nara]] day trip
-- [[Osaka]] transit to KIX
+- Świątynie [[Kyoto]]
+- Jednodniówka [[Nara]]
+- Tranzyt [[Osaka]] do KIX
 
-## Visit log
+## Notatki
 
-- Planned Kansai days in [[Japan Spring 2026]].
+- Planowane dni Kansai w [[Japan Spring 2026]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -57,9 +57,9 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Japan]]
-- Map: [Kansai Japan](https://www.google.com/maps/search/?api=1&query=Kansai+Japan)
+- Rodzic: [[Japan]]
+- Mapa: [Kansai Japan](https://www.google.com/maps/search/?api=1&query=Kansai+Japan)
 - [[Travel]]
 - [[Dashboard_Travel]]

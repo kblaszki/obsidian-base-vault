@@ -18,36 +18,36 @@ banner_position: center
 
 # Pantheon
 
-## Why visit
+## Dlaczego warto
 
-Best preserved ancient dome experience in central Rome.
+Najlepiej zachowana starożytna kopuła w centrum Rzymu.
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Evening exterior; morning interior if tickets required
-- **How to get there:** Walk from Trevi / Piazza Navona
-- **Cost / tickets:** Check current entry rules before travel
-- **Hours:** Daytime interior access
+- **Najlepszy czas:** Wieczorem z zewnątrz; rano wnętrze, jeśli wymagane bilety
+- **Jak dojechać:** Spacer z Trevi / Piazza Navona
+- **Koszt / bilety:** Sprawdź aktualne zasady wejścia przed wyjazdem
+- **Godziny:** Dostęp do wnętrza w dzień
 
-## Highlights
+## Najważniejsze
 
-- Oculus light
-- Piazza atmosphere at dusk
+- Światło przez oculus
+- Atmosfera placu o zmierzchu
 
-## Visit log
+## Notatki
 
-- Exterior and area walk on 2024-09-08 during [[Rome and Florence 2024]].
+- Spacer wokół i okolica 2024-09-08 podczas [[Rome and Florence 2024]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -56,9 +56,9 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Rome]]
-- Map: [Pantheon Rome](https://www.google.com/maps/search/?api=1&query=Pantheon+Rome)
+- Rodzic: [[Rome]]
+- Mapa: [Pantheon Rome](https://www.google.com/maps/search/?api=1&query=Pantheon+Rome)
 - [[Travel]]
 - [[Dashboard_Travel]]

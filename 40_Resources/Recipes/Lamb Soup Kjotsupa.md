@@ -16,35 +16,35 @@ tags:
 
 # Lamb Soup (Kjötsúpa)
 
-## Summary
+## Podsumowanie
 
-Hearty Icelandic lamb and root vegetable soup—wishlist comfort food for the undated [[Iceland Ring Road]] draft.
+Sycąca islandzka zupa jagnięca z warzywami korzeniowymi — comfort food z listy życzeń na niedatowany draft [[Iceland Ring Road]].
 
-## Ingredients
+## Składniki
 
-- 800 g lamb shoulder or stewing cuts, bone-in if possible
-- 2 L water
-- 2 carrots, chunked
-- 1/2 rutabaga or turnip, chunked
-- 2 potatoes, chunked
-- 1 onion
-- Handful of cabbage
-- Salt, pepper, dried herbs (thyme or Icelandic blend)
+- 800 g łopatki jagnięcej lub mięsa na gulasz, najlepiej z kością
+- 2 L wody
+- 2 marchewki, pokrojone w kawałki
+- 1/2 brukwi lub rzepy, pokrojone w kawałki
+- 2 ziemniaki, pokrojone w kawałki
+- 1 cebula
+- Garść kapusty
+- Sól, pieprz, suszone zioła (tymianek lub islandzka mieszanka)
 
-## Steps
+## Kroki
 
-1. Cover lamb with water, bring to a simmer, skim foam.
-2. Add onion and herbs; simmer until meat is tender (about 60–75 minutes).
-3. Add root vegetables; cook until soft.
-4. Season; shred meat back into broth; add cabbage for the last few minutes.
+1. Zalej jagnięcinę wodą, doprowadź do lekkiego wrzenia, zbierz pianę.
+2. Dodaj cebulę i zioła; gotuj, aż mięso będzie miękkie (ok. 60–75 minut).
+3. Dodaj warzywa korzeniowe; gotuj do miękkości.
+4. Dopraw; rozszarp mięso z powrotem do bulionu; kapustę dodaj na ostatnie kilka minut.
 
-## Notes
+## Notatki
 
-- Broth should be clear and savory, not thickened like stew gravy.
-- Make ahead; flavors improve next day for cabin cooking.
+- Bulion powinien być klarowny i wyrazisty, nie zagęszczony jak sos do stew.
+- Można zrobić wcześniej; smak poprawia się następnego dnia — dobre na gotowanie w kabinie.
 
-## Related
+## Powiązane
 
-- Cuisine / place: [[Iceland]] · [[Reykjavik]]
-- Trip: [[Iceland Ring Road]]
+- Kuchnia / miejsce: [[Iceland]] · [[Reykjavik]]
+- Wyjazd: [[Iceland Ring Road]]
 - [[Travel]]

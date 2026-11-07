@@ -1,34 +1,34 @@
-    ---
-    type: trip-tip
-    trip: "[[Scottish Highlands 2025]]"
-    topic: money
-    status: ready
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - tip
-    icon: 💡
-    ---
+---
+type: trip-tip
+trip: "[[Scottish Highlands 2025]]"
+topic: money
+status: ready
+created_date: 2026-11-01
+tags:
+  - travel
+  - tip
+icon: 💡
+---
 
-    # Cash for honesty boxes
+# Cash for honesty boxes
 
-    Cards work in towns; rural parking often wants coins or exact cash.
+Karty działają w miastach; wiejskie parkingi często chcą monet lub dokładnej gotówki.
 
-    ## Key points
+## Kluczowe punkty
 
-    - Carry a small coin stash for honesty boxes.
-- Fuel and hotels take cards widely.
-- Budget Highland hotel dinners — they are a big cost line.
+- Noś mały zapas monet na honesty boxes.
+- Paliwo i hotele szeroko biorą karty.
+- Budżetuj kolacje w hotelach Highland — to duża pozycja kosztów.
 
-    ## Details
+## Szczegóły
 
-    Notify bank for UK spend.
+Powiadom bank o wydatkach w UK.
 
-    ## Sources
+## Źródła
 
-    - Personal notes from planning and travel
+- Notatki własne z planowania i podróży
 
-    ## Related
+## Powiązane
 
-    - [[Scottish Highlands 2025]]
-    - [[Dashboard_Travel]]
+- [[Scottish Highlands 2025]]
+- [[Dashboard_Travel]]

@@ -2,13 +2,13 @@
   "choices": [
     {
       "id": "7d31b617-271a-43c7-8997-e542997fd85a",
-      "name": "New Project",
+      "name": "Nowy projekt",
       "type": "Template",
       "command": true,
       "templatePath": "99_Templates/Project.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{VALUE:project_title|label:Project title}}"
+        "format": "{{VALUE:project_title|label:Tytuł projektu}}"
       },
       "folder": {
         "enabled": true,
@@ -33,13 +33,13 @@
     },
     {
       "id": "58cb4b02-a810-4ab9-8dfc-e0e86030374a",
-      "name": "New Resource",
+      "name": "Nowy zasób",
       "type": "Template",
       "command": true,
       "templatePath": "99_Templates/Resource Book.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{VALUE:resource_title|label:Resource title}}"
+        "format": "{{VALUE:resource_title|label:Tytuł zasobu}}"
       },
       "folder": {
         "enabled": true,
@@ -67,13 +67,13 @@
     },
     {
       "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-      "name": "New Recipe",
+      "name": "Nowy przepis",
       "type": "Template",
       "command": true,
       "templatePath": "99_Templates/Recipe.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{VALUE:recipe_title|label:Recipe title}}"
+        "format": "{{VALUE:recipe_title|label:Tytuł przepisu}}"
       },
       "folder": {
         "enabled": true,
@@ -98,13 +98,13 @@
     },
     {
       "id": "fbd63489-94f1-4523-82ee-3b9285847746",
-      "name": "New Task / Note",
+      "name": "Nowe zadanie / notatka",
       "type": "Template",
       "command": true,
       "templatePath": "99_Templates/Task Note.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{VALUE:note_title|label:Note title}}"
+        "format": "{{VALUE:note_title|label:Tytuł notatki}}"
       },
       "folder": {
         "enabled": true,
@@ -129,13 +129,13 @@
     },
     {
       "id": "a1c4e8f2-3b5d-4e7a-9c1f-6d8e0b2a4c6e",
-      "name": "New Trip",
+      "name": "Nowy wyjazd",
       "type": "Template",
       "command": true,
       "templatePath": "99_Templates/Trip.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{VALUE:trip_title|label:Trip title}}/{{VALUE:trip_title}}"
+        "format": "{{VALUE:trip_title|label:Tytuł wyjazdu}}/{{VALUE:trip_title}}"
       },
       "folder": {
         "enabled": true,
@@ -160,18 +160,18 @@
     },
     {
       "id": "b2d5f9a3-4c6e-5f8b-0d2a-7e9f1c3b5d7f",
-      "name": "New Trip Day",
+      "name": "Nowy dzień wyjazdu",
       "type": "Template",
       "command": true,
       "templatePath": "99_Templates/Trip Day.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{VDATE:date,YYYY-MM-DD|label:Day}}"
+        "format": "{{VDATE:date,YYYY-MM-DD|label:Dzień}}"
       },
       "folder": {
         "enabled": true,
         "folders": [
-          "20_Projects/Trips/{{VALUE:trip_folder|label:Trip folder name}}/days"
+          "20_Projects/Trips/{{VALUE:trip_folder|label:Nazwa folderu wyjazdu}}/days"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -191,18 +191,18 @@
     },
     {
       "id": "d4f7b1c5-6e8a-7b0d-2f4c-9a1b3e5d7f9c",
-      "name": "New Trip Tip",
+      "name": "Nowa wskazówka wyjazdu",
       "type": "Template",
       "command": true,
       "templatePath": "99_Templates/Trip Tip.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{VALUE:tip_title|label:Tip title}}"
+        "format": "{{VALUE:tip_title|label:Tytuł wskazówki}}"
       },
       "folder": {
         "enabled": true,
         "folders": [
-          "20_Projects/Trips/{{VALUE:trip_folder|label:Trip folder name}}/tips"
+          "20_Projects/Trips/{{VALUE:trip_folder|label:Nazwa folderu wyjazdu}}/tips"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -222,18 +222,18 @@
     },
     {
       "id": "e5a8c2d6-7f9b-8c1e-3a5d-0b2c4f6e8a0d",
-      "name": "New Trip Prep",
+      "name": "Nowe przygotowanie wyjazdu",
       "type": "Template",
       "command": true,
       "templatePath": "99_Templates/Trip Prep.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{VALUE:prep_title|label:Prep title}}"
+        "format": "{{VALUE:prep_title|label:Tytuł przygotowania}}"
       },
       "folder": {
         "enabled": true,
         "folders": [
-          "20_Projects/Trips/{{VALUE:trip_folder|label:Trip folder name}}/prep"
+          "20_Projects/Trips/{{VALUE:trip_folder|label:Nazwa folderu wyjazdu}}/prep"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -253,13 +253,13 @@
     },
     {
       "id": "c3e6a0b4-5d7f-6a9c-1e3b-8f0a2d4c6e8a",
-      "name": "New Place (container)",
+      "name": "Nowe miejsce (kontener)",
       "type": "Template",
       "command": true,
       "templatePath": "99_Templates/Place.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{VALUE:place_title|label:Place title}}/{{VALUE:place_title}}"
+        "format": "{{VALUE:place_title|label:Tytuł miejsca}}/{{VALUE:place_title}}"
       },
       "folder": {
         "enabled": true,
@@ -284,13 +284,13 @@
     },
     {
       "id": "d4f7b1c5-6e8a-7b0d-2f4c-9a1b3e5d7f9b",
-      "name": "New Place (attraction)",
+      "name": "Nowe miejsce (atrakcja)",
       "type": "Template",
       "command": true,
       "templatePath": "99_Templates/Place.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{VALUE:place_title|label:Place title}}"
+        "format": "{{VALUE:place_title|label:Tytuł miejsca}}"
       },
       "folder": {
         "enabled": true,

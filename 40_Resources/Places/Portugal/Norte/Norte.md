@@ -18,36 +18,36 @@ banner_position: center
 
 # Norte
 
-## Why visit
+## Dlaczego warto
 
-Northern Portugal with Porto as the riverside hub.
+Północna Portugalia z Porto jako hubem nad rzeką.
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Late spring
-- **How to get there:** Alfa Pendular from Lisbon; metro to OPO
-- **Cost / tickets:** Port tasting slots
-- **Hours:** Lodges keep daytime tasting slots
+- **Najlepszy czas:** Późna wiosna
+- **Jak dojechać:** Alfa Pendular z Lizbony; metro do OPO
+- **Koszt / bilety:** Sloty degustacji porto
+- **Godziny:** Loże trzymają dzienne sloty degustacji
 
-## Highlights
+## Najważniejsze
 
 - [[Porto]]
 - [[Ribeira]]
 
-## Visit log
+## Notatki
 
-- Visited May 2025 on [[Lisbon and Porto 2025]].
+- Odwiedzono w maju 2025 na [[Lisbon and Porto 2025]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -56,9 +56,9 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Portugal]]
-- Map: [Norte Portugal](https://www.google.com/maps/search/?api=1&query=Norte+Portugal)
+- Rodzic: [[Portugal]]
+- Mapa: [Norte Portugal](https://www.google.com/maps/search/?api=1&query=Norte+Portugal)
 - [[Travel]]
 - [[Dashboard_Travel]]

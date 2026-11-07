@@ -13,36 +13,36 @@ tags:
 
 # Japan Spring 2026
 
-## Outcome
+## Cel
 
-Catch late cherry blossom season across Tokyo and Kyoto, visit at least three classic temples or shrines, and keep one buffer afternoon for weather.
+Złapać późny sezon kwitnienia wiśni w Tokio i Kioto, zobaczyć co najmniej trzy klasyczne świątynie lub sanktuaria i zostawić jedno popołudnie buforowe na pogodę.
 
-## Itinerary overview
+## Przegląd itinerarium
 
-- Days 1–4: Tokyo (Shinjuku base)
-- Day 5: morning shinkansen to Kyoto
-- Days 5–8: Kyoto temples + [[Fushimi Inari]] + [[Nara]] day trip
-- Day 9: return via Kansai airport mindset (Osaka transit)
+- Dni 1–4: Tokio (baza w Shinjuku)
+- Dzień 5: rano shinkansen do Kioto
+- Dni 5–8: świątynie w Kioto + [[Fushimi Inari]] + jednodniowa wycieczka do [[Nara]]
+- Dzień 9: powrót w trybie lotniska Kansai (przejazd przez Osakę)
 
-## Logistics
+## Logistyka
 
-- **Flights / transport:** WAW → NRT (outbound); return KIX → WAW. Suica + shinkansen Tokyo→Kyoto. IC card for local transit.
-- **Lodging:** Hotel Gracery Shinjuku (4 nights) → Hotel Vista Premio Kyoto (4 nights)
-- **Documents:** Passport; eSIM (Airalo Japan); offline Google Maps areas saved
+- **Loty / transport:** WAW → NRT (wylot); powrót KIX → WAW. Suica + shinkansen Tokio→Kioto. Karta IC do lokalnego transportu.
+- **Noclegi:** Hotel Gracery Shinjuku (4 noce) → Hotel Vista Premio Kyoto (4 noce)
+- **Dokumenty:** Paszport; eSIM (Airalo Japan); zapisane offline obszary Google Maps
 
-## Prep tasks
+## Zadania przygotowawcze
 
-High-level only — details live in `prep/` notes.
+Tylko na wysokim poziomie — szczegóły w notatkach `prep/`.
 
-- [ ] Book Tokyo and Kyoto hotels 📅 2025-11-15
-- [ ] Reserve shinkansen seats Tokyo→Kyoto
-- [ ] Buy teamLab / museum slots only if energy remains
-- [ ] Shortlist vegetarian-friendly Kyoto dinners near hotel
+- [ ] Zarezerwować hotele w Tokio i Kioto 📅 2025-11-15
+- [ ] Zarezerwować miejsca w shinkansenie Tokio→Kioto
+- [ ] Kupić bilety teamLab / muzea tylko jeśli zostanie energia
+- [ ] Wstępnie wybrać wegetariańskie kolacje w Kioto blisko hotelu
 
-- [ ] Open [[Packing — Japan Spring 2026]]
-- [ ] Open [[Bookings and admin — Japan Spring 2026]]
+- [ ] Otwórz [[Packing — Japan Spring 2026]]
+- [ ] Otwórz [[Bookings and admin — Japan Spring 2026]]
 
-## Places to visit
+## Miejsca do odwiedzenia
 
 - [[Tokyo]]
 - [[Kyoto]]
@@ -50,38 +50,38 @@ High-level only — details live in `prep/` notes.
 - [[Nara]]
 - [[Osaka]]
 
-## Budget
+## Budżet
 
-- Target ¥280,000–320,000 excluding international flights. Lodging and shinkansen dominate; food can stay moderate with convenience-store breakfasts.
+- Cel: ¥280 000–320 000 bez lotów międzynarodowych. Dominują noclegi i shinkansen; jedzenie można utrzymać umiarkowanie dzięki śniadaniom z convenience store.
 
-## Days
+## Dni
 
 ```dataview
-TABLE WITHOUT ID file.link AS Note, date AS Date, day_number AS Day
+TABLE WITHOUT ID file.link AS Notatka, date AS Data, day_number AS Dzień
 FROM "20_Projects/Trips"
 WHERE type = "trip-day" AND trip = this.file.link
 SORT date ASC, day_number ASC
 ```
 
-## Tips
+## Wskazówki
 
 ```dataview
-TABLE WITHOUT ID file.link AS Tip, topic AS Topic, status AS Status
+TABLE WITHOUT ID file.link AS Wskazówka, topic AS Temat, status AS Status
 FROM "20_Projects/Trips"
 WHERE type = "trip-tip" AND trip = this.file.link
 SORT topic ASC, file.name ASC
 ```
 
-## Prep
+## Przygotowanie
 
 ```dataview
-TABLE WITHOUT ID file.link AS Note, prep_kind AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Notatka, prep_kind AS Rodzaj, status AS Status
 FROM "20_Projects/Trips"
 WHERE type = "trip-prep" AND trip = this.file.link
 SORT prep_kind ASC, file.name ASC
 ```
 
-## Related
+## Powiązane
 
 - [[Travel]]
 - [[Dashboard_Travel]]

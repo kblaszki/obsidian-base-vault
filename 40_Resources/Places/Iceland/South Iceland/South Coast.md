@@ -18,37 +18,37 @@ banner_position: center
 
 # South Coast
 
-## Why visit
+## Dlaczego warto
 
-Waterfalls, black sand beaches, and glacier approaches — core scenic stretch of [[Iceland Ring Road]].
+Wodospady, czarne plaże i podejścia do lodowców — kluczowy odcinek krajobrazowy [[Iceland Ring Road]].
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Avoid peak storm windows if possible
-- **How to get there:** Route 1 east from Reykjavik / Selfoss
-- **Cost / tickets:** Parking and fuel dominate
-- **Hours:** Outdoor; respect sneaker-wave zones
+- **Najlepszy czas:** Unikaj szczytów sztormów, jeśli się da
+- **Jak dojechać:** Route 1 na wschód z Reykjaviku / Selfoss
+- **Koszt / bilety:** Dominują parking i paliwo
+- **Godziny:** Outdoor; respektuj strefy sneaker-wave
 
-## Highlights
+## Najważniejsze
 
 - Seljalandsfoss / Skógafoss
-- Reynisfjara (safe distance)
-- Vík area base
+- Reynisfjara (bezpieczna odległość)
+- Baza okolicy Vík
 
-## Visit log
+## Notatki
 
-- Draft Days 04–05 on [[Iceland Ring Road]].
+- Szkic dni 04–05 na [[Iceland Ring Road]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -57,9 +57,9 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[South Iceland]]
-- Map: [Skógafoss Iceland](https://www.google.com/maps/search/?api=1&query=Sk%C3%B3gafoss+Iceland)
+- Rodzic: [[South Iceland]]
+- Mapa: [Skógafoss Iceland](https://www.google.com/maps/search/?api=1&query=Sk%C3%B3gafoss+Iceland)
 - [[Travel]]
 - [[Dashboard_Travel]]

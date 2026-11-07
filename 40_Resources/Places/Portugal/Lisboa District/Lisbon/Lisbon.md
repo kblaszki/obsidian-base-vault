@@ -18,37 +18,37 @@ banner_position: center
 
 # Lisbon
 
-## Why visit
+## Dlaczego warto
 
-Hills, miradouros, and Belém day trips; energetic base for [[Lisbon and Porto 2025]].
+Wzgórza, miradouro i jednodniówki do Belém; energiczna baza na [[Lisbon and Porto 2025]].
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** May–June or September
-- **How to get there:** LIS metro into Baixa-Chiado
-- **Cost / tickets:** Lisboa Card useful for tram days
-- **Hours:** Restaurants late; attractions standard daytime
+- **Najlepszy czas:** Maj–czerwiec lub wrzesień
+- **Jak dojechać:** Metro z LIS do Baixa-Chiado
+- **Koszt / bilety:** Lisboa Card przydatna w dni tramwajowe
+- **Godziny:** Restauracje późno; atrakcje standardowo w dzień
 
-## Highlights
+## Najważniejsze
 
-- Alfama lanes
-- Tram 28 strategy (walk more than ride)
-- LX Factory coffee morning
+- Uliczki Alfamy
+- Strategia tramwaju 28 (więcej spaceru niż jazdy)
+- Poranna kawa w LX Factory
 
-## Visit log
+## Notatki
 
-- Visited 2025-05-10 to 2025-05-14 on [[Lisbon and Porto 2025]].
+- Odwiedzono 2025-05-10 do 2025-05-14 na [[Lisbon and Porto 2025]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -57,10 +57,10 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Lisboa District]]
+- Rodzic: [[Lisboa District]]
 - [[Belém Tower]]
-- Map: [Lisbon Portugal](https://www.google.com/maps/search/?api=1&query=Lisbon+Portugal)
+- Mapa: [Lisbon Portugal](https://www.google.com/maps/search/?api=1&query=Lisbon+Portugal)
 - [[Travel]]
 - [[Dashboard_Travel]]

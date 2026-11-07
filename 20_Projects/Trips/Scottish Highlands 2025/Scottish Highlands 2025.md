@@ -13,74 +13,74 @@ tags:
 
 # Scottish Highlands 2025
 
-## Outcome
+## Cel
 
-Base in Edinburgh for two nights, then drive the Highlands with Skye as the scenic peak and Glencoe as the dramatic return.
+Dwie noce bazy w Edynburgu, potem jazda przez Highlands ze Skye jako scenicznym szczytem i Glencoe jako dramatycznym powrotem.
 
-## Itinerary overview
+## Przegląd itinerarium
 
-- Days 1–2: Edinburgh
-- Days 3–5: Isle of Skye (Portree area)
-- Days 6–7: Glencoe / Fort William corridor
-- Day 8: return to EDI and fly out
-- Rental car from Edinburgh day 3
+- Dni 1–2: Edynburg
+- Dni 3–5: Isle of Skye (rejon Portree)
+- Dni 6–7: korytarz Glencoe / Fort William
+- Dzień 8: powrót do EDI i wylot
+- Wynajem auta z Edynburga od dnia 3
 
-## Logistics
+## Logistyka
 
-- **Flights / transport:** WAW → EDI. Enterprise car hire (manual) for Highlands loop. Single-track practice needed for Skye.
-- **Lodging:** Motel One Edinburgh Royal (2 nights) → Cuillin Hills Hotel, Portree (3 nights) → Kingshouse Hotel, Glencoe (2 nights)
-- **Documents:** Passport; UK ETA; International Driving Permit photocopies
+- **Loty / transport:** WAW → EDI. Wynajem Enterprise (manual) na pętlę Highlands. Potrzebna praktyka single-track na Skye.
+- **Noclegi:** Motel One Edinburgh Royal (2 noce) → Cuillin Hills Hotel, Portree (3 noce) → Kingshouse Hotel, Glencoe (2 noce)
+- **Dokumenty:** Paszport; UK ETA; kopie International Driving Permit
 
-## Prep tasks
+## Zadania przygotowawcze
 
-High-level only — details live in `prep/` notes.
+Tylko na wysokim poziomie — szczegóły w notatkach `prep/`.
 
-- [x] Book car with full insurance
-- [x] Reserve Skye and Glencoe hotels (August fills early)
-- [x] Download offline OS maps
-- [x] Pack waterproof layers regardless of forecast
+- [x] Zarezerwować auto z pełnym ubezpieczeniem
+- [x] Zarezerwować hotele na Skye i w Glencoe (sierpień zapełnia się wcześnie)
+- [x] Pobrać mapy OS offline
+- [x] Spakować warstwy wodoodporne niezależnie od prognozy
 
-- [ ] Open [[Packing — Scottish Highlands 2025]]
-- [ ] Open [[Bookings and admin — Scottish Highlands 2025]]
+- [ ] Otwórz [[Packing — Scottish Highlands 2025]]
+- [ ] Otwórz [[Bookings and admin — Scottish Highlands 2025]]
 
-## Places to visit
+## Miejsca do odwiedzenia
 
 - [[Edinburgh]]
 - [[Isle of Skye]]
 - [[Glencoe]]
 
-## Budget
+## Budżet
 
-- ~£1,900 including car hire and Highland hotels. Weather forced two café days but scenery still delivered.
+- ~£1900 z wynajmem auta i hotelami w Highlands. Pogoda wymusiła dwa dni kawiarniane, ale krajobrazy i tak dostarczyły wrażeń.
 
-## Days
+## Dni
 
 ```dataview
-TABLE WITHOUT ID file.link AS Note, date AS Date, day_number AS Day
+TABLE WITHOUT ID file.link AS Notatka, date AS Data, day_number AS Dzień
 FROM "20_Projects/Trips"
 WHERE type = "trip-day" AND trip = this.file.link
 SORT date ASC, day_number ASC
 ```
 
-## Tips
+## Wskazówki
 
 ```dataview
-TABLE WITHOUT ID file.link AS Tip, topic AS Topic, status AS Status
+TABLE WITHOUT ID file.link AS Wskazówka, topic AS Temat, status AS Status
 FROM "20_Projects/Trips"
 WHERE type = "trip-tip" AND trip = this.file.link
 SORT topic ASC, file.name ASC
 ```
 
-## Prep
+## Przygotowanie
 
 ```dataview
-TABLE WITHOUT ID file.link AS Note, prep_kind AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Notatka, prep_kind AS Rodzaj, status AS Status
 FROM "20_Projects/Trips"
 WHERE type = "trip-prep" AND trip = this.file.link
 SORT prep_kind ASC, file.name ASC
 ```
 
-## Related
+## Powiązane
 
 - [[Travel]]
 - [[Dashboard_Travel]]

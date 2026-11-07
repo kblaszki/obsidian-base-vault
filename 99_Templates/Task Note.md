@@ -1,29 +1,29 @@
 ---
-type: "{{VALUE:task,note|name:type|label:Type}}"
+type: "{{VALUE:task,note|name:type|label:Typ}}"
 status: "{{VALUE:inbox,next,waiting,done|name:status|label:Status}}"
-project: "{{FILE:20_Projects|link|label:Project|optional}}"
-due: "{{VDATE:due,YYYY-MM-DD|label:Due date|optional}}"
+project: "{{FILE:20_Projects|link|label:Projekt|optional}}"
+due: "{{VDATE:due,YYYY-MM-DD|label:Termin|optional}}"
 tags:
   - inbox
-  - "{{VALUE:topic|label:Topic tag without #}}"
+  - "{{VALUE:topic|label:Tag tematu bez #}}"
 created_date: <% tp.date.now("YYYY-MM-DD") %>
 ---
 
 # <% tp.file.title %>
 
-## Context
+## Kontekst
 
-{{VALUE:context|label:What needs attention?|type:multiline}}
+{{VALUE:context|label:Co wymaga uwagi?|type:multiline}}
 
-## Next action
+## Następne działanie
 
 - [ ] <% tp.file.cursor(1) %> {{VDATE:due,[📅 ]YYYY-MM-DD|optional}}
 
-## Notes
+## Notatki
 
 
-## Processing checklist
+## Lista przetwarzania
 
-- [ ] Clarify the desired outcome
-- [ ] Link to a project or area
-- [ ] Move out of `00_Inbox` or archive
+- [ ] Uściślij pożądany rezultat
+- [ ] Połącz z projektem lub obszarem
+- [ ] Przenieś ze `00_Inbox` lub zarchiwizuj

@@ -14,32 +14,32 @@ rating:
 
 # Japan Rail Pass Logistics
 
-## Summary
+## Podsumowanie
 
-Explainers on shinkansen booking, IC cards, and whether a pass beats point-to-point tickets for a Tokyo–Kyoto trip.
+Wyjaśnienia o rezerwacji shinkansena, kartach IC i tym, kiedy pass wygrywa z biletami punkt-punkt na trasie Tokio–Kioto.
 
-## Key ideas
+## Kluczowe idee
 
-- Pass value depends on legs; run the math for [[Japan Spring 2026]].
-- Seat reservations still matter on busy blossom weekends.
-- Station transfers need buffer time with luggage.
+- Wartość passa zależy od odcinków; policz matematykę dla [[Japan Spring 2026]].
+- Rezerwacje miejsc nadal mają znaczenie w busy weekendy kwitnienia.
+- Przesiadki na dworcach wymagają buforu czasu z bagażem.
 
-## Highlights
+## Fragmenty
 
 > 
 
-## My interpretation
+## Moja interpretacja
 
-Watch before locking transport in trip prep; store decisions in the trip note, not only here.
+Obejrzyj przed zamknięciem transportu w prep wyjazdu; decyzje zapisuj w notatce wyjazdu, nie tylko tutaj.
 
-## Actions
+## Działania
 
-- [ ] Watch and decide Pass vs individual tickets
-- [ ] Update [[Japan Spring 2026]] logistics section
+- [ ] Obejrzyj i zdecyduj Pass vs bilety indywidualne
+- [ ] Zaktualizuj sekcję logistyki [[Japan Spring 2026]]
 
-## Connections
+## Powiązania
 
-- Area: [[Travel]]
-- Project: [[Japan Spring 2026]]
+- Obszar: [[Travel]]
+- Projekt: [[Japan Spring 2026]]
 - [[Tokyo]]
 - [[Kyoto]]

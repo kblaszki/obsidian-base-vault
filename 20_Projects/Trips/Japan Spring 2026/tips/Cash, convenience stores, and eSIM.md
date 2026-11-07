@@ -1,34 +1,34 @@
-    ---
-    type: trip-tip
-    trip: "[[Japan Spring 2026]]"
-    topic: money
-    status: ready
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - tip
-    icon: 💡
-    ---
+---
+type: trip-tip
+trip: "[[Japan Spring 2026]]"
+topic: money
+status: ready
+created_date: 2026-11-01
+tags:
+  - travel
+  - tip
+icon: 💡
+---
 
-    # Cash, convenience stores, and eSIM
+# Cash, convenience stores, and eSIM
 
-    Japan is more card-friendly than before, but convenience stores and small shrines still love cash.
+Japonia jest bardziej przyjazna kartom niż kiedyś, ale sklepy convenience i małe sanktuaria nadal lubią gotówkę.
 
-    ## Key points
+## Kluczowe punkty
 
-    - Carry yen for small food stalls.
-- Conbini breakfasts are a budget superpower.
-- eSIM or pocket Wi‑Fi before landing.
+- Noś jeny na małe stoiska z jedzeniem.
+- Śniadania z conbini to budżetowy superpower.
+- eSIM lub pocket Wi‑Fi przed lądowaniem.
 
-    ## Details
+## Szczegóły
 
-    7-Eleven ATMs are still a reliable cash source for foreign cards.
+Bankomaty 7-Eleven nadal są wiarygodnym źródłem gotówki dla zagranicznych kart.
 
-    ## Sources
+## Źródła
 
-    - Personal notes from planning and travel
+- Notatki własne z planowania i podróży
 
-    ## Related
+## Powiązane
 
-    - [[Japan Spring 2026]]
-    - [[Dashboard_Travel]]
+- [[Japan Spring 2026]]
+- [[Dashboard_Travel]]

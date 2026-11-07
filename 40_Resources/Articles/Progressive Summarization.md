@@ -14,18 +14,18 @@ rating: 5
 
 # Progressive Summarization
 
-## Summary
+## Podsumowanie
 
-Add layers of emphasis over time instead of trying to perfect a note during
-initial capture.
+Dokładaj warstwy wyróżnień z czasem, zamiast próbować dopracować notatkę już przy
+pierwszym przechwyceniu.
 
-## Key ideas
+## Kluczowe idee
 
-- Preserve the original source.
-- Bold the most useful passages on a later pass.
-- Summarize only when the note becomes relevant to active work.
+- Zachowaj oryginalne źródło.
+- Pogrub najużyteczniejsze fragmenty przy kolejnym przejściu.
+- Streszczaj dopiero, gdy notatka staje się istotna dla aktywnej pracy.
 
-## Connections
+## Powiązania
 
 - [[Building a Second Brain]]
 - [[Launch Knowledge Hub]]

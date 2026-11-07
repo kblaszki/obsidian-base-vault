@@ -12,30 +12,28 @@ target_date: 2026-11-06
 
 # Vault Automation
 
-## Outcome
+## Cel
 
-A reusable Obsidian skeleton where capture, routing, review, and dashboards work
-immediately after plugin installation.
+Wielokrotnego użytku szkielet Obsidiana, w którym przechwytywanie, routing, przegląd i pulpity działają od razu po instalacji wtyczek.
 
-## Why
+## Dlaczego
 
-Reduce setup decisions and make the preferred workflow the easiest workflow.
+Zmniejszyć liczbę decyzji przy konfiguracji i sprawić, by preferowany workflow był najłatwiejszym workflow.
 
-## Next actions
+## Następne działania
 
-- [ ] Verify all QuickAdd choices on a clean vault 📅 2026-10-27
-- [ ] Validate the monthly folder rollover 📅 2026-11-01
+- [ ] Zweryfikować wszystkie wybory QuickAdd na czystym skarbcu 📅 2026-10-27
+- [ ] Zweryfikować comiesięczny rollover folderów 📅 2026-11-01
 
-## Notes
+## Notatki
 
-The implementation follows ideas summarized in [[Building a Second Brain]] and
-is being tested through [[2026-10-27]].
+Implementacja podąża za ideami podsumowanymi w [[Building a Second Brain]] i jest testowana przez [[2026-10-27]].
 
-## Resources
+## Zasoby
 
 - [[Progressive Summarization]]
 
-## Related
+## Powiązane
 
 - [[Dashboard_Projects]]
 - [[Software Development]]

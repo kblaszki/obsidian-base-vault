@@ -10,59 +10,59 @@ review_frequency: monthly
 
 # Travel
 
-Plan trips, capture day logs, and keep a nested place library (country → region → city → attraction).
+Planuj wyjazdy, zapisuj dzienniki dni i prowadź zagnieżdżoną bibliotekę miejsc (kraj → region → miasto → atrakcja).
 
-## Open trips
+## Otwarte wyjazdy
 
-Includes dated upcoming trips and undated drafts (empty `start_date`).
+Obejmuje datowane nadchodzące wyjazdy oraz szkice bez daty (puste `start_date`).
 
 ```dataview
-TABLE status AS Status, start_date AS Start, end_date AS End, countries AS Countries
+TABLE status AS Status, start_date AS Start, end_date AS Koniec, countries AS Kraje
 FROM "20_Projects/Trips"
 WHERE type = "trip" AND status != "completed" AND status != "cancelled"
 SORT start_date ASC
 ```
 
-## Completed trips
+## Ukończone wyjazdy
 
 ```dataview
-TABLE start_date AS Start, end_date AS End, countries AS Countries
+TABLE start_date AS Start, end_date AS Koniec, countries AS Kraje
 FROM "20_Projects/Trips"
 WHERE type = "trip" AND status = "completed"
 SORT start_date DESC
 ```
 
-## Wishlist places
+## Miejsca z listy życzeń
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, parent AS Parent
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, parent AS Rodzic
 FROM "40_Resources/Places"
 WHERE type = "place" AND status = "wishlist"
 SORT place_type ASC, file.name ASC
 ```
 
-## Recently visited
+## Ostatnio odwiedzone
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, parent AS Parent, visited_date AS Visited, rating AS Rating
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, parent AS Rodzic, visited_date AS Odwiedzono, rating AS Ocena
 FROM "40_Resources/Places"
 WHERE type = "place" AND status = "visited"
 SORT visited_date DESC
 LIMIT 10
 ```
 
-## Standards
+## Standardy
 
-- Create trips with **New Trip**; QuickAdd creates a Folder Note at `20_Projects/Trips/<Trip>/<Trip>.md` plus `days/`, `tips/`, `prep/`, and `assets/`.
-- Add day notes with **New Trip Day** under `<Trip>/days/` (folder name = trip title).
-- Add tips with **New Trip Tip** under `<Trip>/tips/` and prep with **New Trip Prep** under `<Trip>/prep/`.
-- For undated trip drafts, use `Day 01.md` … and `day_number` until dates are booked.
-- Capture containers with **New Place (container)** (`Name/Name.md` folder notes) and attractions with **New Place (attraction)** inside the parent folder; always set `parent` except on countries.
-- Every place should have `map_url` (Google Maps for phone use) and `location: [lat, lng]` (Map View pins).
-- Link places from trip and trip-day notes instead of duplicating logistics.
-- Capture food memories with **New Recipe** under `40_Resources/Recipes`; link recipes to places and trips.
+- Twórz wyjazdy przez **Nowy wyjazd**; QuickAdd robi Folder Note w `20_Projects/Trips/<Trip>/<Trip>.md` oraz foldery `days/`, `tips/`, `prep/`, `assets/`.
+- Dni dodawaj przez **Nowy dzień wyjazdu** w `<Trip>/days/` (nazwa folderu = tytuł wyjazdu).
+- Wskazówki: **Nowa wskazówka wyjazdu** w `<Trip>/tips/`; przygotowanie: **Nowe przygotowanie wyjazdu** w `<Trip>/prep/`.
+- W szkicach bez dat używaj `Day 01.md` … oraz `day_number`, aż daty będą znane.
+- Kontenery miejsc: **Nowe miejsce (kontener)** (`Name/Name.md`); atrakcje: **Nowe miejsce (atrakcja)** w folderze rodzica; zawsze ustawiaj `parent` poza krajami.
+- Każde miejsce powinno mieć `map_url` (Google Maps na telefon) i `location: [lat, lng]` (pinezki Map View).
+- Linkuj miejsca z notatek wyjazdu i dni zamiast powielać logistykę.
+- Wspomnienia kulinarne zapisuj przez **Nowy przepis** w `40_Resources/Recipes`; łącz przepisy z miejscami i wyjazdami.
 
-## Related
+## Powiązane
 
 - [[Dashboard_Travel]]
 - [[Onigiri]]

@@ -14,31 +14,31 @@ rating: 4
 
 # The PARA Method
 
-## Summary
+## Podsumowanie
 
-Organize digital information by actionability: Projects, Areas, Resources, Archives—shallow folders, deep linking.
+Organizuj informacje cyfrowe według actionable’ności: Projects, Areas, Resources, Archives — płytkie foldery, głębokie linkowanie.
 
-## Key ideas
+## Kluczowe idee
 
-- Projects have outcomes and deadlines; Areas do not.
-- Resources are topical reference, not unfinished work.
-- Archives reduce noise without deleting history.
+- Projekty mają rezultaty i terminy; Obszary nie.
+- Zasoby to tematyczna referencja, nie niedokończona praca.
+- Archiwa redukują szum bez usuwania historii.
 
-## Highlights
+## Fragmenty
 
 > Organize by how actionable information is, not by topic taxonomy alone.
 
-## My interpretation
+## Moja interpretacja
 
-This vault’s numbered PARA roots implement the article directly; Travel Places are an intentional nesting exception under Resources.
+Ponumerowane korzenie PARA w tym vaultcie wdrażają artykuł wprost; Places podróży to świadomy wyjątek zagnieżdżania pod Resources.
 
-## Actions
+## Działania
 
-- [x] Align vault folder names with PARA
-- [ ] Review inbox weekly against project vs resource criteria
+- [x] Dopasuj nazwy folderów vaultu do PARA
+- [ ] Cotygodniowo przeglądaj inbox względem kryteriów projekt vs zasób
 
-## Connections
+## Powiązania
 
-- Area: [[Knowledge Management]]
+- Obszar: [[Knowledge Management]]
 - [[Building a Second Brain]]
-- Project: [[Launch Knowledge Hub]]
+- Projekt: [[Launch Knowledge Hub]]

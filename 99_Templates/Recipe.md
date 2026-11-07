@@ -1,39 +1,39 @@
 ---
 type: recipe
 status: "{{VALUE:wishlist,tried,favorite|name:status|label:Status}}"
-cuisine: "{{VALUE:cuisine|label:Cuisine}}"
-meal: "{{VALUE:breakfast,lunch,dinner,snack,dessert,drink|name:meal|label:Meal}}"
-servings: "{{VALUE:servings|label:Servings}}"
-prep_minutes: "{{VALUE:prep_minutes|label:Prep minutes|optional}}"
-cook_minutes: "{{VALUE:cook_minutes|label:Cook minutes|optional}}"
-source_url: "{{VALUE:source_url|label:Source URL|optional}}"
+cuisine: "{{VALUE:cuisine|label:Kuchnia}}"
+meal: "{{VALUE:breakfast,lunch,dinner,snack,dessert,drink|name:meal|label:Posiłek}}"
+servings: "{{VALUE:servings|label:Porcje}}"
+prep_minutes: "{{VALUE:prep_minutes|label:Minuty przygotowania|optional}}"
+cook_minutes: "{{VALUE:cook_minutes|label:Minuty gotowania|optional}}"
+source_url: "{{VALUE:source_url|label:URL źródła|optional}}"
 created_date: <% tp.date.now("YYYY-MM-DD") %>
 rating:
 tags:
   - recipe
-  - "{{VALUE:topic|label:Topic tag without #|optional}}"
+  - "{{VALUE:topic|label:Tag tematu bez #|optional}}"
 ---
 
 # <% tp.file.title %>
 
-## Summary
+## Podsumowanie
 
-{{VALUE:summary|label:Why save this recipe?|type:multiline}}
+{{VALUE:summary|label:Dlaczego zapisujesz ten przepis?|type:multiline}}
 
-## Ingredients
+## Składniki
 
 - <% tp.file.cursor(1) %>
 
-## Steps
+## Kroki
 
-1. 
+1.
 
-## Notes
+## Notatki
 
-- 
+-
 
-## Related
+## Powiązane
 
-- Cuisine / place: 
-- Trip: 
+- Kuchnia / miejsce:
+- Wyjazd:
 - [[Travel]]

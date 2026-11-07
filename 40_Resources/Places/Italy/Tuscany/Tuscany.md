@@ -18,36 +18,36 @@ banner_position: center
 
 # Tuscany
 
-## Why visit
+## Dlaczego warto
 
-Florence and surrounding Renaissance core.
+Florencja i okoliczny renesansowy rdzeń.
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Shoulder seasons
-- **How to get there:** Freccia from Rome; FLR airport
-- **Cost / tickets:** Prebook Uffizi
-- **Hours:** Many sites close earlier than Rome nightlife implies
+- **Najlepszy czas:** Sezony przejściowe
+- **Jak dojechać:** Freccia z Rzymu; lotnisko FLR
+- **Koszt / bilety:** Rezerwuj Uffizi z wyprzedzeniem
+- **Godziny:** Wiele obiektów zamyka się wcześniej, niż sugeruje nocne życie Rzymu
 
-## Highlights
+## Najważniejsze
 
 - [[Florence]]
 - [[Uffizi]]
 
-## Visit log
+## Notatki
 
-- Visited September 2024 on [[Rome and Florence 2024]].
+- Odwiedzono we wrześniu 2024 na [[Rome and Florence 2024]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -56,9 +56,9 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Italy]]
-- Map: [Tuscany Italy](https://www.google.com/maps/search/?api=1&query=Tuscany+Italy)
+- Rodzic: [[Italy]]
+- Mapa: [Tuscany Italy](https://www.google.com/maps/search/?api=1&query=Tuscany+Italy)
 - [[Travel]]
 - [[Dashboard_Travel]]

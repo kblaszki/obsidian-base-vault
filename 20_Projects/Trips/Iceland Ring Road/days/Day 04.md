@@ -13,53 +13,53 @@ banner_position: center
 
 # Day 04
 
-South Coast waterfalls toward Vík: Seljalandsfoss and Skógafoss.
+Wodospady South Coast w stronę Vík: Seljalandsfoss i Skógafoss.
 
-## Day timeline
+## Harmonogram dnia
 
-- 08:00 — Depart lodging
+- 08:00 — Wyjazd z noclegu
 - 09:30 — Seljalandsfoss
 - 11:30 — Skógafoss
-- 14:00 — Continue toward Vík
-- 16:00 — Check in Vík area
-- 19:00 — Hotel dinner
+- 14:00 — Kontynuacja w stronę Vík
+- 16:00 — Zameldowanie w rejonie Vík
+- 19:00 — Kolacja w hotelu
 
-## Logistics
+## Logistyka
 
-- Watch wind warnings near exposed parking lots.
-- Short walks only today — save energy for Reynisfjara rules tomorrow.
-- Fuel when you see a station.
+- Obserwuj ostrzeżenia wiatrowe przy odsłoniętych parkingach.
+- Dziś tylko krótkie spacery — oszczędzaj energię na zasady Reynisfjara jutro.
+- Tankuj, gdy widzisz stację.
 
-## Places
+## Miejsca
 
-- [[South Coast]] — waterfall day *(half day)*
+- [[South Coast]] — dzień wodospadów *(pół dnia)*
 
-## Food
+## Jedzenie
 
-- **Breakfast:** Lodging
-- **Lunch:** Road sandwiches
-- **Dinner:** Hotel in Vík
-- **Groceries / snacks:** Keep emergency food in car
+- **Śniadanie:** Nocleg
+- **Obiad:** Kanapki drogowe
+- **Kolacja:** Hotel w Vík
+- **Zakupy / przekąski:** Trzymaj awaryjne jedzenie w aucie
 
-### Costs
+### Koszty
 
-| Item | Amount | Notes |
+| Pozycja | Kwota | Uwagi |
 |------|--------|-------|
-| Fuel | €40 | Coast run |
-| Meals | €45 | Incl. hotel dinner |
+| Paliwo | €40 | Odcinek wybrzeża |
+| Posiłki | €45 | Z kolacją hotelową |
 
-## Pack today
+## Spakuj dziś
 
-- **Documents:** —
-- **Clothes:** Waterproofs; spray at falls is real
-- **Cash / cards:** Fuel
-- **Gear:** Microfiber cloth for camera spray
+- **Dokumenty:** —
+- **Ubrania:** Wodoodporne; oprysk przy wodospadach jest realny
+- **Gotówka / karty:** Paliwo
+- **Sprzęt:** Ściereczka z mikrofibry na oprysk aparatu
 
-## Notes
+## Notatki
 
-Waterfall day with short walks only.
+Dzień wodospadów tylko z krótkimi spacerami.
 
-## Related
+## Powiązane
 
 - [[Iceland Ring Road]]
 - [[Dashboard_Travel]]

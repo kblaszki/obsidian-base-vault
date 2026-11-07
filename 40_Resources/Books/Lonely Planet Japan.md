@@ -14,32 +14,32 @@ rating:
 
 # Lonely Planet Japan
 
-## Summary
+## Podsumowanie
 
-Practical guidebook for neighborhoods, transit, and seasonal travel timing—reference while planning [[Japan Spring 2026]].
+Praktyczny przewodnik po dzielnicach, transporcie i sezonowym timing’u podróży — odniesienie przy planowaniu [[Japan Spring 2026]].
 
-## Key ideas
+## Kluczowe idee
 
-- Region chapters map cleanly onto vault Places (Kanto / Kansai).
-- Transit and pass advice changes; verify before booking.
-- Food and etiquette notes reduce first-day friction.
+- Rozdziały regionalne mapują się czysto na Places w vaultcie (Kanto / Kansai).
+- Porady o transporcie i passach się zmieniają; weryfikuj przed rezerwacją.
+- Notatki o jedzeniu i etykiecie zmniejszają tarcia pierwszego dnia.
 
-## Highlights
+## Fragmenty
 
 > 
 
-## My interpretation
+## Moja interpretacja
 
-Use as a pointer into Places, not a second itinerary. Trip days own the schedule; this book owns orientation.
+Traktuj jak wskaźnik do Places, nie jak drugi itinerariusz. Dni wyjazdu mają harmonogram; ta książka daje orientację.
 
-## Actions
+## Działania
 
-- [ ] Skim Tokyo and Kyoto chapters before hotel booking deadline
-- [ ] Cross-check temple hours against [[Fushimi Inari]] and [[Kyoto]]
+- [ ] Przejrzyj rozdziały o Tokio i Kioto przed deadlinem rezerwacji hoteli
+- [ ] Sprawdź godziny świątyń względem [[Fushimi Inari]] i [[Kyoto]]
 
-## Connections
+## Powiązania
 
-- Area: [[Travel]]
-- Project: [[Japan Spring 2026]]
+- Obszar: [[Travel]]
+- Projekt: [[Japan Spring 2026]]
 - [[Tokyo]]
 - [[Kyoto]]

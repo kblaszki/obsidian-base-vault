@@ -18,37 +18,37 @@ banner_position: center
 
 # Florence
 
-## Why visit
+## Dlaczego warto
 
-Renaissance core with walkable evenings and [[Uffizi]] as the museum anchor.
+Renesansowe centrum ze spacerowymi wieczorami i [[Uffizi]] jako kotwicą muzealną.
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Shoulder seasons
-- **How to get there:** Freccia from Rome; FLR airport on departure
-- **Cost / tickets:** Prebook Uffizi
-- **Hours:** Many sites close earlier than Rome nightlife implies
+- **Najlepszy czas:** Sezony przejściowe
+- **Jak dojechać:** Freccia z Rzymu; lotnisko FLR przy wylocie
+- **Koszt / bilety:** Rezerwuj Uffizi z wyprzedzeniem
+- **Godziny:** Wiele obiektów zamyka się wcześniej, niż sugeruje nocne życie Rzymu
 
-## Highlights
+## Najważniejsze
 
 - Oltrarno
-- Piazzale Michelangelo sunset
-- Ponte Vecchio (expect crowds)
+- Zachód słońca z Piazzale Michelangelo
+- Ponte Vecchio (licz się z tłumami)
 
-## Visit log
+## Notatki
 
-- Visited 2024-09-12 to 2024-09-15 on [[Rome and Florence 2024]].
+- Odwiedzono 2024-09-12 do 2024-09-15 na [[Rome and Florence 2024]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -57,10 +57,10 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Tuscany]]
+- Rodzic: [[Tuscany]]
 - [[Uffizi]]
-- Map: [Florence Italy](https://www.google.com/maps/search/?api=1&query=Florence+Italy)
+- Mapa: [Florence Italy](https://www.google.com/maps/search/?api=1&query=Florence+Italy)
 - [[Travel]]
 - [[Dashboard_Travel]]

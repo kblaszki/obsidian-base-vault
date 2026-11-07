@@ -18,37 +18,37 @@ banner_position: center
 
 # Isle of Skye
 
-## Why visit
+## Dlaczego warto
 
-Dramatic cliffs and short walks; scenic peak of [[Scottish Highlands 2025]].
+Dramatyczne klify i krótkie spacery; krajobrazowy szczyt [[Scottish Highlands 2025]].
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Long daylight months
-- **How to get there:** Rental car via Kyle of Lochalsh
-- **Cost / tickets:** Mostly parking honesty boxes
-- **Hours:** Outdoor; weather dependent
+- **Najlepszy czas:** Miesiące długiego dnia
+- **Jak dojechać:** Wynajem auta przez Kyle of Lochalsh
+- **Koszt / bilety:** Głównie parking honesty boxes
+- **Godziny:** Outdoor; zależne od pogody
 
-## Highlights
+## Najważniejsze
 
 - Old Man of Storr
 - Kilt Rock
 - Neist Point
 
-## Visit log
+## Notatki
 
-- Base in Portree 2025-08-04 to 2025-08-07 on [[Scottish Highlands 2025]].
+- Baza w Portree 2025-08-04 do 2025-08-07 na [[Scottish Highlands 2025]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -57,9 +57,9 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Scotland]]
-- Map: [Isle of Skye Scotland](https://www.google.com/maps/search/?api=1&query=Isle+of+Skye+Scotland)
+- Rodzic: [[Scotland]]
+- Mapa: [Isle of Skye Scotland](https://www.google.com/maps/search/?api=1&query=Isle+of+Skye+Scotland)
 - [[Travel]]
 - [[Dashboard_Travel]]

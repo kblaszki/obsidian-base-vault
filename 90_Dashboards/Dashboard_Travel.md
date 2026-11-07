@@ -7,15 +7,15 @@ tags:
 
 # Travel
 
-## Upcoming and undated trips
+## Nadchodzące i bez daty
 
 ```dataview
 TABLE WITHOUT ID
-  file.link AS Trip,
+  file.link AS Wyjazd,
   status AS Status,
   start_date AS Start,
-  end_date AS End,
-  countries AS Countries
+  end_date AS Koniec,
+  countries AS Kraje
 FROM "20_Projects/Trips"
 WHERE type = "trip"
   AND status != "cancelled"
@@ -29,48 +29,48 @@ WHERE type = "trip"
 SORT start_date ASC
 ```
 
-## Completed trips
+## Ukończone wyjazdy
 
 ```dataview
 TABLE WITHOUT ID
-  file.link AS Trip,
+  file.link AS Wyjazd,
   start_date AS Start,
-  end_date AS End,
-  countries AS Countries
+  end_date AS Koniec,
+  countries AS Kraje
 FROM "20_Projects/Trips"
 WHERE type = "trip" AND status = "completed"
 SORT start_date DESC
 ```
 
-## Trip days
+## Dni wyjazdów
 
 ```dataview
 TABLE WITHOUT ID
-  file.link AS Day,
-  trip AS Trip,
-  date AS Date,
-  day_number AS DayNum
+  file.link AS Dzień,
+  trip AS Wyjazd,
+  date AS Data,
+  day_number AS NrDnia
 FROM "20_Projects/Trips"
 WHERE type = "trip-day"
 SORT date DESC, day_number DESC
 LIMIT 25
 ```
 
-## Places map
+## Mapa miejsc
 
-Embedded Map View of notes under `40_Resources/Places` (requires Map View plugin). Pins use `location`; open a pin or use **Open in → Google Maps** for navigation. Each place note also has a clickable `map_url` in Related.
+Osadzony Map View notatek z `40_Resources/Places` (wymaga wtyczki Map View). Pinezki biorą `location`; otwórz pinezkę albo **Open in → Google Maps**. Każde miejsce ma też klikalne `map_url` w sekcji Powiązane.
 
 ```mapview
 {"name":"Places","query":"path:\"40_Resources/Places\"","autoFit":true,"embeddedHeight":420,"chosenMapSource":0}
 ```
 
-## Places by kind
+## Miejsca według rodzaju
 
 ```dataview
 TABLE WITHOUT ID
-  file.link AS Place,
-  place_type AS Kind,
-  parent AS Parent,
+  file.link AS Miejsce,
+  place_type AS Rodzaj,
+  parent AS Rodzic,
   status AS Status,
   map_url AS GoogleMaps
 FROM "40_Resources/Places"
@@ -78,35 +78,35 @@ WHERE type = "place"
 SORT place_type ASC, file.name ASC
 ```
 
-## Wishlist
+## Lista życzeń
 
 ```dataview
 TABLE WITHOUT ID
-  file.link AS Place,
-  place_type AS Kind,
-  parent AS Parent,
+  file.link AS Miejsce,
+  place_type AS Rodzaj,
+  parent AS Rodzic,
   map_url AS GoogleMaps
 FROM "40_Resources/Places"
 WHERE type = "place" AND status = "wishlist"
 SORT place_type ASC, file.name ASC
 ```
 
-## Visited
+## Odwiedzone
 
 ```dataview
 TABLE WITHOUT ID
-  file.link AS Place,
-  place_type AS Kind,
-  parent AS Parent,
-  visited_date AS Visited,
-  rating AS Rating,
+  file.link AS Miejsce,
+  place_type AS Rodzaj,
+  parent AS Rodzic,
+  visited_date AS Odwiedzono,
+  rating AS Ocena,
   map_url AS GoogleMaps
 FROM "40_Resources/Places"
 WHERE type = "place" AND status = "visited"
 SORT visited_date DESC
 ```
 
-## Navigate
+## Nawigacja
 
 - [[Travel]]
 - [[Home]]

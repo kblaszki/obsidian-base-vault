@@ -1,14 +1,14 @@
 ---
-description: Automatically commit every verified change made by the agent in this repository
+description: Automatycznie commituj każdą zweryfikowaną zmianę wykonaną przez agenta w tym repozytorium
 alwaysApply: true
 ---
 
-# Automatic commits
+# Automatyczne commity
 
-- After completing and verifying any task that modifies repository files, create a Git commit before the final response.
-- Stage only files changed for the current task. Never include unrelated pre-existing user changes.
-- Use a concise Conventional Commit message: `type(scope): summary`.
-- Do not amend, squash, rebase, force-push, or push unless the user explicitly requests it.
-- If verification fails, fix the issue before committing. If it cannot be fixed, leave changes uncommitted and explain why.
-- If the user explicitly asks not to commit a particular change, follow that instruction.
-- Report the resulting short commit hash in the final response.
+- Po zakończeniu i zweryfikowaniu każdego zadania, które modyfikuje pliki repozytorium, utwórz commit Gita przed odpowiedzią końcową.
+- Stage'uj tylko pliki zmienione w bieżącym zadaniu. Nigdy nie dołączaj niezwiązanych, wcześniej istniejących zmian użytkownika.
+- Używaj zwięzłego komunikatu Conventional Commit: `type(scope): summary`.
+- Nie rób amend, squash, rebase, force-push ani push, chyba że użytkownik wyraźnie o to poprosi.
+- Jeśli weryfikacja się nie powiedzie, napraw problem przed commitem. Jeśli nie da się naprawić, zostaw zmiany niescommitowane i wyjaśnij dlaczego.
+- Jeśli użytkownik wyraźnie poprosi, by nie commitować konkretnej zmiany, przestrzegaj tej instrukcji.
+- W odpowiedzi końcowej podaj wynikowy krótki hash commit.

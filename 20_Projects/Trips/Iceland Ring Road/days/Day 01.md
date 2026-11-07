@@ -13,52 +13,52 @@ banner_position: center
 
 # Day 01
 
-Arrive KEF and settle in Reykjavik — sleep and groceries over sightseeing.
+Przylot do KEF i osadzenie w Reykjaviku — sen i zakupy ponad zwiedzanie.
 
-## Day timeline
+## Harmonogram dnia
 
-- Morning/afternoon — Land KEF
-- +1h — Flybus or rental pickup
-- +2h — Check in Reykjavik lodging
-- Evening — Harbor walk only if daylight and energy remain
-- Night — Early sleep
+- Rano/popołudnie — Lądowanie KEF
+- +1h — Flybus lub odbiór wynajmu
+- +2h — Zameldowanie w noclegu w Reykjaviku
+- Wieczór — Spacer po porcie tylko jeśli zostaną światło i energia
+- Noc — Wczesny sen
 
-## Logistics
+## Logistyka
 
-- Do not drive the South Coast on arrival day.
-- Grocery stop near lodging for breakfast stock.
-- If renting a car same day, practice before highway speeds.
+- Nie jedź na South Coast w dniu przylotu.
+- Przystanek spożywczy koło noclegu na zapas śniadaniowy.
+- Jeśli bierzesz auto tego samego dnia, poćwicz przed prędkościami autostradowymi.
 
-## Places
+## Miejsca
 
-- [[Reykjavik]] — arrival base *(1–2h soft)*
+- [[Reykjavik]] — baza przylotowa *(1–2h miękko)*
 
-## Food
+## Jedzenie
 
-- **Breakfast:** Flight
-- **Lunch:** Airport / skipped
-- **Dinner:** Grocery dinner at apartment/hotel
-- **Groceries / snacks:** Breakfast stock for several days
+- **Śniadanie:** Lot
+- **Obiad:** Lotnisko / pominięty
+- **Kolacja:** Kolacja z marketu w apartamencie/hotelu
+- **Zakupy / przekąski:** Zapas śniadaniowy na kilka dni
 
-### Costs
+### Koszty
 
-| Item | Amount | Notes |
+| Pozycja | Kwota | Uwagi |
 |------|--------|-------|
-| Transfer | €30 | Flybus or fuel share |
-| Groceries | €25 | Breakfast stock |
+| Transfer | €30 | Flybus lub udział w paliwie |
+| Zakupy spożywcze | €25 | Zapas na śniadania |
 
-## Pack today
+## Spakuj dziś
 
-- **Documents:** Passport; rental voucher if applicable
-- **Clothes:** Warm layers immediately — wind cuts
-- **Cash / cards:** Cards dominate; tiny cash optional
-- **Gear:** Offline maps downloaded
+- **Dokumenty:** Paszport; voucher wynajmu jeśli dotyczy
+- **Ubrania:** Od razu ciepłe warstwy — wiatr tnie
+- **Gotówka / karty:** Dominują karty; drobna gotówka opcjonalna
+- **Sprzęt:** Pobrane mapy offline
 
-## Notes
+## Notatki
 
-Draft arrival day — prioritize sleep.
+Szkic dnia przylotu — priorytetem sen.
 
-## Related
+## Powiązane
 
 - [[Iceland Ring Road]]
 - [[Dashboard_Travel]]

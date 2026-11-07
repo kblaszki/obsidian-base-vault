@@ -14,31 +14,31 @@ rating:
 
 # Japanese for Travelers
 
-## Summary
+## Podsumowanie
 
-Phrase-focused course for transport, restaurants, and polite basics ahead of [[Japan Spring 2026]].
+Kurs nastawiony na frazy do transportu, restauracji i grzecznościowych podstaw przed [[Japan Spring 2026]].
 
-## Key ideas
+## Kluczowe idee
 
-- Survival phrases beat grammar depth for short trips.
-- Practice numbers, stations, and food allergies early.
-- Audio drills matter more than written kanji for arrivals.
+- Frazy survivalowe wygrywają z głęboką gramatyką na krótkich wyjazdach.
+- Wcześnie ćwicz liczby, stacje i alergie pokarmowe.
+- Drille audio mają większe znaczenie niż pisane kanji przy przylocie.
 
-## Highlights
+## Fragmenty
 
 > 
 
-## My interpretation
+## Moja interpretacja
 
-Keep a short phrase sheet in trip prep; this course is the practice engine.
+Trzymaj krótką ściągę fraz w prep wyjazdu; ten kurs jest silnikiem ćwiczeń.
 
-## Actions
+## Działania
 
-- [ ] Complete units on transit and dining
-- [ ] Export a one-page cheat sheet into Japan trip prep
+- [ ] Ukończ jednostki o transporcie i jedzeniu
+- [ ] Wyeksportuj jednostronicową ściągę do prep wyjazdu do Japonii
 
-## Connections
+## Powiązania
 
-- Area: [[Travel]]
-- Project: [[Japan Spring 2026]]
+- Obszar: [[Travel]]
+- Projekt: [[Japan Spring 2026]]
 - [[Lonely Planet Japan]]

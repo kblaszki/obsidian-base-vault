@@ -18,37 +18,37 @@ banner_position: center
 
 # Japan
 
-## Why visit
+## Dlaczego warto
 
-Island nation with dense cities, temple circuits, and spring blossom travel.
+Państwo wyspiarskie z gęstymi miastami, obwodami świątyń i wiosennym kwitnieniem.
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Late March to mid-April for blossoms
-- **How to get there:** NRT/HND or KIX
-- **Cost / tickets:** Rail Pass or IC + shinkansen tickets
-- **Hours:** Temples often close late afternoon
+- **Najlepszy czas:** Koniec marca do połowy kwietnia — kwitnienie
+- **Jak dojechać:** NRT/HND lub KIX
+- **Koszt / bilety:** Rail Pass albo IC + bilety shinkansen
+- **Godziny:** Świątynie często zamykane późnym popołudniem
 
-## Highlights
+## Najważniejsze
 
-- Tokyo base
-- Kansai temple days
-- Food and transit etiquette
+- Baza w Tokio
+- Dni świątyń w Kansai
+- Etykieta jedzenia i transportu
 
-## Visit log
+## Notatki
 
-- Planned April 2026 via [[Japan Spring 2026]].
+- Planowany kwiecień 2026 przez [[Japan Spring 2026]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -57,8 +57,8 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Map: [Japan](https://www.google.com/maps/search/?api=1&query=Japan)
+- Mapa: [Japan](https://www.google.com/maps/search/?api=1&query=Japan)
 - [[Travel]]
 - [[Dashboard_Travel]]

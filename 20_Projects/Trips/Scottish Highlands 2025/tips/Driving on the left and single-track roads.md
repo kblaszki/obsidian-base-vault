@@ -1,42 +1,42 @@
-    ---
-    type: trip-tip
-    trip: "[[Scottish Highlands 2025]]"
-    topic: driving
-    status: ready
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - tip
-    icon: 💡
-    ---
+---
+type: trip-tip
+trip: "[[Scottish Highlands 2025]]"
+topic: driving
+status: ready
+created_date: 2026-11-01
+tags:
+  - travel
+  - tip
+icon: 💡
+---
 
-    # Driving on the left and single-track roads
+# Driving on the left and single-track roads
 
-    Highland driving is scenic but demands patience, passing-place etiquette, and weather respect.
+Jazda po Highlands jest sceniczną, ale wymaga cierpliwości, etykiety mijanek i szacunku dla pogody.
 
-    ## Key points
+## Kluczowe punkty
 
-    - Keep left; mirror-signal-manoeuvre slowly on unfamiliar roundabouts.
-- Single-track: pull into passing places early; wave thanks.
-- Do not stop in the carriageway for photos — use designated pull-offs.
+- Trzymaj się lewej; na nieznanych rondach wolno: lustro–kierunkowskaz–manewr.
+- Single-track: wjeżdżaj w mijanki wcześnie; machnij na podziękowanie.
+- Nie zatrzymuj się na jezdni na zdjęcia — używaj wyznaczonych zatoczek.
 
-    ## Details
+## Szczegóły
 
-    ### Skye
-North loop parking fills even in drizzle. Start Storr early.
+### Skye
+Parking na północnej pętli zapełnia się nawet w mżawce. Startuj Storr wcześnie.
 
 ### Glencoe
-Wind can shut down ridge ambitions quickly — favour valley viewpoints when gusty.
+Wiatr szybko ucina plany graniowe — przy podmuchach wol preferuj punkty widokowe w dolinie.
 
-### Fuel
-Top up when you see stations; gaps are real between islands and glens.
+### Paliwo
+Tankuj, gdy widzisz stacje; luki między wyspami a dolinami są realne.
 
-    ## Sources
+## Źródła
 
-    - UK Highway Code summaries
-- Local NTS parking notes
+- Skróty UK Highway Code
+- Lokalne notatki parkingowe NTS
 
-    ## Related
+## Powiązane
 
-    - [[Scottish Highlands 2025]]
-    - [[Dashboard_Travel]]
+- [[Scottish Highlands 2025]]
+- [[Dashboard_Travel]]

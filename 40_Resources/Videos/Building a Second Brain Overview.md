@@ -14,31 +14,31 @@ rating: 4
 
 # Building a Second Brain Overview
 
-## Summary
+## Podsumowanie
 
-Talk-style overview of BASB: capture, organize, distill, express—good orientation before reading the book.
+Przegląd BASB w stylu talka: capture, organize, distill, express — dobra orientacja przed lekturą książki.
 
-## Key ideas
+## Kluczowe idee
 
-- Capture friction kills systems; optimize for speed first.
-- Intermediate packets of knowledge beat perfect notes.
-- Projects should pull from a reusable resource library.
+- Tarcie przechwytywania zabija systemy; najpierw optymalizuj pod szybkość.
+- Pośrednie paczki wiedzy wygrywają z „idealnymi” notatkami.
+- Projekty powinny czerpać z wielokrotnego użytku biblioteki zasobów.
 
-## Highlights
+## Fragmenty
 
 > 
 
-## My interpretation
+## Moja interpretacja
 
-Watched as a primer for [[Building a Second Brain]] and this vault’s PARA layout.
+Obejrzane jako primer do [[Building a Second Brain]] i układu PARA w tym vaultcie.
 
-## Actions
+## Działania
 
-- [x] Cross-link to book note
-- [ ] Revisit when onboarding someone else to the vault
+- [x] Dopnij cross-link do notatki książki
+- [ ] Wróć przy onboardingu kogoś innego do vaultu
 
-## Connections
+## Powiązania
 
-- Area: [[Knowledge Management]]
+- Obszar: [[Knowledge Management]]
 - [[Building a Second Brain]]
 - [[The PARA Method]]

@@ -14,32 +14,32 @@ rating: 5
 
 # Evergreen Notes
 
-## Summary
+## Podsumowanie
 
-Notes should be concept-oriented, densely linked, and rewritten over time so they compound rather than rot in a capture inbox.
+Notatki powinny być zorientowane na koncepcje, gęsto linkowane i przepisywane w czasie, żeby się składały, a nie gniły w inboxie przechwytywania.
 
-## Key ideas
+## Kluczowe idee
 
-- Prefer titles that are claims or concepts, not source titles alone.
-- Link aggressively; orphan notes are a smell.
-- Revise notes when reused, not only when first captured.
+- Preferuj tytuły będące twierdzeniami lub koncepcjami, nie tylko tytułami źródeł.
+- Linkuj agresywnie; sieroty to sygnał ostrzegawczy.
+- Poprawiaj notatki przy ponownym użyciu, nie tylko przy pierwszym przechwyceniu.
 
-## Highlights
+## Fragmenty
 
 > Evergreen notes are written and organized to evolve, accumulate, and connect.
 
-## My interpretation
+## Moja interpretacja
 
-Complements progressive summarization: summarization layers a source; evergreen notes own the idea after extraction.
+Uzupełnia progressive summarization: streszczanie warstwuje źródło; evergreen notes posiadają ideę po ekstrakcji.
 
-## Actions
+## Działania
 
-- [x] Link from [[How to Take Smart Notes]]
-- [ ] Convert one inbox capture into an evergreen concept note
+- [x] Link z [[How to Take Smart Notes]]
+- [ ] Zamień jedno przechwytywanie z inboxa w evergreen concept note
 
-## Connections
+## Powiązania
 
-- Area: [[Knowledge Management]]
+- Obszar: [[Knowledge Management]]
 - [[How to Take Smart Notes]]
 - [[Building a Second Brain]]
 - [[Progressive Summarization]]

@@ -1,34 +1,34 @@
-    ---
-    type: trip-tip
-    trip: "[[Rome and Florence 2024]]"
-    topic: money
-    status: ready
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - tip
-    icon: 💡
-    ---
+---
+type: trip-tip
+trip: "[[Rome and Florence 2024]]"
+topic: money
+status: ready
+created_date: 2026-11-01
+tags:
+  - travel
+  - tip
+icon: 💡
+---
 
-    # Cash, cards, and tipping
+# Cash, cards, and tipping
 
-    Cards work widely; keep small cash for markets and tip jars.
+Karty działają szeroko; trzymaj drobną gotówkę na targowiska i słoiki na napiwki.
 
-    ## Key points
+## Kluczowe punkty
 
-    - Contactless is common in hotels and restaurants.
-- Markets and some stands prefer cash.
-- Service is often included; small rounding tips are fine.
+- Zbliżeniówka jest powszechna w hotelach i restauracjach.
+- Targowiska i niektóre stoiska wolą gotówkę.
+- Obsługa często jest wliczona; drobne zaokrąglenie napiwku jest w porządku.
 
-    ## Details
+## Szczegóły
 
-    Notify your bank for Italy. Avoid dynamic currency conversion at terminals — pay in EUR.
+Powiadom bank o wyjazdach do Włoch. Unikaj dynamic currency conversion na terminalach — płać w EUR.
 
-    ## Sources
+## Źródła
 
-    - Personal notes from planning and travel
+- Notatki własne z planowania i podróży
 
-    ## Related
+## Powiązane
 
-    - [[Rome and Florence 2024]]
-    - [[Dashboard_Travel]]
+- [[Rome and Florence 2024]]
+- [[Dashboard_Travel]]

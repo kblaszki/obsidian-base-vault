@@ -1,39 +1,39 @@
-    ---
-    type: trip-prep
-    trip: "[[Iceland Ring Road]]"
-    prep_kind: packing
-    status: todo
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - prep
-    icon: ☑️
-    ---
+---
+type: trip-prep
+trip: "[[Iceland Ring Road]]"
+prep_kind: packing
+status: todo
+created_date: 2026-11-01
+tags:
+  - travel
+  - prep
+icon: ☑️
+---
 
-    # Packing
+# Packing
 
-    Windproof system first; swimsuit only if lagoon is booked.
+Najpierw system wiatroodporny; strój kąpielowy tylko jeśli laguna jest zarezerwowana.
 
-    ## Checklist
+## Lista
 
-    - [ ] Waterproof shell + warm midlayer
-- [ ] Waterproof pants
-- [ ] Warm hat / gloves
-- [ ] Sturdy shoes
-- [ ] Swimwear (if lagoon)
-- [ ] Car phone mount
-- [ ] Offline maps
-- [ ] Day food bag / soft cooler mindset
+- [ ] Wodoodporny shell + ciepła warstwa środkowa
+- [ ] Spodnie wodoodporne
+- [ ] Ciepła czapka / rękawiczki
+- [ ] Solidne buty
+- [ ] Stroje kąpielowe (jeśli laguna)
+- [ ] Uchwyt na telefon do auta
+- [ ] Mapy offline
+- [ ] Torba na prowiant / mindset soft coolera
 
-    ## Details
+## Szczegóły
 
-    Pack for spray at Gullfoss/Skógafoss even in “good” weather.
+Pakuj na oprysk przy Gullfoss/Skógafoss nawet przy „dobrej” pogodzie.
 
-    ## Deadlines
+## Terminy
 
-    - Pack after dates are fixed
+- Pakowanie po ustaleniu dat
 
-    ## Related
+## Powiązane
 
-    - [[Iceland Ring Road]]
-    - [[Dashboard_Travel]]
+- [[Iceland Ring Road]]
+- [[Dashboard_Travel]]

@@ -18,37 +18,37 @@ banner_position: center
 
 # Kyoto
 
-## Why visit
+## Dlaczego warto
 
-Temple circuits and quieter evenings after Tokyo during [[Japan Spring 2026]].
+Obwody świątyń i spokojniejsze wieczory po Tokio podczas [[Japan Spring 2026]].
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Early to mid-April
-- **How to get there:** Shinkansen from Tokyo
-- **Cost / tickets:** Local buses and walking cover most sights
-- **Hours:** Temples often close late afternoon
+- **Najlepszy czas:** Początek do połowy kwietnia
+- **Jak dojechać:** Shinkansen z Tokio
+- **Koszt / bilety:** Lokalne busy i spacery pokrywają większość atrakcji
+- **Godziny:** Świątynie często zamykane późnym popołudniem
 
-## Highlights
+## Najważniejsze
 
 - [[Fushimi Inari]]
-- Gion evenings
+- Wieczory w Gion
 - Arashiyama
 
-## Visit log
+## Notatki
 
-- Planned Kyoto days in [[Japan Spring 2026]].
+- Planowane dni w Kioto w [[Japan Spring 2026]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -57,11 +57,11 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Kansai]]
+- Rodzic: [[Kansai]]
 - [[Fushimi Inari]]
 - [[Nara]]
-- Map: [Kyoto Japan](https://www.google.com/maps/search/?api=1&query=Kyoto+Japan)
+- Mapa: [Kyoto Japan](https://www.google.com/maps/search/?api=1&query=Kyoto+Japan)
 - [[Travel]]
 - [[Dashboard_Travel]]

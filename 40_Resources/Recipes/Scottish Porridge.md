@@ -16,31 +16,31 @@ tags:
 
 # Scottish Porridge
 
-## Summary
+## Podsumowanie
 
-Stovetop oats for cold Highland mornings—baseline breakfast from [[Scottish Highlands 2025]] lodging days.
+Owsianka z garnka na zimne poranki Highlands — bazowe śniadanie z dni zakwaterowania [[Scottish Highlands 2025]].
 
-## Ingredients
+## Składniki
 
-- 100 g pinhead or rolled oats
-- 500 ml water (or half water, half milk)
-- Pinch of salt
-- Optional: honey, berries, or brown sugar
+- 100 g owsianki pinhead lub płatków owsianych
+- 500 ml wody (albo pół na pół z mlekiem)
+- Szczypta soli
+- Opcjonalnie: miód, jagody lub brązowy cukier
 
-## Steps
+## Kroki
 
-1. Combine oats, liquid, and salt in a pot.
-2. Simmer, stirring, until creamy (about 10–15 minutes for rolled oats).
-3. Rest one minute off heat.
-4. Serve plain or with a light topping—avoid drowning the salt-forward style.
+1. Połącz owies, płyn i sól w garnku.
+2. Gotuj na wolnym ogniu, mieszając, aż będzie kremowa (ok. 10–15 minut dla płatków).
+3. Odstaw na minutę bez ognia.
+4. Podawaj samo lub z lekkim toppingiem — nie zalewaj stylu z dominującą solą.
 
-## Notes
+## Notatki
 
-- Traditional servings are savory-leaning; sweetness is optional.
-- Pinhead oats need longer soak/cook if used.
+- Tradycyjne podania są bardziej wytrawne; słodycz jest opcjonalna.
+- Owies pinhead wymaga dłuższego moczenia/gotowania.
 
-## Related
+## Powiązane
 
-- Cuisine / place: [[United Kingdom]] · [[Scotland]] · [[Edinburgh]]
-- Trip: [[Scottish Highlands 2025]]
+- Kuchnia / miejsce: [[United Kingdom]] · [[Scotland]] · [[Edinburgh]]
+- Wyjazd: [[Scottish Highlands 2025]]
 - [[Travel]]

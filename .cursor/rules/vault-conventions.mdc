@@ -1,20 +1,20 @@
 ---
-description: Core architecture and workflow conventions for this Obsidian PARA vault
+description: Podstawowa architektura i konwencje workflow tego sejfu Obsidian PARA
 alwaysApply: true
 ---
 
-# Vault conventions
+# Konwencje sejfu
 
-- Preserve the PARA roots: `00_Inbox`, `20_Projects`, `30_Areas`, `40_Resources`, and `50_Archives`.
-- Keep journals in `10_Journals` and operational views in `90_Dashboards`.
-- Store reusable templates in `99_Templates`.
-- Default uncategorized notes to `00_Inbox`; do not guess a permanent location without evidence.
-- Keep folders shallow. Express meaning through links, properties, tags, and MOCs.
-- Exception: places may nest under `40_Resources/Places` as `country → region → city → attraction` with Folder Notes (`Name/Name.md`). Trips also use Folder Notes at `20_Projects/Trips/<Trip>/<Trip>.md` with sibling `days/`, `tips/`, `prep/`, and `assets/` folders.
-- Do not use Pretty Properties `icon` frontmatter; banners may still use `banner` / `banner_position`.
-- Use ISO dates (`YYYY-MM-DD`) in properties.
-- Preserve established property names: `type`, `status`, `created_date`, `area`, `project`, `due`, `review_date`, and `target_date`.
-- Place notes also use `place_type`, `parent` (wiki link; empty only for countries), `map_url` (Google Maps link for phone use), and `location` (`[lat, lng]` for Map View).
-- Recipe notes live in `40_Resources/Recipes` with `type: recipe`, plus `cuisine`, `meal`, `servings`, and optional timing fields.
-- Use wiki links for vault entities and hierarchical tags only for broad cross-cutting topics.
-- Never edit generated community-plugin bundles (`main.js`, `styles.css`) by hand.
+- Zachowuj korzenie PARA: `00_Inbox`, `20_Projects`, `30_Areas`, `40_Resources` i `50_Archives`.
+- Dzienniki trzymaj w `10_Journals`, a widoki operacyjne w `90_Dashboards`.
+- Reużywalne szablony przechowuj w `99_Templates`.
+- Domyślnie nieskategoryzowane notatki kieruj do `00_Inbox`; nie zgaduj stałej lokalizacji bez dowodów.
+- Trzymaj foldery płytkie. Znaczenie wyrażaj przez linki, właściwości, tagi i MOC-e.
+- Wyjątek: miejsca mogą się zagnieżdżać pod `40_Resources/Places` jako `country → region → city → attraction` z Folder Notes (`Name/Name.md`). Wyjazdy też używają Folder Notes pod `20_Projects/Trips/<Trip>/<Trip>.md` z sąsiednimi folderami `days/`, `tips/`, `prep/` i `assets/`.
+- Nie używaj frontmatteru `icon` Pretty Properties; banery nadal mogą używać `banner` / `banner_position`.
+- W właściwościach używaj dat ISO (`YYYY-MM-DD`).
+- Zachowuj ustalone nazwy właściwości: `type`, `status`, `created_date`, `area`, `project`, `due`, `review_date` i `target_date`.
+- Notatki miejsc używają też `place_type`, `parent` (wiki link; puste tylko dla krajów), `map_url` (link Google Maps na telefon) oraz `location` (`[lat, lng]` dla Map View).
+- Notatki przepisów żyją w `40_Resources/Recipes` z `type: recipe` oraz polami `cuisine`, `meal`, `servings` i opcjonalnym timingiem.
+- Używaj wiki linków do encji sejfu, a hierarchicznych tagów tylko do szerokich tematów przekrojowych.
+- Nigdy nie edytuj ręcznie wygenerowanych paczek wtyczek społecznościowych (`main.js`, `styles.css`).

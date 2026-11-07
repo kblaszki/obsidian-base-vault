@@ -13,52 +13,52 @@ banner_position: center
 
 # Day 02
 
-Reykjavik city day for gear checks before long drives.
+Dzień miejski w Reykjaviku na sprawdzenie sprzętu przed długimi przejazdami.
 
-## Day timeline
+## Harmonogram dnia
 
-- 09:00 — Breakfast
-- 10:00 — Hallgrímskirkja area
-- 12:00 — Harpa and old harbor
-- 14:00 — Laugavegur walk and gear shops
-- 19:00 — Fish dinner
+- 09:00 — Śniadanie
+- 10:00 — Okolica Hallgrímskirkja
+- 12:00 — Harpa i stary port
+- 14:00 — Spacer Laugavegur i sklepy ze sprzętem
+- 19:00 — Kolacja rybna
 
-## Logistics
+## Logistyka
 
-- Buy missing waterproof layers in town, not on the coast.
-- Confirm rental pickup/return rules if car starts tomorrow.
-- Hot dog lunch is a valid cultural plan.
+- Kup brakujące warstwy wodoodporne w mieście, nie na wybrzeżu.
+- Potwierdź zasady odbioru/zwrotu auta, jeśli start jutro.
+- Obiad z hot dogiem to też plan kulturowy.
 
-## Places
+## Miejsca
 
-- [[Reykjavik]] — city orientation *(half day)*
+- [[Reykjavik]] — orientacja w mieście *(pół dnia)*
 
-## Food
+## Jedzenie
 
-- **Breakfast:** Groceries
-- **Lunch:** Hot dog + café
-- **Dinner:** Fish restaurant
-- **Groceries / snacks:** Top up road snacks
+- **Śniadanie:** Zakupy
+- **Obiad:** Hot dog + kawiarnia
+- **Kolacja:** Restauracja rybna
+- **Zakupy / przekąski:** Uzupełnij przekąski na drogę
 
-### Costs
+### Koszty
 
-| Item | Amount | Notes |
+| Pozycja | Kwota | Uwagi |
 |------|--------|-------|
-| Meals | €55 | City prices |
-| Souvenir / gear | €40 | Contingency |
+| Posiłki | €55 | Ceny miejskie |
+| Pamiątka / sprzęt | €40 | Rezerwa |
 
-## Pack today
+## Spakuj dziś
 
-- **Documents:** —
-- **Clothes:** Test full waterproof system today
-- **Cash / cards:** Cards OK
-- **Gear:** Confirm boots/shell before Day 03
+- **Dokumenty:** —
+- **Ubrania:** Przetestuj dziś pełny system wodoodporny
+- **Gotówka / karty:** Karty OK
+- **Sprzęt:** Potwierdź buty/shell przed Dniem 03
 
-## Notes
+## Notatki
 
-Urban recovery before Golden Circle.
+Miejska regeneracja przed Golden Circle.
 
-## Related
+## Powiązane
 
 - [[Iceland Ring Road]]
 - [[Dashboard_Travel]]

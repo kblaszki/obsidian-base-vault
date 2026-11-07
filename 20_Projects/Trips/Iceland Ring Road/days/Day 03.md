@@ -13,54 +13,54 @@ banner_position: center
 
 # Day 03
 
-Classic Golden Circle loop: Þingvellir, Geysir, Gullfoss; overnight toward Selfoss/Hella.
+Klasyczna pętla Golden Circle: Þingvellir, Geysir, Gullfoss; nocleg w stronę Selfoss/Hella.
 
-## Day timeline
+## Harmonogram dnia
 
-- 08:00 — Depart Reykjavik
+- 08:00 — Wyjazd z Reykjaviku
 - 09:30 — Þingvellir
-- 12:00 — Geysir area
+- 12:00 — Rejon Geysir
 - 14:00 — Gullfoss
-- 17:00 — Arrive Selfoss/Hella lodging
-- 19:00 — Guesthouse dinner
+- 17:00 — Przyjazd do noclegu Selfoss/Hella
+- 19:00 — Kolacja w pensjonacie
 
-## Logistics
+## Logistyka
 
-- Start early to beat tour-bus clusters.
-- Keep a full tank — stations thin later.
-- Packed lunch saves time and money.
+- Startuj wcześnie, by ominąć skupiska autokarów.
+- Trzymaj pełny bak — później stacji mniej.
+- Pakowany lunch oszczędza czas i pieniądze.
 
-## Places
+## Miejsca
 
-- [[Golden Circle]] — full day loop *(half day to full day)*
-- [[Reykjavik]] — morning departure *(quick stop)*
+- [[Golden Circle]] — pętla dnia *(pół dnia do całego dnia)*
+- [[Reykjavik]] — poranny wyjazd *(krótki przystanek)*
 
-## Food
+## Jedzenie
 
-- **Breakfast:** Groceries
-- **Lunch:** Packed
-- **Dinner:** Guesthouse
-- **Groceries / snacks:** Cooler bag snacks in car
+- **Śniadanie:** Zakupy
+- **Obiad:** Pakowany
+- **Kolacja:** Pensjonat
+- **Zakupy / przekąski:** Przekąski w torbie chłodzącej w aucie
 
-### Costs
+### Koszty
 
-| Item | Amount | Notes |
+| Pozycja | Kwota | Uwagi |
 |------|--------|-------|
-| Fuel | €50 | Day loop |
-| Meals | €40 | Packed + dinner |
+| Paliwo | €50 | Pętla dnia |
+| Posiłki | €40 | Pakowany + kolacja |
 
-## Pack today
+## Spakuj dziś
 
-- **Documents:** Rental papers in glovebox
-- **Clothes:** Windproof layers at gullfoss spray
-- **Cash / cards:** Fuel card unlocked
-- **Gear:** Phone mount; paper map backup
+- **Dokumenty:** Dokumenty wynajmu w schowku
+- **Ubrania:** Warstwy wiatroodporne przy oprysku Gullfoss
+- **Gotówka / karty:** Karta paliwowa odblokowana
+- **Sprzęt:** Uchwyt telefonu; papierowa mapa zapasowa
 
-## Notes
+## Notatki
 
-Highest-yield day loop from Reykjavik.
+Najbardziej „opłacalna” pętla dnia z Reykjaviku.
 
-## Related
+## Powiązane
 
 - [[Iceland Ring Road]]
 - [[Dashboard_Travel]]

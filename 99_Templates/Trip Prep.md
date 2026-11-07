@@ -1,7 +1,7 @@
 ---
 type: trip-prep
-trip: "{{FILE:20_Projects/Trips|link|label:Trip}}"
-prep_kind: "{{VALUE:packing,bookings,documents,health,other|name:prep_kind|label:Prep kind}}"
+trip: "{{FILE:20_Projects/Trips|link|label:Wyjazd}}"
+prep_kind: "{{VALUE:packing,bookings,documents,health,other|name:prep_kind|label:Rodzaj przygotowania}}"
 status: "{{VALUE:todo,in-progress,done|name:status|label:Status}}"
 created_date: <% tp.date.now("YYYY-MM-DD") %>
 tags:
@@ -11,21 +11,21 @@ tags:
 
 # <% tp.file.title %>
 
-{{VALUE:summary|label:What this prep note covers|type:multiline}}
+{{VALUE:summary|label:Czego dotyczy ta notatka przygotowawcza?|type:multiline}}
 
-## Checklist
+## Lista
 
-- [ ] {{VALUE:first_item|label:First checklist item}}
+- [ ] {{VALUE:first_item|label:Pierwszy punkt listy}}
 
-## Details
-
--
-
-## Deadlines
+## Szczegóły
 
 -
 
-## Related
+## Terminy
 
-- {{FILE:20_Projects/Trips|link|label:Trip}}
+-
+
+## Powiązane
+
+- {{FILE:20_Projects/Trips|link|label:Wyjazd}}
 - [[Dashboard_Travel]]

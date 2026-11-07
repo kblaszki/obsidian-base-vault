@@ -1,6 +1,6 @@
-# Monthly reviews
+# Przeglądy miesięczne
 
-Create monthly notes here using `YYYY-MM`.
+Twórz tu notatki miesięczne w formacie `YYYY-MM`.
 
-Review area health, archive completed projects, prune stale resources, and
-adjust the system only where recurring friction is visible.
+Przejrzyj zdrowie obszarów, zarchiwizuj ukończone projekty, przytnij nieaktualne
+zasoby i dostosuj system tylko tam, gdzie widać powracające tarcia.

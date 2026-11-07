@@ -11,14 +11,14 @@ created_date: 2026-10-26
 
 # Review mobile capture
 
-## Context
+## Kontekst
 
-Check whether the QuickAdd chooser and prompts are usable on a phone.
+Sprawdzić, czy wybór QuickAdd i prompty są użyteczne na telefonie.
 
-## Next action
+## Następne działanie
 
-- [ ] Create one task note and one resource note on mobile 📅 2026-10-27
+- [ ] Utworzyć jedną notatkę zadania i jedną notatkę zasobu na telefonie 📅 2026-10-27
 
-## Notes
+## Notatki
 
-Captured while reviewing [[2026-10-27]].
+Zapisane podczas przeglądu [[2026-10-27]].

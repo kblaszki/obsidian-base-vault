@@ -18,37 +18,37 @@ banner_position: center
 
 # Tokyo
 
-## Why visit
+## Dlaczego warto
 
-Dense neighborhoods and blossom parks; first base for [[Japan Spring 2026]].
+Gęste dzielnice i parki z kwitnieniem; pierwsza baza na [[Japan Spring 2026]].
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Late March to mid-April for blossoms
-- **How to get there:** NRT/HND + rail into Shinjuku
-- **Cost / tickets:** Suica for local transit
-- **Hours:** Neighborhood dependent
+- **Najlepszy czas:** Koniec marca do połowy kwietnia — kwitnienie
+- **Jak dojechać:** NRT/HND + kolej do Shinjuku
+- **Koszt / bilety:** Suica do lokalnego transportu
+- **Godziny:** Zależne od dzielnicy
 
-## Highlights
+## Najważniejsze
 
-- Shinjuku evenings
+- Wieczory w Shinjuku
 - Meiji Shrine / Harajuku
-- Asakusa morning
+- Poranek w Asakusa
 
-## Visit log
+## Notatki
 
-- Planned April 2026 via [[Japan Spring 2026]].
+- Planowany kwiecień 2026 przez [[Japan Spring 2026]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -57,9 +57,9 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Kanto]]
-- Map: [Tokyo Japan](https://www.google.com/maps/search/?api=1&query=Tokyo+Japan)
+- Rodzic: [[Kanto]]
+- Mapa: [Tokyo Japan](https://www.google.com/maps/search/?api=1&query=Tokyo+Japan)
 - [[Travel]]
 - [[Dashboard_Travel]]

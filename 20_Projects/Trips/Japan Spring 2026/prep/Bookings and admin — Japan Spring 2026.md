@@ -1,38 +1,38 @@
-    ---
-    type: trip-prep
-    trip: "[[Japan Spring 2026]]"
-    prep_kind: bookings
-    status: in-progress
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - prep
-    icon: ☑️
-    ---
+---
+type: trip-prep
+trip: "[[Japan Spring 2026]]"
+prep_kind: bookings
+status: in-progress
+created_date: 2026-11-01
+tags:
+  - travel
+  - prep
+icon: ☑️
+---
 
-    # Bookings and admin
+# Bookings and admin
 
-    Flights, hotels, rail, and optional attraction slots.
+Loty, hotele, kolej i opcjonalne sloty atrakcji.
 
-    ## Checklist
+## Lista
 
-    - [ ] Flights WAW–NRT / KIX–WAW
+- [ ] Loty WAW–NRT / KIX–WAW
 - [ ] Hotel Gracery Shinjuku
 - [ ] Hotel Vista Premio Kyoto
-- [ ] Shinkansen reserved seats
-- [ ] eSIM purchased
-- [ ] Optional teamLab slot
-- [ ] Travel insurance
+- [ ] Zarezerwowane miejsca w shinkansenie
+- [ ] Kupiony eSIM
+- [ ] Opcjonalny slot teamLab
+- [ ] Ubezpieczenie podróżne
 
-    ## Details
+## Szczegóły
 
-    Lock hotels before blossom peak pricing spikes further.
+Zablokuj hotele, zanim ceny szczytu kwitnienia podskoczą dalej.
 
-    ## Deadlines
+## Terminy
 
-    - Hotels target: 2025-11-15
+- Cel hoteli: 2025-11-15
 
-    ## Related
+## Powiązane
 
-    - [[Japan Spring 2026]]
-    - [[Dashboard_Travel]]
+- [[Japan Spring 2026]]
+- [[Dashboard_Travel]]

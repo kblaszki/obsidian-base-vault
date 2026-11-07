@@ -18,36 +18,36 @@ banner_position: center
 
 # Kanto
 
-## Why visit
+## Dlaczego warto
 
-Greater Tokyo plain; first landing region for [[Japan Spring 2026]].
+Nizina Wielkiego Tokio; pierwszy region lądowania na [[Japan Spring 2026]].
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Late March to mid-April
-- **How to get there:** NRT/HND into Tokyo
-- **Cost / tickets:** Suica / Pasmo
-- **Hours:** Neighborhood dependent
+- **Najlepszy czas:** Koniec marca do połowy kwietnia
+- **Jak dojechać:** NRT/HND do Tokio
+- **Koszt / bilety:** Suica / Pasmo
+- **Godziny:** Zależne od dzielnicy
 
-## Highlights
+## Najważniejsze
 
-- [[Tokyo]] neighborhoods
-- Day trips within the metro
+- Dzielnice [[Tokyo]]
+- Jednodniówki w obrębie metra
 
-## Visit log
+## Notatki
 
-- Planned Tokyo stay in [[Japan Spring 2026]].
+- Planowany pobyt w Tokio w [[Japan Spring 2026]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -56,9 +56,9 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Japan]]
-- Map: [Kanto region Japan](https://www.google.com/maps/search/?api=1&query=Kanto+region+Japan)
+- Rodzic: [[Japan]]
+- Mapa: [Kanto region Japan](https://www.google.com/maps/search/?api=1&query=Kanto+region+Japan)
 - [[Travel]]
 - [[Dashboard_Travel]]

@@ -14,31 +14,31 @@ rating:
 
 # Obsidian for Beginners
 
-## Summary
+## Podsumowanie
 
-Structured intro covering links, properties, plugins, and sync—baseline curriculum before customizing this vault further.
+Ustrukturyzowany intro obejmujący linki, properties, pluginy i sync — bazowy curriculum przed dalszą customizacją tego vaultu.
 
-## Key ideas
+## Kluczowe idee
 
-- Core plugins first; community plugins second.
-- Wiki links create the graph; properties create queries.
-- Mobile capture should match desktop routing rules.
+- Najpierw pluginy core; potem community.
+- Wiki linki budują graf; properties budują zapytania.
+- Przechwytywanie mobilne powinno odpowiadać regułom routingu desktopowego.
 
-## Highlights
+## Fragmenty
 
 > 
 
-## My interpretation
+## Moja interpretacja
 
-Use as onboarding checklist for future vault users; skip chapters already covered by our README.
+Używaj jako checklisty onboardingu przyszłych użytkowników vaultu; pomiń rozdziały już pokryte naszym README.
 
-## Actions
+## Działania
 
-- [ ] Finish plugins module with Map View + Folder Notes
-- [ ] Write a one-page onboarding note under Knowledge Management later
+- [ ] Dokończ moduł pluginów z Map View + Folder Notes
+- [ ] Później napisz jednostronicową notatkę onboardingu pod Knowledge Management
 
-## Connections
+## Powiązania
 
-- Area: [[Knowledge Management]]
-- Project: [[Vault Automation]]
+- Obszar: [[Knowledge Management]]
+- Projekt: [[Vault Automation]]
 - [[Obsidian PKM Workflow Demo]]

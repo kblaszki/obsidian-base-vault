@@ -18,36 +18,36 @@ banner_position: center
 
 # Belém Tower
 
-## Why visit
+## Dlaczego warto
 
-Iconic Tagus landmark; pairs with Pastéis de Belém and Jerónimos.
+Ikoniczny zabytek nad Tagiem; łączy się z Pastéis de Belém i Jerónimos.
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Early morning
-- **How to get there:** Tram 15 or train to Belém
-- **Cost / tickets:** Tower climb queues separately from exterior photos
-- **Hours:** Daytime; check Monday closures
+- **Najlepszy czas:** Wczesny poranek
+- **Jak dojechać:** Tramwaj 15 lub pociąg do Belém
+- **Koszt / bilety:** Kolejka na wejście na wieżę osobno od zdjęć z zewnątrz
+- **Godziny:** W dzień; sprawdź zamknięcia w poniedziałki
 
-## Highlights
+## Najważniejsze
 
-- River wind and views
-- Combine with pastry queue strategy
+- Wiatr i widoki nad rzeką
+- Połącz ze strategią kolejki po ciastka
 
-## Visit log
+## Notatki
 
-- Exterior and area visit 2025-05-12 on [[Lisbon and Porto 2025]].
+- Wizyta z zewnątrz i okolica 2025-05-12 na [[Lisbon and Porto 2025]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -56,9 +56,9 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Lisbon]]
-- Map: [Belém Tower Lisbon](https://www.google.com/maps/search/?api=1&query=Bel%C3%A9m+Tower+Lisbon)
+- Rodzic: [[Lisbon]]
+- Mapa: [Belém Tower Lisbon](https://www.google.com/maps/search/?api=1&query=Bel%C3%A9m+Tower+Lisbon)
 - [[Travel]]
 - [[Dashboard_Travel]]

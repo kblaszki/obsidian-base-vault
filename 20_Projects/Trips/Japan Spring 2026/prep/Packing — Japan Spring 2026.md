@@ -1,39 +1,39 @@
-    ---
-    type: trip-prep
-    trip: "[[Japan Spring 2026]]"
-    prep_kind: packing
-    status: todo
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - prep
-    icon: ☑️
-    ---
+---
+type: trip-prep
+trip: "[[Japan Spring 2026]]"
+prep_kind: packing
+status: todo
+created_date: 2026-11-01
+tags:
+  - travel
+  - prep
+icon: ☑️
+---
 
-    # Packing
+# Packing
 
-    Spring layers, temple-ready shoes, and compact packing for shinkansen.
+Wiosenne warstwy, buty gotowe na świątynie i kompaktowe pakowanie pod shinkansen.
 
-    ## Checklist
+## Lista
 
-    - [ ] Walking shoes with grip
-- [ ] Light rain shell
-- [ ] Layers for cool mornings / mild afternoons
-- [ ] Daypack
-- [ ] JP plug adapter (Type A)
-- [ ] Portable battery
-- [ ] Reusable bottle
-- [ ] Small yen envelope
+- [ ] Buty do chodzenia z dobrą przyczepnością
+- [ ] Lekka kurtka przeciwdeszczowa
+- [ ] Warstwy na chłodne poranki / łagodne popołudnia
+- [ ] Plecak dzienny
+- [ ] Adapter JP (Type A)
+- [ ] Powerbank
+- [ ] Butelka wielorazowa
+- [ ] Mała koperta na jeny
 
-    ## Details
+## Szczegóły
 
-    Consider luggage forwarding Tokyo→Kyoto if packing heavy.
+Rozważ przesyłkę bagażu Tokio→Kioto, jeśli pakujesz ciężko.
 
-    ## Deadlines
+## Terminy
 
-    - Target pack complete by 2026-04-03
+- Cel: spakowane do 2026-04-03
 
-    ## Related
+## Powiązane
 
-    - [[Japan Spring 2026]]
-    - [[Dashboard_Travel]]
+- [[Japan Spring 2026]]
+- [[Dashboard_Travel]]

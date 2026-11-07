@@ -14,31 +14,31 @@ rating:
 
 # Travel Photography Basics
 
-## Summary
+## Podsumowanie
 
-Composition, light, and lightweight kit choices for trip banners and day-note photos without slowing the itinerary.
+Kompozycja, światło i lekkie wybory sprzętu pod bannery wyjazdów i zdjęcia day-note bez spowalniania itinerariusza.
 
-## Key ideas
+## Kluczowe idee
 
-- One camera/phone workflow beats gear sprawl.
-- Shoot for story beats that match day notes.
-- Attribute and store Commons-safe references separately from personal photos.
+- Jeden workflow aparat/telefon wygrywa z rozrostem sprzętu.
+- Fotografuj pod beaty historii pasujące do day notes.
+- Atrybucję i referencje Commons trzymaj osobno od zdjęć osobistych.
 
-## Highlights
+## Fragmenty
 
 > 
 
-## My interpretation
+## Moja interpretacja
 
-Improves trip `assets/` quality and Places banners over time.
+Z czasem poprawia jakość `assets/` wyjazdów i bannerów Places.
 
-## Actions
+## Działania
 
-- [ ] Watch module on available light
-- [ ] Apply on next day-note photo pass
+- [ ] Obejrzyj moduł o dostępnym świetle
+- [ ] Zastosuj przy kolejnym przejściu zdjęć day-note
 
-## Connections
+## Powiązania
 
-- Area: [[Travel]]
-- Project: [[Japan Spring 2026]]
+- Obszar: [[Travel]]
+- Projekt: [[Japan Spring 2026]]
 - [[Scottish Highlands 2025]]

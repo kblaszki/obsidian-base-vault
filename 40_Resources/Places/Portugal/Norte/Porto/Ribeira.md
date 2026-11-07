@@ -18,36 +18,36 @@ banner_position: center
 
 # Ribeira
 
-## Why visit
+## Dlaczego warto
 
-Historic riverfront district; best Porto evening atmosphere.
+Historyczna dzielnica nadbrzeżna; najlepsza wieczorna atmosfera Porto.
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Dusk
-- **How to get there:** Walk from São Bento / Dom Luís bridge
-- **Cost / tickets:** Free to wander; cruises optional
-- **Hours:** Always open; restaurants busy after 19:00
+- **Najlepszy czas:** Zmierzch
+- **Jak dojechać:** Spacer z São Bento / most Dom Luís
+- **Koszt / bilety:** Spacer darmowy; rejsy opcjonalne
+- **Godziny:** Zawsze dostępne; restauracje tłocznie po 19:00
 
-## Highlights
+## Najważniejsze
 
-- Colored façades
-- Crossing to Gaia for tastings
+- Kolorowe fasady
+- Przejście do Gaia na degustacje
 
-## Visit log
+## Notatki
 
-- Multiple evenings during [[Lisbon and Porto 2025]].
+- Kilka wieczorów podczas [[Lisbon and Porto 2025]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -56,9 +56,9 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Porto]]
-- Map: [Ribeira Porto](https://www.google.com/maps/search/?api=1&query=Ribeira+Porto)
+- Rodzic: [[Porto]]
+- Mapa: [Ribeira Porto](https://www.google.com/maps/search/?api=1&query=Ribeira+Porto)
 - [[Travel]]
 - [[Dashboard_Travel]]

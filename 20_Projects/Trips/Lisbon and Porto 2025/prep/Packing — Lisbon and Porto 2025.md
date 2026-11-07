@@ -1,37 +1,37 @@
-    ---
-    type: trip-prep
-    trip: "[[Lisbon and Porto 2025]]"
-    prep_kind: packing
-    status: done
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - prep
-    icon: ☑️
-    ---
+---
+type: trip-prep
+trip: "[[Lisbon and Porto 2025]]"
+prep_kind: packing
+status: done
+created_date: 2026-11-01
+tags:
+  - travel
+  - prep
+icon: ☑️
+---
 
-    # Packing
+# Packing
 
-    Cobbles + wind: good shoes and a light shell matter more than fashion.
+Bruk + wiatr: dobre buty i lekki shell ważniejsze niż moda.
 
-    ## Checklist
+## Lista
 
-    - [x] Grippy walking shoes
-- [x] Light rain/wind shell
-- [x] Daypack
-- [x] EU adapter
-- [x] Offline maps
-- [x] Small day snacks for train
+- [x] Buty do chodzenia z przyczepnością
+- [x] Lekki shell przeciwdeszczowy/wiatrowy
+- [x] Plecak dzienny
+- [x] Adapter UE
+- [x] Mapy offline
+- [x] Małe przekąski na pociąg
 
-    ## Details
+## Szczegóły
 
-    Pack one nicer top for fado dinner.
+Spakuj jedną ładniejszą bluzkę na kolację fado.
 
-    ## Deadlines
+## Terminy
 
-    - Packed before 2025-05-09
+- Spakowane przed 2025-05-09
 
-    ## Related
+## Powiązane
 
-    - [[Lisbon and Porto 2025]]
-    - [[Dashboard_Travel]]
+- [[Lisbon and Porto 2025]]
+- [[Dashboard_Travel]]

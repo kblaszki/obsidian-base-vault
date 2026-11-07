@@ -14,31 +14,31 @@ rating:
 
 # Obsidian PKM Workflow Demo
 
-## Summary
+## Podsumowanie
 
-Walkthrough of daily notes, QuickAdd capture, and Dataview dashboards in Obsidian—reference for vault automation ideas.
+Przejście przez daily notes, przechwytywanie QuickAdd i dashboardy Dataview w Obsidianie — odniesienie dla pomysłów na automatyzację vaultu.
 
-## Key ideas
+## Kluczowe idee
 
-- Hotkeys beat browsing for capture.
-- Properties enable queries; folders enable browsing.
-- Keep demos short; adopt one technique per week.
+- Skróty klawiszowe wygrywają z przeglądaniem przy przechwytywaniu.
+- Properties umożliwiają zapytania; foldery umożliwiają browsing.
+- Trzymaj dema krótkie; wdrażaj jedną technikę na tydzień.
 
-## Highlights
+## Fragmenty
 
 > 
 
-## My interpretation
+## Moja interpretacja
 
-Compare demonstrated capture flows with our QuickAdd choices before adding more plugins.
+Porównaj pokazane flow przechwytywania z naszymi wyborami QuickAdd, zanim dodasz więcej pluginów.
 
-## Actions
+## Działania
 
-- [ ] Note two techniques worth copying into [[Vault Automation]]
-- [ ] Ignore UI chrome that fights Linter / Templater stack
+- [ ] Zanotuj dwie techniki warte skopiowania do [[Vault Automation]]
+- [ ] Ignoruj chrome UI, które gryzie się ze stackiem Linter / Templater
 
-## Connections
+## Powiązania
 
-- Area: [[Knowledge Management]]
-- Project: [[Vault Automation]]
+- Obszar: [[Knowledge Management]]
+- Projekt: [[Vault Automation]]
 - [[Software Development]]

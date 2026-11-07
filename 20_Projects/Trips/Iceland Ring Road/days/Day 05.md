@@ -13,52 +13,52 @@ banner_position: center
 
 # Day 05
 
-Black sand beach caution day and glacier viewpoints if daylight allows.
+Dzień ostrożności na czarnej plaży i punkty widokowe lodowca, jeśli pozwala światło.
 
-## Day timeline
+## Harmonogram dnia
 
-- 09:00 — Reynisfjara black sand beach (safe distance)
-- 11:30 — Café lunch if open
-- 13:00 — Glacier viewpoints toward Skaftafell region if time/energy
-- 17:00 — Return toward Vík lodging
-- 19:30 — Simple dinner
+- 09:00 — Reynisfjara, czarna plaża (bezpieczny dystans)
+- 11:30 — Obiad w kawiarni, jeśli otwarta
+- 13:00 — Punkty widokowe lodowca w stronę Skaftafell, jeśli czas/energia
+- 17:00 — Powrót do noclegu w Vík
+- 19:30 — Prosta kolacja
 
-## Logistics
+## Logistyka
 
-- Never turn your back on sneaker waves at Reynisfjara.
-- Turn back before fatigue driving — South Coast distances deceive.
-- Check closures for weather.
+- Nigdy nie odwracaj się tyłem do sneaker waves na Reynisfjara.
+- Zawróć przed zmęczeniem za kierownicą — dystanse South Coast mylą.
+- Sprawdzaj zamknięcia przez pogodę.
 
-## Places
+## Miejsca
 
-- [[South Coast]] — Reynisfjara + optional glacier views *(1–2h to half day)*
+- [[South Coast]] — Reynisfjara + opcjonalne widoki lodowca *(1–2h do pół dnia)*
 
-## Food
+## Jedzenie
 
-- **Breakfast:** Hotel
-- **Lunch:** Café if open
-- **Dinner:** Simple lodging meal
-- **Groceries / snacks:** Backup food if cafés closed
+- **Śniadanie:** Hotel
+- **Obiad:** Kawiarnia, jeśli otwarta
+- **Kolacja:** Prosty posiłek w noclegu
+- **Zakupy / przekąski:** Zapas jedzenia, jeśli kawiarnie zamknięte
 
-### Costs
+### Koszty
 
-| Item | Amount | Notes |
+| Pozycja | Kwota | Uwagi |
 |------|--------|-------|
-| Parking / fees | €15 | Local lots |
-| Meals | €40 | Café + dinner |
+| Parking / opłaty | €15 | Lokalne parkingi |
+| Posiłki | €40 | Kawiarnia + kolacja |
 
-## Pack today
+## Spakuj dziś
 
-- **Documents:** —
-- **Clothes:** Full shell; warm midlayer
-- **Cash / cards:** Parking
-- **Gear:** Keep kids/friends away from wet sand edge
+- **Dokumenty:** —
+- **Ubrania:** Pełny shell; ciepła warstwa środkowa
+- **Gotówka / karty:** Parking
+- **Sprzęt:** Trzymaj ludzi z dala od mokrej krawędzi piasku
 
-## Notes
+## Notatki
 
-Respect the ocean. Always.
+Szanuj ocean. Zawsze.
 
-## Related
+## Powiązane
 
 - [[Iceland Ring Road]]
 - [[Dashboard_Travel]]

@@ -10,15 +10,15 @@ review_frequency: monthly
 
 # Software Development
 
-Long-term standards and practices for building maintainable software.
+Długoterminowe standardy i praktyki budowania oprogramowania, które da się utrzymywać.
 
-## Current focus
+## Bieżący fokus
 
-- Automate repeatable setup in [[Vault Automation]].
-- Keep configuration files reviewable and version controlled.
+- Automatyzuj powtarzalną konfigurację w [[Vault Automation]].
+- Trzymaj pliki konfiguracyjne w wersji i pod przeglądem.
 
-## Principles
+## Zasady
 
-- Prefer simple, inspectable automation.
-- Validate generated configuration before relying on it.
-- Document constraints next to the configuration they affect.
+- Preferuj prostą, przejrzystą automatyzację.
+- Waliduj wygenerowaną konfigurację, zanim na niej polegasz.
+- Dokumentuj ograniczenia obok konfiguracji, której dotyczą.

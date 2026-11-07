@@ -18,36 +18,36 @@ banner_position: center
 
 # Lisboa District
 
-## Why visit
+## Dlaczego warto
 
-Greater Lisbon area including Belém day trips.
+Większy obszar Lizbony, w tym jednodniówki do Belém.
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** May–June or September
-- **How to get there:** LIS metro into Baixa-Chiado
-- **Cost / tickets:** Lisboa Card useful
-- **Hours:** Attractions daytime
+- **Najlepszy czas:** Maj–czerwiec lub wrzesień
+- **Jak dojechać:** Metro z LIS do Baixa-Chiado
+- **Koszt / bilety:** Lisboa Card bywa przydatna
+- **Godziny:** Atrakcje w dzień
 
-## Highlights
+## Najważniejsze
 
 - [[Lisbon]]
 - [[Belém Tower]]
 
-## Visit log
+## Notatki
 
-- Visited May 2025 on [[Lisbon and Porto 2025]].
+- Odwiedzono w maju 2025 na [[Lisbon and Porto 2025]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -56,9 +56,9 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Portugal]]
-- Map: [Lisbon District Portugal](https://www.google.com/maps/search/?api=1&query=Lisbon+District+Portugal)
+- Rodzic: [[Portugal]]
+- Mapa: [Lisbon District Portugal](https://www.google.com/maps/search/?api=1&query=Lisbon+District+Portugal)
 - [[Travel]]
 - [[Dashboard_Travel]]

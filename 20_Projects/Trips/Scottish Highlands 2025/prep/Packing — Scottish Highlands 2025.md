@@ -1,38 +1,38 @@
-    ---
-    type: trip-prep
-    trip: "[[Scottish Highlands 2025]]"
-    prep_kind: packing
-    status: done
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - prep
-    icon: ☑️
-    ---
+---
+type: trip-prep
+trip: "[[Scottish Highlands 2025]]"
+prep_kind: packing
+status: done
+created_date: 2026-11-01
+tags:
+  - travel
+  - prep
+icon: ☑️
+---
 
-    # Packing
+# Packing
 
-    Rain-first packing list with driving comfort in mind.
+Lista pakowania „najpierw deszcz”, z myślą o komforcie jazdy.
 
-    ## Checklist
+## Lista
 
-    - [x] Waterproof boots
-- [x] Full rain shell + pants
-- [x] Warm midlayer
-- [x] Phone mount for car
-- [x] Offline maps downloaded
-- [x] Day snacks + water bottles
-- [x] UK plug adapter
+- [x] Wodoodporne buty
+- [x] Pełny shell przeciwdeszczowy + spodnie
+- [x] Ciepła warstwa środkowa
+- [x] Uchwyt telefonu do auta
+- [x] Pobrane mapy offline
+- [x] Przekąski na dzień + butelki wody
+- [x] Adapter UK
 
-    ## Details
+## Szczegóły
 
-    Pack soft luggage that fits a compact hire car boot.
+Pakuj miękki bagaż mieszczący się w bagażniku kompaktowego auta.
 
-    ## Deadlines
+## Terminy
 
-    - Packed before 2025-08-01
+- Spakowane przed 2025-08-01
 
-    ## Related
+## Powiązane
 
-    - [[Scottish Highlands 2025]]
-    - [[Dashboard_Travel]]
+- [[Scottish Highlands 2025]]
+- [[Dashboard_Travel]]

@@ -1,34 +1,34 @@
-    ---
-    type: trip-tip
-    trip: "[[Lisbon and Porto 2025]]"
-    topic: transit
-    status: ready
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - tip
-    icon: 💡
-    ---
+---
+type: trip-tip
+trip: "[[Lisbon and Porto 2025]]"
+topic: transit
+status: ready
+created_date: 2026-11-01
+tags:
+  - travel
+  - tip
+icon: 💡
+---
 
-    # Lisbon hills, trams, and cards
+# Lisbon hills, trams, and cards
 
-    Lisbon rewards early trams and a transit card; Porto is more compact on foot.
+Lizbona nagradza wczesne tramwaje i kartę komunikacji; Porto jest bardziej kompaktowe pieszo.
 
-    ## Key points
+## Kluczowe punkty
 
-    - Lisboa Card or Viva Viagem for tram/metro days.
-- Tram 28: ride a segment, then walk Alfama — do not treat it as a full tour bus.
-- Porto: metro from Campanhã; walk Dom Luís bridge upper deck.
+- Lisboa Card lub Viva Viagem na dni tramwaj/metro.
+- Tramwaj 28: jedź odcinek, potem spaceruj Alfama — nie traktuj go jak pełnego autobusu wycieczkowego.
+- Porto: metro z Campanhã; spacer górnym pokładem mostu Dom Luís.
 
-    ## Details
+## Szczegóły
 
-    Airport metro into Baixa-Chiado works with luggage if you are not exhausted; otherwise taxi. Alfa Pendular is the comfortable Lisbon→Porto link.
+Metro z lotniska do Baixa-Chiado działa z bagażem, jeśli nie jesteś wyczerpany; inaczej taksówka. Alfa Pendular to wygodne połączenie Lizbona→Porto.
 
-    ## Sources
+## Źródła
 
-    - Metropolitano de Lisboa / Metro do Porto
+- Metropolitano de Lisboa / Metro do Porto
 
-    ## Related
+## Powiązane
 
-    - [[Lisbon and Porto 2025]]
-    - [[Dashboard_Travel]]
+- [[Lisbon and Porto 2025]]
+- [[Dashboard_Travel]]

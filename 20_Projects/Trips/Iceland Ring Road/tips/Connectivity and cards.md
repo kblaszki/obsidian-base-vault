@@ -1,34 +1,34 @@
-    ---
-    type: trip-tip
-    trip: "[[Iceland Ring Road]]"
-    topic: connectivity
-    status: ready
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - tip
-    icon: 💡
-    ---
+---
+type: trip-tip
+trip: "[[Iceland Ring Road]]"
+topic: connectivity
+status: ready
+created_date: 2026-11-01
+tags:
+  - travel
+  - tip
+icon: 💡
+---
 
-    # Connectivity and cards
+# Connectivity and cards
 
-    Cards work almost everywhere; offline maps still matter in rural stretches.
+Karty działają niemal wszędzie; mapy offline nadal mają znaczenie na odcinkach wiejskich.
 
-    ## Key points
+## Kluczowe punkty
 
-    - EU/EEA roaming or local eSIM.
-- Download offline Google/Organic Maps for Route 1.
-- Keep a paper backup of lodging addresses.
+- Roaming UE/EOG lub lokalny eSIM.
+- Pobierz offline Google/Organic Maps na Route 1.
+- Trzymaj papierową kopię adresów noclegów.
 
-    ## Details
+## Szczegóły
 
-    Signal can drop between waterfalls — download maps in Reykjavik.
+Zasięg potrafi znikać między wodospadami — pobierz mapy w Reykjaviku.
 
-    ## Sources
+## Źródła
 
-    - Personal notes from planning and travel
+- Notatki własne z planowania i podróży
 
-    ## Related
+## Powiązane
 
-    - [[Iceland Ring Road]]
-    - [[Dashboard_Travel]]
+- [[Iceland Ring Road]]
+- [[Dashboard_Travel]]

@@ -1,34 +1,34 @@
-    ---
-    type: trip-tip
-    trip: "[[Rome and Florence 2024]]"
-    topic: culture
-    status: ready
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - tip
-    icon: 💡
-    ---
+---
+type: trip-tip
+trip: "[[Rome and Florence 2024]]"
+topic: culture
+status: ready
+created_date: 2026-11-01
+tags:
+  - travel
+  - tip
+icon: 💡
+---
 
-    # Museum booking rhythm
+# Museum booking rhythm
 
-    Timed entries remove the worst queues for Colosseum and Uffizi.
+Wejścia czasowe usuwają najgorsze kolejki do Koloseum i Uffizi.
 
-    ## Key points
+## Kluczowe punkty
 
-    - Book Colosseum + Forum combo for the earliest slot you can wake for.
-- Uffizi morning slots beat afternoon crowds.
-- Keep QR codes offline.
+- Zarezerwuj combo Koloseum + Forum na najwcześniejszy slot, na który wstajesz.
+- Poranne sloty Uffizi biją popołudniowe tłumy.
+- Trzymaj kody QR offline.
 
-    ## Details
+## Szczegóły
 
-    Skip stacking two mega-museums on the same day. Pair one heavy site with walking neighbourhoods.
+Nie układaj dwóch mega-muzeów jednego dnia. Połącz jedno ciężkie miejsce ze spacerami po dzielnicach.
 
-    ## Sources
+## Źródła
 
-    - Official park/museum sites
+- Oficjalne strony parków/muzeów
 
-    ## Related
+## Powiązane
 
-    - [[Rome and Florence 2024]]
-    - [[Dashboard_Travel]]
+- [[Rome and Florence 2024]]
+- [[Dashboard_Travel]]

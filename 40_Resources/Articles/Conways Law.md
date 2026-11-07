@@ -14,30 +14,30 @@ rating:
 
 # Conway's Law
 
-## Summary
+## Podsumowanie
 
-Organizations design systems that mirror their communication structures—useful when shaping teams, APIs, and vault automation ownership.
+Organizacje projektują systemy, które odzwierciedlają ich struktury komunikacji — przydatne przy kształtowaniu zespołów, API i własności automatyzacji vaultu.
 
-## Key ideas
+## Kluczowe idee
 
-- Architecture follows org chart unless you deliberately redesign both.
-- Interface boundaries are social boundaries.
-- Small teams owning clear modules reduce coordination tax.
+- Architektura podąża za organigramem, chyba że świadomie przeprojektujesz obie rzeczy.
+- Granice interfejsów to granice społeczne.
+- Małe zespoły z jasnymi modułami obniżają koszt koordynacji.
 
-## Highlights
+## Fragmenty
 
 > Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations.
 
-## My interpretation
+## Moja interpretacja
 
-Applies to vault plugins too: capture tools (QuickAdd) and query tools (Dataview) should be owned as separate “interfaces” with clear contracts.
+Dotyczy też pluginów vaultu: narzędzia przechwytywania (QuickAdd) i zapytań (Dataview) powinny być osobnymi „interfejsami” z jasnymi kontraktami.
 
-## Actions
+## Działania
 
-- [ ] Finish reading primary essay + one modern commentary
-- [ ] Note one vault workflow that mirrors a painful handoff
+- [ ] Dokończ lekturę eseju źródłowego + jednego współczesnego komentarza
+- [ ] Zanotuj jeden workflow vaultu, który odzwierciedla bolesne przekazanie
 
-## Connections
+## Powiązania
 
-- Area: [[Software Development]]
-- Project: [[Vault Automation]]
+- Obszar: [[Software Development]]
+- Projekt: [[Vault Automation]]

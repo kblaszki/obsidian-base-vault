@@ -7,7 +7,7 @@ tags:
 
 # Today
 
-## Journal
+## Dziennik
 
 ```dataview
 LIST
@@ -15,7 +15,7 @@ FROM "10_Journals/Daily_notes"
 WHERE date = date(today)
 ```
 
-## Due or overdue
+## Termin dziś lub zaległe
 
 ```dataview
 TASK
@@ -24,7 +24,7 @@ WHERE !completed AND due AND date(due) <= date(today)
 SORT due ASC
 ```
 
-## Tasks added today
+## Zadania dodane dziś
 
 ```dataviewjs
 const today = dv.date("today");
@@ -36,7 +36,7 @@ const tasks = dv.pages()
 dv.taskList(tasks, false);
 ```
 
-## Today's log
+## Dziennik na dziś
 
 ```dataviewjs
 const today = dv.date("today").toFormat("yyyy-MM-dd");
@@ -45,8 +45,8 @@ const page = dv.pages('"10_Journals/Daily_notes"')
   .first();
 
 if (page) {
-  dv.paragraph(`Open ${page.file.link} to add or review journal entries.`);
+  dv.paragraph(`Otwórz ${page.file.link}, aby dodać lub przejrzeć wpisy dziennika.`);
 } else {
-  dv.paragraph("No daily note exists yet. Use **Open today's daily note**.");
+  dv.paragraph("Brak notatki dziennej. Użyj **Open today's daily note**.");
 }
 ```

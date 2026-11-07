@@ -1,15 +1,15 @@
 ---
-description: Formatting and linking conventions for Markdown notes and templates
+description: Konwencje formatowania i linkowania dla notatek Markdown oraz szablonów
 globs: "**/*.md"
 alwaysApply: false
 ---
 
-# Markdown note standards
+# Standardy notatek Markdown
 
-- Add valid YAML frontmatter to functional notes; use existing property values and types.
-- Use one H1 matching the note title, followed by meaningful H2 sections.
-- Prefer `[[Note Name]]` links over hard-coded vault-relative Markdown links.
-- Do not create a link to a nonexistent note unless it is intentionally a future daily note or documented placeholder.
-- Write actionable tasks as `- [ ]`; add `📅 YYYY-MM-DD` when a due date exists.
-- Keep templates generic and use QuickAdd tokens for prompts and Templater for computed values.
-- Exclude `99_Templates` from Dataview queries unless templates are the intended result.
+- Dodawaj poprawny YAML frontmatter do notatek funkcjonalnych; używaj istniejących wartości i typów właściwości.
+- Używaj jednego H1 zgodnego z tytułem notatki, a potem sensownych sekcji H2.
+- Preferuj linki `[[Note Name]]` zamiast hardkodowanych linków Markdown względnych względem sejfu.
+- Nie twórz linku do nieistniejącej notatki, chyba że to celowo przyszła notatka dzienna lub udokumentowany placeholder.
+- Zadania actionable zapisuj jako `- [ ]`; dodawaj `📅 YYYY-MM-DD`, gdy istnieje termin.
+- Trzymaj szablony ogólne; używaj tokenów QuickAdd do promptów i Templatera do wartości wyliczanych.
+- Wykluczaj `99_Templates` z zapytań Dataview, chyba że szablony są zamierzonym wynikiem.

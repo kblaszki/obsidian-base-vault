@@ -1,38 +1,38 @@
-    ---
-    type: trip-prep
-    trip: "[[Scottish Highlands 2025]]"
-    prep_kind: bookings
-    status: done
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - prep
-    icon: ☑️
-    ---
+---
+type: trip-prep
+trip: "[[Scottish Highlands 2025]]"
+prep_kind: bookings
+status: done
+created_date: 2026-11-01
+tags:
+  - travel
+  - prep
+icon: ☑️
+---
 
-    # Bookings and admin
+# Bookings and admin
 
-    Flights, car hire, and Highland hotels that sell out in summer.
+Loty, wynajem auta i hotele Highland, które w lecie się wyprzedają.
 
-    ## Checklist
+## Lista
 
-    - [x] Flights WAW–EDI
-- [x] Enterprise car hire + insurance
+- [x] Loty WAW–EDI
+- [x] Wynajem Enterprise + ubezpieczenie
 - [x] Motel One Edinburgh
 - [x] Cuillin Hills Portree
 - [x] Kingshouse Glencoe
-- [x] UK ETA / passport check
-- [x] International Driving Permit copy if required by insurer
+- [x] UK ETA / sprawdzenie paszportu
+- [x] Kopia International Driving Permit, jeśli wymaga ubezpieczyciel
 
-    ## Details
+## Szczegóły
 
-    Photograph car on pickup/return.
+Fotografuj auto przy odbiorze i zwrocie.
 
-    ## Deadlines
+## Terminy
 
-    - Hotels booked months ahead
+- Hotele zarezerwowane z wielomiesięcznym wyprzedzeniem
 
-    ## Related
+## Powiązane
 
-    - [[Scottish Highlands 2025]]
-    - [[Dashboard_Travel]]
+- [[Scottish Highlands 2025]]
+- [[Dashboard_Travel]]

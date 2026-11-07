@@ -18,36 +18,36 @@ banner_position: center
 
 # Nara
 
-## Why visit
+## Dlaczego warto
 
-Easy day trip from Kyoto for Tōdai-ji and park walks.
+Łatwa jednodniówka z Kioto do Tōdai-ji i spacerów po parku.
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Morning arrival from Kyoto
-- **How to get there:** JR or Kintetsu from Kyoto
-- **Cost / tickets:** Temple fees modest
-- **Hours:** Day-trip friendly
+- **Najlepszy czas:** Poranny przyjazd z Kioto
+- **Jak dojechać:** JR lub Kintetsu z Kioto
+- **Koszt / bilety:** Opłaty świątynne umiarkowane
+- **Godziny:** Przyjazne jednodniówce
 
-## Highlights
+## Najważniejsze
 
 - Tōdai-ji
-- Deer park etiquette
+- Etykieta parku z jeleniami
 
-## Visit log
+## Notatki
 
-- Planned day trip 2026-04-16 on [[Japan Spring 2026]].
+- Planowana jednodniówka 2026-04-16 w [[Japan Spring 2026]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -56,10 +56,10 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Kansai]]
+- Rodzic: [[Kansai]]
 - [[Kyoto]]
-- Map: [Nara Japan](https://www.google.com/maps/search/?api=1&query=Nara+Japan)
+- Mapa: [Nara Japan](https://www.google.com/maps/search/?api=1&query=Nara+Japan)
 - [[Travel]]
 - [[Dashboard_Travel]]

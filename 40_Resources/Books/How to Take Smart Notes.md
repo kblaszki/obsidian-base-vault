@@ -14,32 +14,32 @@ rating: 5
 
 # How to Take Smart Notes
 
-## Summary
+## Podsumowanie
 
-Zettelkasten-style writing workflow: capture fleeting ideas, turn them into permanent notes, and compose from the slip-box instead of blank-page outlining.
+Workflow pisania w stylu Zettelkasten: przechwytuj ulotne pomysły, zamieniaj je w notatki trwałe i składaj tekst ze slip-boxa zamiast planować od pustej strony.
 
-## Key ideas
+## Kluczowe idee
 
-- Write notes as if explaining to your future self, not as bookmarks.
-- Permanent notes should be atomic and linkable.
-- Drafting becomes assembly of existing notes, not starting from zero.
+- Pisz notatki tak, jakbyś tłumaczył coś przyszłemu sobie, a nie jak zakładki.
+- Notatki trwałe powinny być atomowe i linkowalne.
+- Pisanie staje się montażem istniejących notatek, a nie startem od zera.
 
-## Highlights
+## Fragmenty
 
 > Thinking happens in writing; the slip-box is an external thinking partner.
 
-## My interpretation
+## Moja interpretacja
 
-Pairs well with PARA: projects pull from a growing network of evergreen notes under [[Knowledge Management]].
+Dobrze łączy się z PARA: projekty czerpią z rosnącej sieci evergreen notes pod [[Knowledge Management]].
 
-## Actions
+## Działania
 
-- [x] Compare Ahrens permanent notes vs Forte progressive summarization
-- [ ] Add one atomic note from next article processed
+- [x] Porównaj notatki trwałe Ahrensa z progressive summarization Forte’a
+- [ ] Dodaj jedną atomową notatkę z kolejnego przetworzonego artykułu
 
-## Connections
+## Powiązania
 
-- Area: [[Knowledge Management]]
+- Obszar: [[Knowledge Management]]
 - [[Building a Second Brain]]
 - [[Progressive Summarization]]
 - [[Evergreen Notes]]

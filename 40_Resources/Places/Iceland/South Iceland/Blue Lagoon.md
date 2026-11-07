@@ -18,36 +18,36 @@ banner_position: center
 
 # Blue Lagoon
 
-## Why visit
+## Dlaczego warto
 
-Optional spa buffer day near KEF; book ahead or consider Sky Lagoon instead.
+Opcjonalny dzień spa w okolicy KEF; rezerwuj z wyprzedzeniem albo rozważ Sky Lagoon.
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Flex day before departure
-- **How to get there:** Bus packages or rental car near KEF
-- **Cost / tickets:** Expensive; prebook
-- **Hours:** Session slots
+- **Najlepszy czas:** Elastyczny dzień przed wylotem
+- **Jak dojechać:** Pakiety autobusowe lub wynajem auta koło KEF
+- **Koszt / bilety:** Drogo; rezerwuj z góry
+- **Godziny:** Sloty sesji
 
-## Highlights
+## Najważniejsze
 
-- Geothermal soak
-- Convenient with airport logistics
+- Kąpiel geotermalna
+- Wygodne z logistyką lotniska
 
-## Visit log
+## Notatki
 
-- Optional Day 06 on [[Iceland Ring Road]].
+- Opcjonalny Dzień 06 na [[Iceland Ring Road]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -56,10 +56,10 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[South Iceland]]
+- Rodzic: [[South Iceland]]
 - [[Reykjavik]]
-- Map: [Blue Lagoon Iceland](https://www.google.com/maps/search/?api=1&query=Blue+Lagoon+Iceland)
+- Mapa: [Blue Lagoon Iceland](https://www.google.com/maps/search/?api=1&query=Blue+Lagoon+Iceland)
 - [[Travel]]
 - [[Dashboard_Travel]]

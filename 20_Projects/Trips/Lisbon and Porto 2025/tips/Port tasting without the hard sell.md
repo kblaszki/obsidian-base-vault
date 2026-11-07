@@ -1,34 +1,34 @@
-    ---
-    type: trip-tip
-    trip: "[[Lisbon and Porto 2025]]"
-    topic: culture
-    status: ready
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - tip
-    icon: 💡
-    ---
+---
+type: trip-tip
+trip: "[[Lisbon and Porto 2025]]"
+topic: culture
+status: ready
+created_date: 2026-11-01
+tags:
+  - travel
+  - tip
+icon: 💡
+---
 
-    # Port tasting without the hard sell
+# Port tasting without the hard sell
 
-    One Gaia lodge tasting is enough for most travellers.
+Jedna degustacja w lodge’u w Gaia wystarczy większości podróżnych.
 
-    ## Key points
+## Kluczowe punkty
 
-    - Cross the upper deck for free views.
-- Book one reputable lodge; skip multi-lodge packages.
-- Evening Ribeira light is the real highlight.
+- Przejdź górnym pokładem mostu za darmowe widoki.
+- Zarezerwuj jeden renomowany lodge; pomiń pakiety multi-lodge.
+- Wieczorne światło na Ribeirze to prawdziwy highlight.
 
-    ## Details
+## Szczegóły
 
-    Francesinha is heavy — split it. Save appetite for river evening.
+Francesinha jest ciężka — podzielcie się. Zostaw apetyt na wieczór nad rzeką.
 
-    ## Sources
+## Źródła
 
-    - Personal notes from planning and travel
+- Notatki własne z planowania i podróży
 
-    ## Related
+## Powiązane
 
-    - [[Lisbon and Porto 2025]]
-    - [[Dashboard_Travel]]
+- [[Lisbon and Porto 2025]]
+- [[Dashboard_Travel]]

@@ -16,31 +16,31 @@ tags:
 
 # Cacio e Pepe
 
-## Summary
+## Podsumowanie
 
-Roman pasta with cheese and pepper—baseline comfort dish remembered from [[Rome and Florence 2024]] evenings in [[Rome]].
+Rzymski makaron z serem i pieprzem — bazowe comfort food zapamiętane z wieczorów [[Rome and Florence 2024]] w [[Rome]].
 
-## Ingredients
+## Składniki
 
-- 200 g spaghetti or tonnarelli
-- 80 g Pecorino Romano, finely grated
-- Freshly cracked black pepper
-- Salt for pasta water
+- 200 g spaghetti lub tonnarelli
+- 80 g Pecorino Romano, drobno starty
+- Świeżo mielony czarny pieprz
+- Sól do wody na makaron
 
-## Steps
+## Kroki
 
-1. Boil pasta in well-salted water until just under al dente; reserve starchy water.
-2. Toast cracked pepper briefly in a warm pan.
-3. Emulsify pecorino with a ladle of pasta water off heat into a creamy paste.
-4. Toss pasta with pepper and cheese paste, adding water until glossy—not oily.
+1. Ugotuj makaron w dobrze posolonej wodzie do stanu lekko przed al dente; zachowaj skrobiową wodę.
+2. Krótko podpraż pokruszony pieprz na ciepłej patelni.
+3. Zdejmij z ognia i zemulguj pecorino z chochlą wody z makaronu na kremową pastę.
+4. Wymieszaj makaron z pieprzem i pastą serową, dolewając wodę aż będzie błyszczący — nie oleisty.
 
-## Notes
+## Notatki
 
-- Keep heat low when combining cheese or it will clump.
-- Pecorino only; Parmesan changes the character.
+- Trzymaj niski ogień przy łączeniu sera, inaczej się zbryli.
+- Tylko pecorino; parmezan zmienia charakter.
 
-## Related
+## Powiązane
 
-- Cuisine / place: [[Italy]] · [[Rome]]
-- Trip: [[Rome and Florence 2024]]
+- Kuchnia / miejsce: [[Italy]] · [[Rome]]
+- Wyjazd: [[Rome and Florence 2024]]
 - [[Travel]]

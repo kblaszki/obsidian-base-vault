@@ -18,37 +18,37 @@ banner_position: center
 
 # Porto
 
-## Why visit
+## Dlaczego warto
 
-Compact riverside city with strong evenings and easy Gaia tastings.
+Zwarte miasto nad rzeką z mocnymi wieczorami i łatwymi degustacjami w Gaia.
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Late spring
-- **How to get there:** Alfa Pendular from Lisbon; metro to OPO
-- **Cost / tickets:** One port tasting is enough
-- **Hours:** Lodges keep daytime tasting slots
+- **Najlepszy czas:** Późna wiosna
+- **Jak dojechać:** Alfa Pendular z Lizbony; metro do OPO
+- **Koszt / bilety:** Jedna degustacja porto wystarczy
+- **Godziny:** Loże trzymają dzienne sloty degustacji
 
-## Highlights
+## Najważniejsze
 
-- Dom Luís I bridge upper deck
-- São Bento tiles
-- Sunset on the Douro
+- Górny pokład mostu Dom Luís I
+- Azulejos na São Bento
+- Zachód słońca nad Douro
 
-## Visit log
+## Notatki
 
-- Visited 2025-05-14 to 2025-05-17 on [[Lisbon and Porto 2025]].
+- Odwiedzono 2025-05-14 do 2025-05-17 na [[Lisbon and Porto 2025]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -57,10 +57,10 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Norte]]
+- Rodzic: [[Norte]]
 - [[Ribeira]]
-- Map: [Porto Portugal](https://www.google.com/maps/search/?api=1&query=Porto+Portugal)
+- Mapa: [Porto Portugal](https://www.google.com/maps/search/?api=1&query=Porto+Portugal)
 - [[Travel]]
 - [[Dashboard_Travel]]

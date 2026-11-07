@@ -1,7 +1,8 @@
 ---
 type: trip-day
-trip: "{{FILE:20_Projects/Trips|link|label:Trip}}"
-date: "{{VDATE:date,YYYY-MM-DD|label:Day}}"
+trip: "{{FILE:20_Projects/Trips|link|label:Wyjazd}}"
+date: "{{VDATE:date,YYYY-MM-DD|label:Dzień}}"
+day_number:
 created_date: <% tp.date.now("YYYY-MM-DD") %>
 tags:
   - travel
@@ -12,46 +13,46 @@ banner_position: center
 
 # <% tp.file.title %>
 
-{{VALUE:summary|label:Short day summary|type:multiline}}
+{{VALUE:summary|label:Krótki opis dnia|type:multiline}}
 
 
-## Day timeline
+## Harmonogram dnia
 
-- {{VALUE:first_time|label:First timeline time|default:09:00}} — {{VALUE:first_timeline|label:First timeline item}}
+- {{VALUE:first_time|label:Pierwsza godzina|default:09:00}} — {{VALUE:first_timeline|label:Pierwszy punkt harmonogramu}}
 
-## Logistics
+## Logistyka
 
 -
 
-## Places
+## Miejsca
 
-- [[]] — *(quick stop / 1–2h / half day)*
+- [[]] — *(krótki przystanek / 1–2h / pół dnia)*
 
-## Food
+## Jedzenie
 
-- **Breakfast:**
-- **Lunch:**
-- **Dinner:**
-- **Groceries / snacks:**
+- **Śniadanie:**
+- **Obiad:**
+- **Kolacja:**
+- **Zakupy / przekąski:**
 
-### Costs
+### Koszty
 
-| Item | Amount | Notes |
-|------|--------|-------|
-|      |        |       |
+| Pozycja | Kwota | Uwagi |
+|---------|-------|-------|
+|         |       |       |
 
-## Pack today
+## Spakuj dziś
 
-- **Documents:**
-- **Clothes:**
-- **Cash / cards:**
-- **Gear:**
+- **Dokumenty:**
+- **Ubrania:**
+- **Gotówka / karty:**
+- **Sprzęt:**
 
-## Notes
+## Notatki
 
-{{VALUE:day_notes|label:Extra notes|type:multiline|optional}}
+{{VALUE:day_notes|label:Dodatkowe notatki|type:multiline|optional}}
 
-## Related
+## Powiązane
 
-- {{FILE:20_Projects/Trips|link|label:Trip}}
+- {{FILE:20_Projects/Trips|link|label:Wyjazd}}
 - [[Dashboard_Travel]]

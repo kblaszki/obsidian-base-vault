@@ -1,37 +1,37 @@
-    ---
-    type: trip-prep
-    trip: "[[Lisbon and Porto 2025]]"
-    prep_kind: bookings
-    status: done
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - prep
-    icon: ☑️
-    ---
+---
+type: trip-prep
+trip: "[[Lisbon and Porto 2025]]"
+prep_kind: bookings
+status: done
+created_date: 2026-11-01
+tags:
+  - travel
+  - prep
+icon: ☑️
+---
 
-    # Bookings and admin
+# Bookings and admin
 
-    Flights, lodging, Alfa Pendular, and optional cruise.
+Loty, noclegi, Alfa Pendular i opcjonalny rejs.
 
-    ## Checklist
+## Lista
 
-    - [x] Flights WAW–LIS / OPO–WAW
-- [x] Independente Lisbon + Pestana Porto
-- [x] Alfa Pendular seats
-- [x] Lisboa Card window planned
-- [x] Douro dusk cruise booked
-- [x] Insurance
+- [x] Loty WAW–LIS / OPO–WAW
+- [x] Independente Lizbona + Pestana Porto
+- [x] Miejsca Alfa Pendular
+- [x] Zaplanowane okno Lisboa Card
+- [x] Zarezerwowany rejs o zmierzchu na Douro
+- [x] Ubezpieczenie
 
-    ## Details
+## Szczegóły
 
-    Confirm fado reservation the day before.
+Potwierdź rezerwację fado dzień wcześniej.
 
-    ## Deadlines
+## Terminy
 
-    - Complete before departure
+- Domknąć przed wylotem
 
-    ## Related
+## Powiązane
 
-    - [[Lisbon and Porto 2025]]
-    - [[Dashboard_Travel]]
+- [[Lisbon and Porto 2025]]
+- [[Dashboard_Travel]]

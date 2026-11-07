@@ -1,37 +1,37 @@
-    ---
-    type: trip-prep
-    trip: "[[Rome and Florence 2024]]"
-    prep_kind: packing
-    status: done
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - prep
-    icon: ☑️
-    ---
+---
+type: trip-prep
+trip: "[[Rome and Florence 2024]]"
+prep_kind: packing
+status: done
+created_date: 2026-11-01
+tags:
+  - travel
+  - prep
+icon: ☑️
+---
 
-    # Packing
+# Packing
 
-    City walking kit for late-summer heat with one nicer dinner outfit.
+Zestaw do miejskiego chodzenia na późnoletnie upały plus jeden ładniejszy strój na kolację.
 
-    ## Checklist
+## Lista
 
-    - [x] Broken-in walking shoes
-- [x] Light layers + sun hat
-- [x] Compact daypack
-- [x] EU plug adapter
-- [x] Offline maps / tickets screenshots
-- [x] Refillable bottle
+- [x] Rozchodzone buty do chodzenia
+- [x] Lekkie warstwy + kapelusz przeciwsłoneczny
+- [x] Kompaktowy plecak dzienny
+- [x] Adapter UE
+- [x] Mapy offline / zrzuty biletów
+- [x] Butelka do napełniania
 
-    ## Details
+## Szczegóły
 
-    Laundry optional for 8 days if you pack light. Shoulder cover for churches.
+Pranie opcjonalne na 8 dni przy lekkim pakowaniu. Okrycie ramion do kościołów.
 
-    ## Deadlines
+## Terminy
 
-    - Packed before 2024-09-07
+- Spakowane przed 2024-09-07
 
-    ## Related
+## Powiązane
 
-    - [[Rome and Florence 2024]]
-    - [[Dashboard_Travel]]
+- [[Rome and Florence 2024]]
+- [[Dashboard_Travel]]

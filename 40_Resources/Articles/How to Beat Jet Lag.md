@@ -14,31 +14,31 @@ rating:
 
 # How to Beat Jet Lag
 
-## Summary
+## Podsumowanie
 
-Practical jet-lag guidance: light exposure, sleep timing, and hydration when crossing many time zones (relevant for Japan and Iceland trips).
+Praktyczne wskazówki na jet lag: ekspozycja na światło, timing snu i nawodnienie przy wielu strefach czasowych (istotne dla wyjazdów do Japonii i Islandii).
 
-## Key ideas
+## Kluczowe idee
 
-- Shift sleep gradually before departure when possible.
-- Use morning/evening light strategically after landing.
-- Avoid stacking alcohol and sleep aids as a first strategy.
+- Gdy to możliwe, stopniowo przesuwaj sen przed wylotem.
+- Po lądowaniu strategicznie używaj światła porannego/wieczornego.
+- Unikaj łączenia alkoholu i środków nasennych jako pierwszej strategii.
 
-## Highlights
+## Fragmenty
 
 > 
 
-## My interpretation
+## Moja interpretacja
 
-Turn into a reusable trip-prep checklist item rather than re-researching per trip.
+Zamień w powtarzalny punkt checklisty prep wyjazdu zamiast researchować od nowa przy każdej podróży.
 
-## Actions
+## Działania
 
-- [ ] Summarize into a tip under next long-haul trip
-- [ ] Link from [[Japan Spring 2026]] prep when packing sleep kit
+- [ ] Streść do tipa pod kolejny long-haul
+- [ ] Podlinkuj z prep [[Japan Spring 2026]], gdy pakujesz zestaw do snu
 
-## Connections
+## Powiązania
 
-- Area: [[Travel]]
-- Project: [[Japan Spring 2026]]
+- Obszar: [[Travel]]
+- Projekt: [[Japan Spring 2026]]
 - [[Iceland Ring Road]]

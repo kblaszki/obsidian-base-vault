@@ -18,37 +18,37 @@ banner_position: center
 
 # Edinburgh
 
-## Why visit
+## Dlaczego warto
 
-Strong urban start before the Highlands drive on [[Scottish Highlands 2025]].
+Mocny miejski start przed jazdą w Highlands na [[Scottish Highlands 2025]].
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Avoid peak festival if you want quiet; August is lively
-- **How to get there:** EDI tram
-- **Cost / tickets:** Castle timed entry
-- **Hours:** Long summer daylight
+- **Najlepszy czas:** Unikaj szczytu festiwalu, jeśli chcesz ciszy; sierpień jest żywy
+- **Jak dojechać:** Tramwaj EDI
+- **Koszt / bilety:** Timed entry do zamku
+- **Godziny:** Długie letnie światło
 
-## Highlights
+## Najważniejsze
 
 - Royal Mile
-- Castle views
-- New Town café streets
+- Widoki zamku
+- Uliczki kawiarni New Town
 
-## Visit log
+## Notatki
 
-- Visited 2025-08-02 to 2025-08-04 on [[Scottish Highlands 2025]].
+- Odwiedzono 2025-08-02 do 2025-08-04 na [[Scottish Highlands 2025]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -57,9 +57,9 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Scotland]]
-- Map: [Edinburgh Scotland](https://www.google.com/maps/search/?api=1&query=Edinburgh+Scotland)
+- Rodzic: [[Scotland]]
+- Mapa: [Edinburgh Scotland](https://www.google.com/maps/search/?api=1&query=Edinburgh+Scotland)
 - [[Travel]]
 - [[Dashboard_Travel]]

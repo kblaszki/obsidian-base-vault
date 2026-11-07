@@ -6,20 +6,20 @@ tags:
 
 # Home
 
-## Navigate
+## Nawigacja
 
-- [[Dashboard_Today|Today]]
-- [[Dashboard_Projects|Projects]]
-- [[Dashboard_Travel|Travel]]
-- [[Dashboard_Inbox|Inbox review]]
+- [[Dashboard_Today|Dziś]]
+- [[Dashboard_Projects|Projekty]]
+- [[Dashboard_Travel|Podróże]]
+- [[Dashboard_Inbox|Przegląd skrzynki]]
 - [[Knowledge Management]]
 - [[Software Development]]
 - [[Travel]]
 
-## Recently changed
+## Ostatnio zmienione
 
 ```dataview
-TABLE WITHOUT ID file.link AS Note, type AS Type, status AS Status, file.mtime AS Modified
+TABLE WITHOUT ID file.link AS Notatka, type AS Typ, status AS Status, file.mtime AS Zmodyfikowano
 FROM -"99_Templates"
 WHERE file.name != this.file.name
 SORT file.mtime DESC

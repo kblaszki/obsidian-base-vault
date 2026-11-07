@@ -6,36 +6,36 @@ tags:
   - journal/daily
 ---
 
-# <% tp.date.now("dddd, MMMM D, YYYY") %>
+# <% tp.date.now("dddd, D MMMM YYYY") %>
 
 <%*
 const noteDate = moment(tp.file.title, "YYYY-MM-DD");
 const previous = noteDate.clone().subtract(1, "day").format("YYYY-MM-DD");
 const next = noteDate.clone().add(1, "day").format("YYYY-MM-DD");
-tR += `[[${previous}|← Previous]] · [[${next}|Next →]]`;
+tR += `[[${previous}|← Poprzedni]] · [[${next}|Następny →]]`;
 %>
 
-## Focus
+## Fokus
 
 - [ ] <% tp.file.cursor(1) %>
 
-## Tasks
+## Zadania
 
-- [ ] 
+- [ ]
 
-## Log
+## Dziennik
 
-- <% tp.date.now("HH:mm") %> 
+- <% tp.date.now("HH:mm") %>
 
-## Notes
+## Notatki
 
 
-## End-of-day review
+## Przegląd dnia
 
-- **Win:** 
-- **Learned:** 
-- **Carry forward:** 
+- **Sukces:**
+- **Czego się nauczyłem/am:**
+- **Do przeniesienia:**
 
-## Related
+## Powiązane
 
 - [[Dashboard_Today]]

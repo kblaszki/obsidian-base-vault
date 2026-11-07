@@ -1,38 +1,38 @@
-    ---
-    type: trip-prep
-    trip: "[[Iceland Ring Road]]"
-    prep_kind: bookings
-    status: todo
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - prep
-    icon: ☑️
-    ---
+---
+type: trip-prep
+trip: "[[Iceland Ring Road]]"
+prep_kind: bookings
+status: todo
+created_date: 2026-11-01
+tags:
+  - travel
+  - prep
+icon: ☑️
+---
 
-    # Bookings and admin
+# Bookings and admin
 
-    Do not lock day notes to calendar until flights and car are booked.
+Nie przypisuj notatek dni do kalendarza, dopóki loty i auto nie są zarezerwowane.
 
-    ## Checklist
+## Lista
 
-    - [ ] Choose travel window (late spring / early autumn preferred)
-- [ ] Flights into KEF
-- [ ] Car hire with proper insurance (gravel awareness)
-- [ ] Reykjavik lodging (2 nights)
-- [ ] South Coast lodging (Vík / Hella area)
-- [ ] Optional Blue Lagoon slot
-- [ ] Travel insurance
+- [ ] Wybrać okno podróży (preferowana późna wiosna / wczesna jesień)
+- [ ] Loty do KEF
+- [ ] Wynajem auta z właściwym ubezpieczeniem (świadomość żwiru)
+- [ ] Nocleg w Reykjaviku (2 noce)
+- [ ] Nocleg South Coast (rejon Vík / Hella)
+- [ ] Opcjonalny slot Blue Lagoon
+- [ ] Ubezpieczenie podróżne
 
-    ## Details
+## Szczegóły
 
-    Assign real dates to Day 01–07 only after this list is solid.
+Przypisz prawdziwe daty do Day 01–07 dopiero, gdy ta lista będzie solidna.
 
-    ## Deadlines
+## Terminy
 
-    - No fixed deadline yet
+- Jeszcze bez sztywnego deadline’u
 
-    ## Related
+## Powiązane
 
-    - [[Iceland Ring Road]]
-    - [[Dashboard_Travel]]
+- [[Iceland Ring Road]]
+- [[Dashboard_Travel]]

@@ -16,31 +16,31 @@ tags:
 
 # Onigiri
 
-## Summary
+## Podsumowanie
 
-Simple rice balls for train days and hotel breakfasts—easy to pack for [[Tokyo]] walks during [[Japan Spring 2026]].
+Proste kulki ryżowe na dni pociągowe i śniadania hotelowe — łatwe do spakowania na spacery po [[Tokyo]] podczas [[Japan Spring 2026]].
 
-## Ingredients
+## Składniki
 
-- 2 cups cooked Japanese short-grain rice (warm)
-- Salt
-- Nori sheets, cut into strips
-- Optional fillings: umeboshi, tuna mayo, grilled salmon flakes
+- 2 szklanki ugotowanego japońskiego ryżu krótkiego ziarna (ciepłego)
+- Sól
+- Arkusze nori, pocięte w paski
+- Opcjonalne nadzienia: umeboshi, tuńczyk z majonezem, płatki grillowanego łososia
 
-## Steps
+## Kroki
 
-1. Wet hands, salt lightly, scoop a handful of warm rice.
-2. Press a small dent, add filling, cover and shape into a triangle or ball.
-3. Wrap with nori just before eating so it stays crisp.
-4. Pack in a box with parchment so shapes do not stick.
+1. Zwilż dłonie, lekko posól, nabierz garść ciepłego ryżu.
+2. Zrób małe wgłębienie, dodaj nadzienie, przykryj i uformuj trójkąt lub kulkę.
+3. Owiń nori tuż przed jedzeniem, żeby zostało chrupiące.
+4. Pakuj do pudełka z papierem, żeby kształty się nie sklejały.
 
-## Notes
+## Notatki
 
-- Convenience stores in Japan are excellent; this is the homemade version for picnic days.
-- Keep fillings dry so rice does not get mushy.
+- Konbini w Japonii są świetne; to domowa wersja na dni piknikowe.
+- Trzymaj nadzienia suche, żeby ryż nie zrobił się papkowaty.
 
-## Related
+## Powiązane
 
-- Cuisine / place: [[Japan]] · [[Tokyo]]
-- Trip: [[Japan Spring 2026]]
+- Kuchnia / miejsce: [[Japan]] · [[Tokyo]]
+- Wyjazd: [[Japan Spring 2026]]
 - [[Travel]]

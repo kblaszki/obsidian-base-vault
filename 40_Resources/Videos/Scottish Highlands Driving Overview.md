@@ -14,32 +14,32 @@ rating:
 
 # Scottish Highlands Driving Overview
 
-## Summary
+## Podsumowanie
 
-Road conditions, single-track etiquette, and pacing for Skye / Glencoe style drives—retrospective learning from [[Scottish Highlands 2025]].
+Warunki drogi, etykieta single-track i tempo jazdy w stylu Skye / Glencoe — wnioski retrospektywne z [[Scottish Highlands 2025]].
 
-## Key ideas
+## Kluczowe idee
 
-- Allow slack for weather and photo stops.
-- Single-track passing places are mandatory courtesy.
-- Fuel and food gaps are real between hubs.
+- Zostaw luz na pogodę i postoje fotograficzne.
+- Mijanki na single-track to obowiązkowa uprzejmość.
+- Luki w paliwie i jedzeniu między hubami są realne.
 
-## Highlights
+## Fragmenty
 
 > 
 
-## My interpretation
+## Moja interpretacja
 
-Useful for future UK road trips; compare against what actually worked on the 2025 trip tips.
+Przydatne na przyszłe road tripy w UK; porównaj z tym, co faktycznie zadziałało w tipach z wyjazdu 2025.
 
-## Actions
+## Działania
 
-- [ ] Diff video advice vs own tip notes under the Highlands trip
-- [ ] Tag durable rules into a reusable Travel tip later
+- [ ] Porównaj rady z wideo z własnymi tipami pod Highlands
+- [ ] Później oznacz trwałe reguły jako wielokrotnego użytku tip Travel
 
-## Connections
+## Powiązania
 
-- Area: [[Travel]]
-- Project: [[Scottish Highlands 2025]]
+- Obszar: [[Travel]]
+- Projekt: [[Scottish Highlands 2025]]
 - [[Isle of Skye]]
 - [[Glencoe]]

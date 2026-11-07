@@ -18,35 +18,35 @@ banner_position: center
 
 # Lazio
 
-## Why visit
+## Dlaczego warto
 
-Rome and surrounding Lazio; capital density of landmarks.
+Rzym i okoliczne Lazio; stolica gęsta od zabytków.
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Spring or early autumn
-- **How to get there:** FCO + Leonardo Express
-- **Cost / tickets:** Timed entries essential
-- **Hours:** Churches often close midday
+- **Najlepszy czas:** Wiosna lub wczesna jesień
+- **Jak dojechać:** FCO + Leonardo Express
+- **Koszt / bilety:** Timed entry niezbędne
+- **Godziny:** Kościoły często zamykane w południe
 
-## Highlights
+## Najważniejsze
 
-- [[Rome]] historic center
+- Historyczne centrum [[Rome]]
 
-## Visit log
+## Notatki
 
-- Visited September 2024 on [[Rome and Florence 2024]].
+- Odwiedzono we wrześniu 2024 na [[Rome and Florence 2024]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -55,9 +55,9 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Italy]]
-- Map: [Lazio Italy](https://www.google.com/maps/search/?api=1&query=Lazio+Italy)
+- Rodzic: [[Italy]]
+- Mapa: [Lazio Italy](https://www.google.com/maps/search/?api=1&query=Lazio+Italy)
 - [[Travel]]
 - [[Dashboard_Travel]]

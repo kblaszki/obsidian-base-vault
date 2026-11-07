@@ -13,51 +13,51 @@ banner_position: center
 
 # Day 07
 
-Return rental full and depart KEF.
+Zwrot wynajmu z pełnym bakiem i wylot z KEF.
 
-## Day timeline
+## Harmonogram dnia
 
-- 08:00 — Breakfast
-- 09:00 — Fuel to full; return rental
-- 11:00 — KEF international buffer
-- Afternoon — Departure
+- 08:00 — Śniadanie
+- 09:00 — Tankowanie do pełna; zwrot wynajmu
+- 11:00 — Bufor międzynarodowy KEF
+- Popołudnie — Wylot
 
-## Logistics
+## Logistyka
 
-- Photograph car condition before return.
-- Assign real calendar dates only after flights/cars are booked.
-- Liquids bag ready.
+- Fotografuj stan auta przed zwrotem.
+- Przypisz prawdziwe daty kalendarzowe dopiero po rezerwacji lotów/aut.
+- Woreczek na płyny gotowy.
 
-## Places
+## Miejsca
 
-- [[Reykjavik]] — departure logistics *(quick stop)*
+- [[Reykjavik]] — logistyka wyjazdu *(krótki przystanek)*
 
-## Food
+## Jedzenie
 
-- **Breakfast:** Lodging / airport
-- **Lunch:** Airport
-- **Dinner:** Flight
-- **Groceries / snacks:** —
+- **Śniadanie:** Nocleg / lotnisko
+- **Obiad:** Lotnisko
+- **Kolacja:** Lot
+- **Zakupy / przekąski:** —
 
-### Costs
+### Koszty
 
-| Item | Amount | Notes |
+| Pozycja | Kwota | Uwagi |
 |------|--------|-------|
-| Fuel top-up | €40 | Return full |
-| Airport meal | €20 | Before security |
+| Dopłata paliwa | €40 | Zwrot z pełnym bakiem |
+| Posiłek na lotnisku | €20 | Przed ochroną |
 
-## Pack today
+## Spakuj dziś
 
-- **Documents:** Passport; boarding passes; rental return papers
-- **Clothes:** Cabin layers
-- **Cash / cards:** Unlocked card
-- **Gear:** Empty car completely
+- **Dokumenty:** Paszport; karty pokładowe; dokumenty zwrotu wynajmu
+- **Ubrania:** Warstwy do kabiny
+- **Gotówka / karty:** Odblokowana karta
+- **Sprzęt:** Całkowicie opróżnij auto
 
-## Notes
+## Notatki
 
-Provisional Day 07 until dates are fixed.
+Tymczasowy Day 07, dopóki daty nie są ustalone.
 
-## Related
+## Powiązane
 
 - [[Iceland Ring Road]]
 - [[Dashboard_Travel]]

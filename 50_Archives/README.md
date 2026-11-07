@@ -1,6 +1,6 @@
-# Archives
+# Archiwa
 
-Move completed projects and inactive material here while preserving their
-relative grouping, for example `50_Archives/Projects/Project Name`.
+Przenoś tu ukończone projekty i nieaktywne materiały, zachowując ich
+względne grupowanie, na przykład `50_Archives/Projects/Project Name`.
 
-Archiving instead of deleting keeps links and historical decisions intact.
+Archiwizowanie zamiast usuwania utrzymuje linki i historyczne decyzje w całości.

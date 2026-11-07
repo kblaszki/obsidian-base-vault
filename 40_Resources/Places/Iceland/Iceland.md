@@ -18,37 +18,37 @@ banner_position: center
 
 # Iceland
 
-## Why visit
+## Dlaczego warto
 
-Ring-road landscapes: coasts, geothermal, and waterfall day loops.
+Krajobrazy drogi okrężnej: wybrzeża, geotermia i pętle wodospadów.
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Late spring to early autumn for easier driving
-- **How to get there:** KEF hub
-- **Cost / tickets:** Rental car and fuel dominate
-- **Hours:** Extreme daylight seasonality
+- **Najlepszy czas:** Późna wiosna do wczesnej jesieni — łatwiejsza jazda
+- **Jak dojechać:** Hub KEF
+- **Koszt / bilety:** Dominują wynajem auta i paliwo
+- **Godziny:** Ekstremalna sezonowość dnia
 
-## Highlights
+## Najważniejsze
 
-- [[Reykjavik]] base
+- Baza [[Reykjavik]]
 - [[South Coast]]
 - [[Golden Circle]]
 
-## Visit log
+## Notatki
 
-- Draft itinerary on [[Iceland Ring Road]] (dates TBD).
+- Szkic itinerariusza na [[Iceland Ring Road]] (daty TBD).
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -57,8 +57,8 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Map: [Iceland](https://www.google.com/maps/search/?api=1&query=Iceland)
+- Mapa: [Iceland](https://www.google.com/maps/search/?api=1&query=Iceland)
 - [[Travel]]
 - [[Dashboard_Travel]]

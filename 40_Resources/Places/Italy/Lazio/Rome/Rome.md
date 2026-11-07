@@ -18,37 +18,37 @@ banner_position: center
 
 # Rome
 
-## Why visit
+## Dlaczego warto
 
-Capital density of landmarks; base for [[Colosseum]] and [[Pantheon]] during [[Rome and Florence 2024]].
+Gęstość zabytków stolicy; baza na [[Colosseum]] i [[Pantheon]] podczas [[Rome and Florence 2024]].
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Spring or early autumn
-- **How to get there:** FCO + Leonardo Express / taxis
-- **Cost / tickets:** Timed entries essential for big sites
-- **Hours:** Churches often close midday
+- **Najlepszy czas:** Wiosna lub wczesna jesień
+- **Jak dojechać:** FCO + Leonardo Express / taksówki
+- **Koszt / bilety:** Timed entry niezbędne przy dużych obiektach
+- **Godziny:** Kościoły często zamykane w południe
 
-## Highlights
+## Najważniejsze
 
-- Centro Storico walks
-- Trastevere evenings
-- Forum + Palatine pairing with the Colosseum
+- Spacery Centro Storico
+- Wieczory w Trastevere
+- Forum + Palatyn w parze z Koloseum
 
-## Visit log
+## Notatki
 
-- Visited 2024-09-08 to 2024-09-12 on [[Rome and Florence 2024]].
+- Odwiedzono 2024-09-08 do 2024-09-12 na [[Rome and Florence 2024]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -57,11 +57,11 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[Lazio]]
+- Rodzic: [[Lazio]]
 - [[Colosseum]]
 - [[Pantheon]]
-- Map: [Rome Italy](https://www.google.com/maps/search/?api=1&query=Rome+Italy)
+- Mapa: [Rome Italy](https://www.google.com/maps/search/?api=1&query=Rome+Italy)
 - [[Travel]]
 - [[Dashboard_Travel]]

@@ -10,9 +10,9 @@ review_frequency: monthly
 
 # Knowledge Management
 
-Maintain a trustworthy system for capture, synthesis, retrieval, and reuse.
+Utrzymuj wiarygodny system przechwytywania, syntezy, wyszukiwania i ponownego użycia wiedzy.
 
-## Active projects
+## Aktywne projekty
 
 ```dataview
 LIST
@@ -21,7 +21,7 @@ WHERE type = "project" AND area = this.file.link AND status != "archived"
 SORT target_date ASC
 ```
 
-## Key resources
+## Kluczowe zasoby
 
 - [[Building a Second Brain]]
 - [[How to Take Smart Notes]]
@@ -30,8 +30,8 @@ SORT target_date ASC
 - [[The PARA Method]]
 - [[Building a Second Brain Course]]
 
-## Standards
+## Standardy
 
-- Every active project has one visible next action.
-- Inbox items are clarified before they are moved.
-- Durable concepts link back to this MOC.
+- Każdy aktywny projekt ma jedno widoczne następne działanie.
+- Elementy ze skrzynki są wyjaśnione, zanim zostaną przeniesione.
+- Trwałe pojęcia linkują z powrotem do tego MOC.

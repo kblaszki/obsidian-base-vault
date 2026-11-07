@@ -18,37 +18,37 @@ banner_position: center
 
 # Scotland
 
-## Why visit
+## Dlaczego warto
 
-Highlands and islands corridor for [[Scottish Highlands 2025]].
+Korytarz Highlands i wysp na [[Scottish Highlands 2025]].
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Long daylight months
-- **How to get there:** EDI + rental car
-- **Cost / tickets:** Parking honesty boxes common
-- **Hours:** Weather dependent outdoors
+- **Najlepszy czas:** Miesiące długiego dnia
+- **Jak dojechać:** EDI + wynajem auta
+- **Koszt / bilety:** Częste parking honesty boxes
+- **Godziny:** Outdoor zależny od pogody
 
-## Highlights
+## Najważniejsze
 
-- [[Edinburgh]] urban start
-- [[Isle of Skye]] cliffs
-- [[Glencoe]] valley
+- Miejski start [[Edinburgh]]
+- Klify [[Isle of Skye]]
+- Dolina [[Glencoe]]
 
-## Visit log
+## Notatki
 
-- Visited August 2025 on [[Scottish Highlands 2025]].
+- Odwiedzono w sierpniu 2025 na [[Scottish Highlands 2025]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -57,9 +57,9 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Parent: [[United Kingdom]]
-- Map: [Scotland](https://www.google.com/maps/search/?api=1&query=Scotland)
+- Rodzic: [[United Kingdom]]
+- Mapa: [Scotland](https://www.google.com/maps/search/?api=1&query=Scotland)
 - [[Travel]]
 - [[Dashboard_Travel]]

@@ -16,35 +16,35 @@ tags:
 
 # Pastéis de Nata
 
-## Summary
+## Podsumowanie
 
-Home-oven take on Lisbon custard tarts after tasting them near Belém during [[Lisbon and Porto 2025]].
+Domowa wersja lisbońskich tart z kremem po spróbowaniu ich koło Belém podczas [[Lisbon and Porto 2025]].
 
-## Ingredients
+## Składniki
 
-- 1 sheet puff pastry
-- 250 ml milk
-- 100 g sugar
-- 2 tbsp flour
-- 4 egg yolks
-- 1 cinnamon stick
-- Lemon peel
-- Cinnamon and powdered sugar to finish
+- 1 arkusz ciasta francuskiego
+- 250 ml mleka
+- 100 g cukru
+- 2 łyżki mąki
+- 4 żółtka
+- 1 laskę cynamonu
+- Skórkę z cytryny
+- Cynamon i cukier puder do wykończenia
 
-## Steps
+## Kroki
 
-1. Line greased muffin tins with puff pastry circles; chill.
-2. Warm milk with cinnamon and lemon peel; strain.
-3. Whisk sugar, flour, and yolks; temper with hot milk; cook briefly until thick.
-4. Fill shells and bake very hot until tops blister; dust with cinnamon sugar.
+1. Wyłóż natłuszczone foremki na muffiny krążkami ciasta francuskiego; schłodź.
+2. Podgrzej mleko z cynamonem i skórką cytryny; przecedź.
+3. Utrzyj cukier, mąkę i żółtka; zahartuj gorącym mlekiem; krótko gotuj do zgęstnienia.
+4. Napełnij skorupki i piecz bardzo gorąco, aż wierzch się blisteruje; posyp cukrem cynamonowym.
 
-## Notes
+## Notatki
 
-- True Belém pastry is a craft; this is a travel-memory approximation.
-- Oven as hot as safely allowed for blistered tops.
+- Prawdziwe ciastko z Belém to rzemiosło; to przybliżenie z pamięci podróży.
+- Piekarnik tak gorący, jak bezpiecznie — dla blisterowanych wierzchów.
 
-## Related
+## Powiązane
 
-- Cuisine / place: [[Portugal]] · [[Lisbon]] · [[Belém Tower]]
-- Trip: [[Lisbon and Porto 2025]]
+- Kuchnia / miejsce: [[Portugal]] · [[Lisbon]] · [[Belém Tower]]
+- Wyjazd: [[Lisbon and Porto 2025]]
 - [[Travel]]

@@ -1,37 +1,37 @@
-    ---
-    type: trip-prep
-    trip: "[[Rome and Florence 2024]]"
-    prep_kind: bookings
-    status: done
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - prep
-    icon: ☑️
-    ---
+---
+type: trip-prep
+trip: "[[Rome and Florence 2024]]"
+prep_kind: bookings
+status: done
+created_date: 2026-11-01
+tags:
+  - travel
+  - prep
+icon: ☑️
+---
 
-    # Bookings and admin
+# Bookings and admin
 
-    Flights, hotels, Freccia, and key museum slots.
+Loty, hotele, Freccia i kluczowe sloty muzealne.
 
-    ## Checklist
+## Lista
 
-    - [x] Flights WAW–FCO / FLR–WAW
-- [x] Hotel Artemide (Rome) + Hotel Davanzati (Florence)
-- [x] Freccia seats
-- [x] Colosseum timed entry
-- [x] Uffizi timed entry
-- [x] Travel insurance
+- [x] Loty WAW–FCO / FLR–WAW
+- [x] Hotel Artemide (Rzym) + Hotel Davanzati (Florencja)
+- [x] Miejsca Freccia
+- [x] Wejście czasowe Koloseum
+- [x] Wejście czasowe Uffizi
+- [x] Ubezpieczenie podróżne
 
-    ## Details
+## Szczegóły
 
-    Store confirmations in an offline folder and email labels.
+Trzymaj potwierdzenia w folderze offline i etykietach mailowych.
 
-    ## Deadlines
+## Terminy
 
-    - All locked before departure
+- Wszystko zablokowane przed wylotem
 
-    ## Related
+## Powiązane
 
-    - [[Rome and Florence 2024]]
-    - [[Dashboard_Travel]]
+- [[Rome and Florence 2024]]
+- [[Dashboard_Travel]]

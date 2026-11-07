@@ -1,11 +1,11 @@
-# Image sources — Places banners
+# Źródła obrazów — bannery Places
 
-Wikimedia Commons images (copied from trip `assets/` or downloaded for vault demo).
-Each place note uses `banner: "[[./assets/<file>]]"` with `attachmentFolderPath` `./assets`.
+Obrazy z Wikimedia Commons (skopiowane z `assets/` wyjazdów lub pobrane na demo vaultu).
+Każda notatka miejsca używa `banner: "[[./assets/<file>]]"` przy `attachmentFolderPath` `./assets`.
 
-## Reused from trip assets
+## Ponownie użyte z assets wyjazdów
 
-See attributions in:
+Zobacz atrybucje w:
 
 - `20_Projects/Trips/Japan Spring 2026/assets/SOURCES.md`
 - `20_Projects/Trips/Rome and Florence 2024/assets/SOURCES.md`
@@ -13,7 +13,7 @@ See attributions in:
 - `20_Projects/Trips/Scottish Highlands 2025/assets/SOURCES.md`
 - `20_Projects/Trips/Iceland Ring Road/assets/SOURCES.md`
 
-## Place-only downloads
+## Pobrania tylko dla Places
 
 - `osaka-castle.jpg` — File:Osaka Castle 04s5s4272.jpg — 663highland — CC BY 2.5
   - https://commons.wikimedia.org/wiki/File:Osaka_Castle_04s5s4272.jpg

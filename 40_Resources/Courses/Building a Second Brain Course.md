@@ -14,32 +14,32 @@ rating: 4
 
 # Building a Second Brain Course
 
-## Summary
+## Podsumowanie
 
-Cohort-style course expanding the book into weekly practice: capture rituals, project notebooks, and progressive summarization drills.
+Kurs kohortowy rozwijający książkę w cotygodniową praktykę: rytuały przechwytywania, notatniki projektów i ćwiczenia progressive summarization.
 
-## Key ideas
+## Kluczowe idee
 
-- Practice beats theory; ship one packet per week.
-- Project notes should point at resources, not duplicate them.
-- Distill only when a note is pulled into active work.
+- Praktyka wygrywa z teorią; wysyłaj jedną paczkę tygodniowo.
+- Notatki projektów powinny wskazywać na zasoby, a nie je duplikować.
+- Destyluj dopiero, gdy notatka wchodzi w aktywną pracę.
 
-## Highlights
+## Fragmenty
 
 > 
 
-## My interpretation
+## Moja interpretacja
 
-Graduated ideas into this vault’s templates and dashboards; keep the course note as provenance.
+Pomysły weszły do szablonów i dashboardów tego vaultu; trzymaj notatkę kursu jako provenance.
 
-## Actions
+## Działania
 
-- [x] Map course modules onto vault folders
-- [ ] Revisit module on intermediate packets when Inbox grows
+- [x] Zmapuj moduły kursu na foldery vaultu
+- [ ] Wróć do modułu o intermediate packets, gdy Inbox urośnie
 
-## Connections
+## Powiązania
 
-- Area: [[Knowledge Management]]
+- Obszar: [[Knowledge Management]]
 - [[Building a Second Brain]]
 - [[Progressive Summarization]]
-- Project: [[Launch Knowledge Hub]]
+- Projekt: [[Launch Knowledge Hub]]

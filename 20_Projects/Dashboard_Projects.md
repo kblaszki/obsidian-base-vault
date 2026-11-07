@@ -7,24 +7,24 @@ tags:
 
 # Projects
 
-## Open projects by status
+## Otwarte projekty według statusu
 
 ```dataview
 TABLE WITHOUT ID
   key AS Status,
-  rows.file.link AS Projects,
-  rows.area AS Areas,
-  rows.target_date AS Targets
+  rows.file.link AS Projekty,
+  rows.area AS Obszary,
+  rows.target_date AS Terminy
 FROM "20_Projects"
 WHERE type = "project" AND status != "done" AND status != "archived"
 GROUP BY status
 SORT key ASC
 ```
 
-## Needs review
+## Wymagają przeglądu
 
 ```dataview
-TABLE area AS Area, status AS Status, review_date AS "Review due"
+TABLE area AS Obszar, status AS Status, review_date AS "Termin przeglądu"
 FROM "20_Projects"
 WHERE type = "project"
   AND status != "done"
@@ -34,7 +34,7 @@ WHERE type = "project"
 SORT review_date ASC
 ```
 
-## Incomplete project tasks
+## Nieukończone zadania projektów
 
 ```dataview
 TASK

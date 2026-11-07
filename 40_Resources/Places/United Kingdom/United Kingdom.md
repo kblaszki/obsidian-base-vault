@@ -18,37 +18,37 @@ banner_position: center
 
 # United Kingdom
 
-## Why visit
+## Dlaczego warto
 
-Scotland Highlands road trip base via Edinburgh.
+Baza road trip’u Highlands przez Edynburg.
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Long daylight summer months
-- **How to get there:** EDI for Scotland starts
-- **Cost / tickets:** Rental car essential for Highlands
-- **Hours:** Long summer daylight
+- **Najlepszy czas:** Letnie miesiące długiego dnia
+- **Jak dojechać:** EDI na starty w Szkocji
+- **Koszt / bilety:** Wynajem auta niezbędny w Highlands
+- **Godziny:** Długie letnie światło
 
-## Highlights
+## Najważniejsze
 
 - [[Edinburgh]]
 - [[Isle of Skye]]
 - [[Glencoe]]
 
-## Visit log
+## Notatki
 
-- Visited August 2025 on [[Scottish Highlands 2025]].
+- Odwiedzono w sierpniu 2025 na [[Scottish Highlands 2025]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -57,8 +57,8 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Map: [United Kingdom](https://www.google.com/maps/search/?api=1&query=United+Kingdom)
+- Mapa: [United Kingdom](https://www.google.com/maps/search/?api=1&query=United+Kingdom)
 - [[Travel]]
 - [[Dashboard_Travel]]

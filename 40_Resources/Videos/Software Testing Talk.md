@@ -14,31 +14,31 @@ rating:
 
 # Software Testing Talk
 
-## Summary
+## Podsumowanie
 
-Conference-style talk on test pyramids, feedback loops, and when not to automate—ties to engineering standards in [[Software Development]].
+Talk konferencyjny o piramidach testów, pętlach feedbacku i tym, kiedy nie automatyzować — powiązany ze standardami inżynierii w [[Software Development]].
 
-## Key ideas
+## Kluczowe idee
 
-- Fast unit feedback enables safer refactors.
-- E2E tests are expensive; reserve for critical paths.
-- Test design is design documentation.
+- Szybki feedback jednostkowy umożliwia bezpieczniejsze refaktory.
+- Testy E2E są drogie; rezerwuj je na ścieżki krytyczne.
+- Design testów to dokumentacja designu.
 
-## Highlights
+## Fragmenty
 
 > 
 
-## My interpretation
+## Moja interpretacja
 
-Apply the same “cheap feedback” idea to vault validation scripts and Linter-on-save.
+Zastosuj tę samą ideę „taniego feedbacku” do skryptów walidacji vaultu i Linter-on-save.
 
-## Actions
+## Działania
 
-- [ ] Finish talk and capture three durable testing heuristics
-- [ ] Link heuristics into a Software Development MOC note later
+- [ ] Dokończ talk i przechwyć trzy trwałe heurystyki testowania
+- [ ] Później podlinkuj heurystyki do notatki MOC Software Development
 
-## Connections
+## Powiązania
 
-- Area: [[Software Development]]
-- Project: [[Vault Automation]]
+- Obszar: [[Software Development]]
+- Projekt: [[Vault Automation]]
 - [[Conways Law]]

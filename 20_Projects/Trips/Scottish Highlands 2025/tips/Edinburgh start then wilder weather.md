@@ -1,34 +1,34 @@
-    ---
-    type: trip-tip
-    trip: "[[Scottish Highlands 2025]]"
-    topic: safety
-    status: ready
-    created_date: 2026-11-01
-    tags:
-      - travel
-      - tip
-    icon: 💡
-    ---
+---
+type: trip-tip
+trip: "[[Scottish Highlands 2025]]"
+topic: safety
+status: ready
+created_date: 2026-11-01
+tags:
+  - travel
+  - tip
+icon: 💡
+---
 
-    # Edinburgh start then wilder weather
+# Edinburgh start then wilder weather
 
-    August can be festival-busy in Edinburgh and wet everywhere north.
+Sierpień w Edynburgu bywa festiwalowo zatłoczony, a na północy mokro wszędzie.
 
-    ## Key points
+## Kluczowe punkty
 
-    - Waterproof shell is non-negotiable.
-- Castle timed entry still queues for security.
-- Offline OS maps help when signal drops.
+- Wodoodporna kurtka jest nie do negocjacji.
+- Wejście czasowe na zamek i tak ma kolejkę bezpieczeństwa.
+- Mapy OS offline pomagają, gdy znika zasięg.
 
-    ## Details
+## Szczegóły
 
-    Layer system: base / warm mid / shell. Gloves optional even in August mornings.
+System warstw: baza / ciepła środkowa / shell. Rękawiczki opcjonalne nawet w sierpniowe poranki.
 
-    ## Sources
+## Źródła
 
-    - Personal notes from planning and travel
+- Notatki własne z planowania i podróży
 
-    ## Related
+## Powiązane
 
-    - [[Scottish Highlands 2025]]
-    - [[Dashboard_Travel]]
+- [[Scottish Highlands 2025]]
+- [[Dashboard_Travel]]

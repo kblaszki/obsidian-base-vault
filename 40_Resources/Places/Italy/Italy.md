@@ -18,36 +18,36 @@ banner_position: center
 
 # Italy
 
-## Why visit
+## Dlaczego warto
 
-Dense historic cities with strong food culture; base for [[Rome and Florence 2024]].
+Gęste historyczne miasta z mocną kulturą jedzenia; baza na [[Rome and Florence 2024]].
 
-## Practical info
+## Info praktyczne
 
-- **Best time:** Spring or early autumn
-- **How to get there:** FCO / FLR hubs
-- **Cost / tickets:** Timed entries essential for big sites
-- **Hours:** Churches often close midday
+- **Najlepszy czas:** Wiosna lub wczesna jesień
+- **Jak dojechać:** Huby FCO / FLR
+- **Koszt / bilety:** Timed entry niezbędne przy dużych obiektach
+- **Godziny:** Kościoły często zamykane w południe
 
-## Highlights
+## Najważniejsze
 
-- Rome landmarks
-- Florence museums
+- Zabytki Rzymu
+- Muzea Florencji
 
-## Visit log
+## Notatki
 
-- Visited 2024-09-08 to 2024-09-15 on [[Rome and Florence 2024]].
+- Odwiedzono 2024-09-08 do 2024-09-15 na [[Rome and Florence 2024]].
 
-## Child places
+## Miejsca podrzędne
 
 ```dataview
-TABLE WITHOUT ID file.link AS Place, place_type AS Kind, status AS Status
+TABLE WITHOUT ID file.link AS Miejsce, place_type AS Rodzaj, status AS Status
 FROM "40_Resources/Places"
 WHERE parent = this.file.link
 SORT place_type ASC, file.name ASC
 ```
 
-## Trips
+## Wyjazdy
 
 ```dataview
 LIST
@@ -56,8 +56,8 @@ WHERE type = "trip" AND contains(file.outlinks, this.file.link)
 SORT start_date DESC
 ```
 
-## Related
+## Powiązane
 
-- Map: [Italy](https://www.google.com/maps/search/?api=1&query=Italy)
+- Mapa: [Italy](https://www.google.com/maps/search/?api=1&query=Italy)
 - [[Travel]]
 - [[Dashboard_Travel]]

@@ -13,52 +13,52 @@ banner_position: center
 
 # Day 06
 
-Weather buffer / spa option day: Blue Lagoon or Sky Lagoon, then reposition toward KEF if needed.
+Dzień bufora pogodowego / opcji SPA: Blue Lagoon lub Sky Lagoon, potem przestawienie w stronę KEF jeśli trzeba.
 
-## Day timeline
+## Harmonogram dnia
 
-- 09:00 — Decide spa vs museum based on weather
-- 11:00 — Optional Blue Lagoon session (prebooked)
-- 15:00 — Reposition toward Reykjavik or Keflavik lodging
-- 19:00 — Dinner
+- 09:00 — Decyzja SPA vs muzeum według pogody
+- 11:00 — Opcjonalna sesja Blue Lagoon (zarezerwowana)
+- 15:00 — Przestawienie do noclegu w Reykjaviku lub Keflaviku
+- 19:00 — Kolacja
 
-## Logistics
+## Logistyka
 
-- Prebook lagoon slots; they sell out.
-- If early flight tomorrow, sleep closer to KEF.
-- Sky Lagoon is a valid alternative.
+- Rezerwuj sloty laguny z wyprzedzeniem; wyprzedają się.
+- Przy wczesnym locie jutro śpij bliżej KEF.
+- Sky Lagoon to sensowna alternatywa.
 
-## Places
+## Miejsca
 
-- [[Blue Lagoon]] — optional spa buffer *(1–2h)*
-- [[Reykjavik]] — reposition *(quick stop / overnight)*
+- [[Blue Lagoon]] — opcjonalny bufor SPA *(1–2h)*
+- [[Reykjavik]] — przestawienie *(krótki przystanek / nocleg)*
 
-## Food
+## Jedzenie
 
-- **Breakfast:** Lodging
-- **Lunch:** Lagoon café or town
-- **Dinner:** Reykjavik or Keflavik
-- **Groceries / snacks:** Light
+- **Śniadanie:** Nocleg
+- **Obiad:** Kawiarnia laguny lub miasto
+- **Kolacja:** Reykjavik lub Keflavik
+- **Zakupy / przekąski:** Lekko
 
-### Costs
+### Koszty
 
-| Item | Amount | Notes |
+| Pozycja | Kwota | Uwagi |
 |------|--------|-------|
-| Lagoon ticket | €70 | If booked |
-| Meals | €45 | Depending on plan |
+| Bilet laguny | €70 | Jeśli zarezerwowane |
+| Posiłki | €45 | Zależnie od planu |
 
-## Pack today
+## Spakuj dziś
 
-- **Documents:** Lagoon booking QR
-- **Clothes:** Swimwear; flip flops; warm clothes after
-- **Cash / cards:** —
-- **Gear:** Conditioner helps with silica hair feel
+- **Dokumenty:** QR rezerwacji laguny
+- **Ubrania:** Strój kąpielowy; klapki; ciepłe ubrania po
+- **Gotówka / karty:** —
+- **Sprzęt:** Odżywka pomaga przy uczuciu krzemionki we włosach
 
-## Notes
+## Notatki
 
-Flexible day on purpose.
+Elastyczny dzień celowo.
 
-## Related
+## Powiązane
 
 - [[Iceland Ring Road]]
 - [[Dashboard_Travel]]
