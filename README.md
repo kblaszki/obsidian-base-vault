@@ -1,29 +1,25 @@
-# Szkielet sejfu Obsidian PARA
+# Szkielet sejfu Obsidian PARA (czysta wersja PL)
 
-Gotowy sejf Obsidian zoptymalizowany pod szybkie przechwytywanie, okresowy przegląd
-i stopniową organizację. Otwórz to repozytorium jako sejf, a następnie zainstaluj
-wtyczki społecznościowe wymienione poniżej.
+Czysty sejf Obsidian bez notatek demo: foldery PARA, szablony, QuickAdd, dashboardy
+Dataview i konfiguracja wtyczek. Otwórz to repozytorium jako sejf, a następnie
+zainstaluj wtyczki społecznościowe wymienione poniżej. Treść dodawaj przez
+**Ctrl+N** (QuickAdd).
+
+Gałąź z przykładową treścią: `v0.1-PL`.
 
 ## Drzewo katalogów
 
 ```text
 .
-├── 00_Inbox/
-│   ├── Review mobile capture.md
-│   └── Triage vendor proposal.md
+├── 00_Inbox/                                  # skrzynka (pusta)
 ├── 10_Journals/
-│   ├── Daily_notes/
-│   │   └── 2026/
-│   │       └── October/
-│   │           └── 2026-10-27.md
+│   ├── Daily_notes/                           # YYYY/MMMM/YYYY-MM-DD
 │   ├── Weekly/
 │   │   └── README.md
 │   └── Monthly/
 │       └── README.md
 ├── 20_Projects/
-│   ├── Active/
-│   │   ├── Launch Knowledge Hub.md
-│   │   └── Vault Automation.md
+│   ├── Active/                                # aktywne projekty
 │   ├── Trips/
 │   │   └── <Trip title>/                      # Folder Note wyjazdu
 │   │       ├── <Trip title>.md                # plan wyjazdu (folder note)
@@ -37,14 +33,16 @@ wtyczki społecznościowe wymienione poniżej.
 │   ├── Software Development.md
 │   └── Travel.md
 ├── 40_Resources/
-│   ├── Books/                                 # 5 notatek demo
-│   ├── Articles/                              # 5 notatek demo
-│   ├── Videos/                                # 5 notatek demo
-│   ├── Courses/                               # 5 notatek demo
-│   ├── Recipes/                               # przepisy + demo
-│   └── Places/                                # zagnieżdżona hierarchia miejsc
+│   ├── Books/
+│   ├── Articles/
+│   ├── Videos/
+│   ├── Courses/
+│   ├── Recipes/
+│   └── Places/
+│       ├── SOURCES.md                         # atrybucja banerów
 │       └── <Country>/<Region>/<City>/…        # Folder Notes: Name/Name.md
 ├── 50_Archives/
+│   ├── Projects/
 │   └── README.md
 ├── 90_Dashboards/
 │   ├── Home.md
@@ -129,8 +127,7 @@ zmiennych w ustawieniu folderu. Format sam tworzy żądaną ścieżkę.
   tag, termin oraz opcjonalny link do projektu.
 - **Nowy wyjazd** tworzy Folder Note pod
   `20_Projects/Trips/<Trip title>/<Trip title>.md` i zapewnia foldery `days/`,
-  `tips/`, `prep/` oraz `assets/`. Sejf demo zawiera trzy ukończone tygodnie,
-  nadchodzący itinerariusz Japonii oraz niedatowany szkic Islandii.
+  `tips/`, `prep/` oraz `assets/`.
 - **Nowy dzień wyjazdu** tworzy dziennik dnia w
   `20_Projects/Trips/<Trip folder name>/days/`. Użyj dokładnego tytułu notatki
   wyjazdu jako nazwy folderu. Niedatowane szkice mogą używać `Day 01.md` …

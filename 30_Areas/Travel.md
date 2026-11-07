@@ -65,6 +65,3 @@ LIMIT 10
 ## Powiązane
 
 - [[Dashboard_Travel]]
-- [[Onigiri]]
-- [[Cacio e Pepe]]
-- [[Pastéis de Nata]]

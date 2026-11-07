@@ -14,7 +14,7 @@ Długoterminowe standardy i praktyki budowania oprogramowania, które da się ut
 
 ## Bieżący fokus
 
-- Automatyzuj powtarzalną konfigurację w [[Vault Automation]].
+- Automatyzuj powtarzalną konfigurację sejfu, gdy workflow się ustabilizuje.
 - Trzymaj pliki konfiguracyjne w wersji i pod przeglądem.
 
 ## Zasady

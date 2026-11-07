@@ -23,12 +23,7 @@ SORT target_date ASC
 
 ## Kluczowe zasoby
 
-- [[Building a Second Brain]]
-- [[How to Take Smart Notes]]
-- [[Progressive Summarization]]
-- [[Evergreen Notes]]
-- [[The PARA Method]]
-- [[Building a Second Brain Course]]
+Linkuj tu trwałe zasoby PKM (książki, artykuły, kursy), gdy pojawią się w `40_Resources`.
 
 ## Standardy
 
