@@ -10,7 +10,6 @@ tags:
 created_date: 2026-10-31
 finished_date:
 rating:
-icon: 📄
 ---
 
 # How to Beat Jet Lag

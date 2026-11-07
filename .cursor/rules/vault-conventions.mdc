@@ -10,7 +10,8 @@ alwaysApply: true
 - Store reusable templates in `99_Templates`.
 - Default uncategorized notes to `00_Inbox`; do not guess a permanent location without evidence.
 - Keep folders shallow. Express meaning through links, properties, tags, and MOCs.
-- Exception: places may nest under `40_Resources/Places` as `country → region → city → attraction` with Folder Notes (`Name/Name.md`) only in that tree.
+- Exception: places may nest under `40_Resources/Places` as `country → region → city → attraction` with Folder Notes (`Name/Name.md`). Trips also use Folder Notes at `20_Projects/Trips/<Trip>/<Trip>.md` with sibling `days/`, `tips/`, `prep/`, and `assets/` folders.
+- Do not use Pretty Properties `icon` frontmatter; banners may still use `banner` / `banner_position`.
 - Use ISO dates (`YYYY-MM-DD`) in properties.
 - Preserve established property names: `type`, `status`, `created_date`, `area`, `project`, `due`, `review_date`, and `target_date`.
 - Place notes also use `place_type`, `parent` (wiki link; empty only for countries), `map_url` (Google Maps link for phone use), and `location` (`[lat, lng]` for Map View).

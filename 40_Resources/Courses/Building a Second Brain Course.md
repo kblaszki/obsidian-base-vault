@@ -10,7 +10,6 @@ tags:
 created_date: 2026-09-01
 finished_date: 2026-09-20
 rating: 4
-icon: 🎓
 ---
 
 # Building a Second Brain Course

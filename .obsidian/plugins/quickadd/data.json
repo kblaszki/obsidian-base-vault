@@ -135,7 +135,7 @@
       "templatePath": "99_Templates/Trip.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{VALUE:trip_title|label:Trip title}}"
+        "format": "{{VALUE:trip_title|label:Trip title}}/{{VALUE:trip_title}}"
       },
       "folder": {
         "enabled": true,

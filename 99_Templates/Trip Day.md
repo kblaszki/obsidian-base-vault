@@ -8,7 +8,6 @@ tags:
   - trip-day
 banner:
 banner_position: center
-icon: 📅
 ---
 
 # <% tp.file.title %>

@@ -12,7 +12,6 @@ rating:
 tags:
   - recipe
   - "{{VALUE:topic|label:Topic tag without #|optional}}"
-icon: 🍽️
 ---
 
 # <% tp.file.title %>

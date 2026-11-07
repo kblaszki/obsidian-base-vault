@@ -9,7 +9,6 @@ created_date: 2025-02-10
 tags:
   - travel
   - trip
-icon: ✈️
 ---
 
 # Lisbon and Porto 2025

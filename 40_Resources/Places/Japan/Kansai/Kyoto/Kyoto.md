@@ -12,7 +12,6 @@ created_date: 2026-10-31
 tags:
   - travel
   - place
-icon: 📍
 banner: "[[./assets/kyoto-temple.jpg]]"
 banner_position: center
 ---

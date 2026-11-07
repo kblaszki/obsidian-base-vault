@@ -10,7 +10,6 @@ tags:
 created_date: 2026-10-29
 finished_date:
 rating:
-icon: 🎓
 ---
 
 # Japanese for Travelers

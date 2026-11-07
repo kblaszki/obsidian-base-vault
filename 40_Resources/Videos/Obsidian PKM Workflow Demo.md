@@ -10,7 +10,6 @@ tags:
 created_date: 2026-10-24
 finished_date:
 rating:
-icon: 🎬
 ---
 
 # Obsidian PKM Workflow Demo

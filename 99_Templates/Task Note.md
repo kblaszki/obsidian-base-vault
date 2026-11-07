@@ -7,7 +7,6 @@ tags:
   - inbox
   - "{{VALUE:topic|label:Topic tag without #}}"
 created_date: <% tp.date.now("YYYY-MM-DD") %>
-icon: 📥
 ---
 
 # <% tp.file.title %>

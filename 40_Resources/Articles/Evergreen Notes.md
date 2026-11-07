@@ -10,7 +10,6 @@ tags:
 created_date: 2026-10-19
 finished_date: 2026-10-21
 rating: 5
-icon: 📄
 ---
 
 # Evergreen Notes

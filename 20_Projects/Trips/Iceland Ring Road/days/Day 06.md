@@ -9,7 +9,6 @@ tags:
   - trip-day
 banner: "[[../assets/blue-lagoon.jpg]]"
 banner_position: center
-icon: 📅
 ---
 
 # Day 06

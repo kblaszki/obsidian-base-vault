@@ -8,7 +8,6 @@ tags:
 created_date: 2026-10-24
 review_date: 2026-10-31
 target_date: 2026-11-20
-icon: 🚀
 ---
 
 # Launch Knowledge Hub

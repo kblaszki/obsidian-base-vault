@@ -13,7 +13,6 @@ tags:
   - travel
   - place
   - topic/history
-icon: 📍
 banner: "[[./assets/rome-colosseum.jpg]]"
 banner_position: center
 ---

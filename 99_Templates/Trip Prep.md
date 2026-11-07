@@ -7,7 +7,6 @@ created_date: <% tp.date.now("YYYY-MM-DD") %>
 tags:
   - travel
   - prep
-icon: ☑️
 ---
 
 # <% tp.file.title %>

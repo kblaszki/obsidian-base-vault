@@ -25,12 +25,8 @@ community plugins listed below.
 │   │   ├── Launch Knowledge Hub.md
 │   │   └── Vault Automation.md
 │   ├── Trips/
-│   │   ├── Rome and Florence 2024.md          # completed
-│   │   ├── Lisbon and Porto 2025.md           # completed
-│   │   ├── Scottish Highlands 2025.md         # completed
-│   │   ├── Japan Spring 2026.md               # planned soon
-│   │   ├── Iceland Ring Road.md               # planned, undated
-│   │   └── <Trip title>/
+│   │   └── <Trip title>/                      # Folder Note trip
+│   │       ├── <Trip title>.md                # trip plan (folder note)
 │   │       ├── days/                          # trip-day notes
 │   │       ├── tips/                          # transit, driving, money, …
 │   │       ├── prep/                          # packing, bookings, admin
@@ -95,9 +91,10 @@ from polluting PARA search results.
 3. Install and enable: Dataview, Templater, QuickAdd, Calendar, Pretty
    Properties, Omnisearch, Linter, Folder Notes (`folder-notes`), and Map View
    (`obsidian-map-view`). `community-plugins.json` enables them after they are
-   installed; plugin binaries are intentionally not committed. Folder Notes is
-   scoped so only `40_Resources/Places` uses folder notes (`Name/Name.md`
-   inside the folder). In Map View settings, set an OpenStreetMap user email
+   installed; plugin binaries are intentionally not committed. Folder Notes
+   apply to Places containers and Trips (`Name/Name.md`); support folders like
+   `days/` and `assets/` are excluded. Pretty Properties banners stay on;
+   icons are off. In Map View settings, set an OpenStreetMap user email
    (Nominatim requirement); optionally switch geocoding to Google with a local
    API key — never commit API keys.
 4. Restart Obsidian once so every committed `data.json` is loaded.
@@ -132,9 +129,10 @@ path automatically.
   meal, servings, timing, and status (`wishlist` / `tried` / `favorite`).
 - **Task / Note** creates an inbox item in `00_Inbox` and prompts for type,
   status, tag, due date, and optional project link.
-- **Trip** creates a plan in `20_Projects/Trips` with dates, countries, and
-  prep tasks. Demo vault includes three completed weeks, one upcoming Japan
-  itinerary, and one undated Iceland draft.
+- **Trip** creates a Folder Note at
+  `20_Projects/Trips/<Trip title>/<Trip title>.md` and ensures `days/`,
+  `tips/`, `prep/`, and `assets/` exist. Demo vault includes three completed
+  weeks, one upcoming Japan itinerary, and one undated Iceland draft.
 - **Trip Day** creates a day log under
   `20_Projects/Trips/<Trip folder name>/days/`. Use the exact trip note title
   as the folder name. Undated drafts may use `Day 01.md` … with `day_number`.

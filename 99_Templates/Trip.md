@@ -9,7 +9,6 @@ created_date: <% tp.date.now("YYYY-MM-DD") %>
 tags:
   - travel
   - trip
-icon: ✈️
 ---
 
 # <% tp.file.title %>
@@ -74,3 +73,13 @@ SORT prep_kind ASC, file.name ASC
 
 - [[Travel]]
 - [[Dashboard_Travel]]
+
+<%*
+const folder = tp.file.folder(true);
+for (const sub of ["days", "tips", "prep", "assets"]) {
+  const path = `${folder}/${sub}`;
+  if (!(await tp.app.vault.adapter.exists(path))) {
+    await tp.app.vault.createFolder(path);
+  }
+}
+%>

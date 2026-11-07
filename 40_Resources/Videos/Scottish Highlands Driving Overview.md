@@ -10,7 +10,6 @@ tags:
 created_date: 2026-10-28
 finished_date:
 rating:
-icon: 🎬
 ---
 
 # Scottish Highlands Driving Overview

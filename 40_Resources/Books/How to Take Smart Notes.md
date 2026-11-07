@@ -10,7 +10,6 @@ tags:
 created_date: 2026-10-20
 finished_date: 2026-10-28
 rating: 5
-icon: 📚
 ---
 
 # How to Take Smart Notes

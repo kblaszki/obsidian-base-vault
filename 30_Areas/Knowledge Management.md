@@ -6,7 +6,6 @@ tags:
   - topic/pkm
 created_date: 2026-10-01
 review_frequency: monthly
-icon: 🧠
 ---
 
 # Knowledge Management

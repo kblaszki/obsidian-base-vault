@@ -9,7 +9,6 @@ tags:
   - trip-day
 banner: "[[../assets/reykjavik.jpg]]"
 banner_position: center
-icon: 📅
 ---
 
 # Day 02

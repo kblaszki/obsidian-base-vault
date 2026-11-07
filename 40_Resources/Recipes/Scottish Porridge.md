@@ -12,7 +12,6 @@ rating: 4
 tags:
   - recipe
   - topic/travel
-icon: 🍽️
 ---
 
 # Scottish Porridge

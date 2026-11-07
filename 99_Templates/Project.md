@@ -8,7 +8,6 @@ tags:
 created_date: <% tp.date.now("YYYY-MM-DD") %>
 review_date: <% moment().add(7, "days").format("YYYY-MM-DD") %>
 target_date: "{{VDATE:target_date,YYYY-MM-DD|label:Target date|optional}}"
-icon: 🚀
 ---
 
 # <% tp.file.title %>

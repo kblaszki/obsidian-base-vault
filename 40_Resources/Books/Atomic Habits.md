@@ -10,7 +10,6 @@ tags:
 created_date: 2026-10-22
 finished_date:
 rating:
-icon: 📚
 ---
 
 # Atomic Habits

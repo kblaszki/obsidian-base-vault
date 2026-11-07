@@ -8,7 +8,6 @@ tags:
 created_date: 2026-10-20
 review_date: 2026-10-27
 target_date: 2026-11-06
-icon: 🚀
 ---
 
 # Vault Automation

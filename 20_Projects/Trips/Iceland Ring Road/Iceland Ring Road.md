@@ -9,7 +9,6 @@ created_date: 2026-10-31
 tags:
   - travel
   - trip
-icon: ✈️
 ---
 
 # Iceland Ring Road

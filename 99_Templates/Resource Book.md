@@ -10,7 +10,6 @@ tags:
 created_date: <% tp.date.now("YYYY-MM-DD") %>
 finished_date:
 rating:
-icon: 📚
 ---
 
 # <% tp.file.title %>

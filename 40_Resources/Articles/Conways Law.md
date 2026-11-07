@@ -10,7 +10,6 @@ tags:
 created_date: 2026-10-26
 finished_date:
 rating:
-icon: 📄
 ---
 
 # Conway's Law

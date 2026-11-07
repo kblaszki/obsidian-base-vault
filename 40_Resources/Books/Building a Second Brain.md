@@ -10,7 +10,6 @@ tags:
 created_date: 2026-10-12
 finished_date: 2026-10-25
 rating: 4
-icon: 📚
 ---
 
 # Building a Second Brain

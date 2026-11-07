@@ -7,7 +7,6 @@ tags:
   - inbox
   - topic/pkm
 created_date: 2026-10-26
-icon: 📥
 ---
 
 # Review mobile capture

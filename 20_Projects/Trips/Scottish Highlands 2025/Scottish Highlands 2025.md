@@ -9,7 +9,6 @@ created_date: 2025-04-20
 tags:
   - travel
   - trip
-icon: ✈️
 ---
 
 # Scottish Highlands 2025

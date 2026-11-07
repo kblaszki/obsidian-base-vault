@@ -7,7 +7,6 @@ tags:
   - inbox
   - topic/documentation
 created_date: 2026-10-25
-icon: 📥
 ---
 
 # Triage vendor proposal

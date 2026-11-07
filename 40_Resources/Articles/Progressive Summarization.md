@@ -10,7 +10,6 @@ tags:
 created_date: 2026-10-18
 finished_date: 2026-10-19
 rating: 5
-icon: 📄
 ---
 
 # Progressive Summarization

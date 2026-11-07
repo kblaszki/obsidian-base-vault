@@ -9,7 +9,6 @@ tags:
   - trip-day
 banner: "[[../assets/gullfoss.jpg]]"
 banner_position: center
-icon: 📅
 ---
 
 # Day 03

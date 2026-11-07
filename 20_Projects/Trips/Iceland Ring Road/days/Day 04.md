@@ -9,7 +9,6 @@ tags:
   - trip-day
 banner: "[[../assets/skogafoss.jpg]]"
 banner_position: center
-icon: 📅
 ---
 
 # Day 04

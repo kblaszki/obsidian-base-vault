@@ -12,7 +12,6 @@ rating: 5
 tags:
   - recipe
   - topic/travel
-icon: 🍽️
 ---
 
 # Cacio e Pepe

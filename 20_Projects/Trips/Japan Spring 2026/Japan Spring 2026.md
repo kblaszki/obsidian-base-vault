@@ -9,7 +9,6 @@ created_date: 2026-10-27
 tags:
   - travel
   - trip
-icon: ✈️
 ---
 
 # Japan Spring 2026

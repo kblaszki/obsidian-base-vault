@@ -10,7 +10,6 @@ tags:
 created_date: 2026-10-15
 finished_date: 2026-10-16
 rating: 4
-icon: 📄
 ---
 
 # The PARA Method

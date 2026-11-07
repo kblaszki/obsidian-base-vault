@@ -12,7 +12,6 @@ rating:
 tags:
   - recipe
   - topic/travel
-icon: 🍽️
 ---
 
 # Lamb Soup (Kjötsúpa)

@@ -3,9 +3,9 @@
   "dataview",
   "folder-notes",
   "obsidian-linter",
-  "obsidian-map-view",
   "omnisearch",
   "pretty-properties",
   "quickadd",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-map-view"
 ]

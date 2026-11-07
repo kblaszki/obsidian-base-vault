@@ -6,7 +6,6 @@ tags:
   - topic/development
 created_date: 2026-10-01
 review_frequency: monthly
-icon: 💻
 ---
 
 # Software Development

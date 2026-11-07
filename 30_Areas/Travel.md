@@ -6,7 +6,6 @@ tags:
   - travel
 created_date: 2026-10-27
 review_frequency: monthly
-icon: 🧭
 ---
 
 # Travel
@@ -54,7 +53,7 @@ LIMIT 10
 
 ## Standards
 
-- Create trips with **New Trip**; keep the trip note in `20_Projects/Trips`.
+- Create trips with **New Trip**; QuickAdd creates a Folder Note at `20_Projects/Trips/<Trip>/<Trip>.md` plus `days/`, `tips/`, `prep/`, and `assets/`.
 - Add day notes with **New Trip Day** under `<Trip>/days/` (folder name = trip title).
 - Add tips with **New Trip Tip** under `<Trip>/tips/` and prep with **New Trip Prep** under `<Trip>/prep/`.
 - For undated trip drafts, use `Day 01.md` … and `day_number` until dates are booked.

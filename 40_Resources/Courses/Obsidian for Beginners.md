@@ -10,7 +10,6 @@ tags:
 created_date: 2026-10-21
 finished_date:
 rating:
-icon: 🎓
 ---
 
 # Obsidian for Beginners

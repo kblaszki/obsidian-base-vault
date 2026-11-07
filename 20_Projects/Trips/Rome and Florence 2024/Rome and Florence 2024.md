@@ -9,7 +9,6 @@ created_date: 2024-07-01
 tags:
   - travel
   - trip
-icon: ✈️
 ---
 
 # Rome and Florence 2024
